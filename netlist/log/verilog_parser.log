@@ -1,0 +1,261 @@
+2024-01-29 11:30:12,379 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/EDA/netlist/input/netlist_bhuv.v
+2024-01-29 11:30:12,392 - INFO - Parsing module templates from the netlist.
+2024-01-29 11:30:12,395 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-01-29 11:30:12,444 - INFO - Module found: fulladdder
+2024-01-29 11:30:12,444 - INFO - Port Found : A
+2024-01-29 11:30:12,444 - INFO - Port Found : B
+2024-01-29 11:30:12,445 - INFO - Port Found : C
+2024-01-29 11:30:12,445 - INFO - Port Found : Clock
+2024-01-29 11:30:12,445 - INFO - Port Found : Scan_clk
+2024-01-29 11:30:12,445 - INFO - Port Found : Scan_en
+2024-01-29 11:30:12,445 - INFO - Port Found : cg_en
+2024-01-29 11:30:12,446 - INFO - Port Found : gen_clk_mux
+2024-01-29 11:30:12,446 - INFO - Port Found : Sum
+2024-01-29 11:30:12,446 - INFO - Port Found : Carry
+2024-01-29 11:30:29,071 - INFO - parse_netlist function called.
+2024-01-29 11:30:29,075 - INFO - Module found : fulladdder
+2024-01-29 11:30:29,076 - INFO - input Port found : A width .
+2024-01-29 11:30:29,078 - INFO - input Port found : B width .
+2024-01-29 11:30:29,080 - INFO - input Port found : C width .
+2024-01-29 11:30:29,081 - INFO - input Port found : Clock width .
+2024-01-29 11:30:29,082 - INFO - input Port found : Scan_clk width .
+2024-01-29 11:30:29,084 - INFO - input Port found : Scan_en width .
+2024-01-29 11:30:29,085 - INFO - input Port found : cg_en width .
+2024-01-29 11:30:29,090 - INFO - input Port found : gen_clk_mux width .
+2024-01-29 11:30:29,094 - INFO - output Port found : Sum width .
+2024-01-29 11:30:29,095 - INFO - output Port found : Carry width .
+2024-01-29 11:30:29,097 - INFO - New net created: n4
+2024-01-29 11:30:29,098 - INFO - New net created: n5
+2024-01-29 11:30:29,100 - INFO - New net created: n6
+2024-01-29 11:30:29,101 - INFO - New net created: n7
+2024-01-29 11:30:29,102 - INFO - New net created: n8
+2024-01-29 11:30:29,103 - INFO - New net created: n9
+2024-01-29 11:30:29,104 - INFO - New net created: n10
+2024-01-29 11:30:29,106 - INFO - New net created: n11
+2024-01-29 11:30:29,108 - INFO - New net created: n12
+2024-01-29 11:30:29,110 - INFO - New net created: n13
+2024-01-29 11:30:29,114 - INFO - New net created: n14
+2024-01-29 11:30:29,115 - INFO - New net created: n15
+2024-01-29 11:30:29,117 - INFO - New net created: CLK
+2024-01-29 11:30:29,119 - INFO - New net created: mux_clock
+2024-01-29 11:30:29,123 - INFO - New net created: gated_clock
+2024-01-29 11:30:29,126 - INFO - Instance found : mux1
+2024-01-29 11:30:29,127 - INFO - Inside instance: mux1
+2024-01-29 11:30:29,131 - INFO - pin found : I0
+2024-01-29 11:30:29,136 - INFO - net found : Clock
+2024-01-29 11:30:29,137 - INFO - It is a port-derived net
+2024-01-29 11:30:29,144 - INFO - Created a VerilogNet object : Clock
+2024-01-29 11:30:29,146 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,146 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,151 - INFO - pin found : I1
+2024-01-29 11:30:29,153 - INFO - net found : Scan_clk
+2024-01-29 11:30:29,164 - INFO - It is a port-derived net
+2024-01-29 11:30:29,165 - INFO - Created a VerilogNet object : Scan_clk
+2024-01-29 11:30:29,166 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,168 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,168 - INFO - pin found : S
+2024-01-29 11:30:29,169 - INFO - net found : Scan_en
+2024-01-29 11:30:29,171 - INFO - It is a port-derived net
+2024-01-29 11:30:29,172 - INFO - Created a VerilogNet object : Scan_en
+2024-01-29 11:30:29,174 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,181 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,182 - INFO - pin found : Z
+2024-01-29 11:30:29,184 - INFO - net found : mux_clock
+2024-01-29 11:30:29,186 - INFO - Instance found : gate
+2024-01-29 11:30:29,186 - INFO - Inside instance: gate
+2024-01-29 11:30:29,191 - INFO - pin found : A1
+2024-01-29 11:30:29,192 - INFO - net found : mux_clock
+2024-01-29 11:30:29,195 - INFO - pin found : A2
+2024-01-29 11:30:29,196 - INFO - net found : cg_en
+2024-01-29 11:30:29,198 - INFO - It is a port-derived net
+2024-01-29 11:30:29,201 - INFO - Created a VerilogNet object : cg_en
+2024-01-29 11:30:29,215 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,225 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,230 - INFO - pin found : Z
+2024-01-29 11:30:29,236 - INFO - net found : gated_clock
+2024-01-29 11:30:29,246 - INFO - Instance found : CLK_B1
+2024-01-29 11:30:29,250 - INFO - Inside instance: CLK_B1
+2024-01-29 11:30:29,252 - INFO - pin found : I
+2024-01-29 11:30:29,252 - INFO - net found : gated_clock
+2024-01-29 11:30:29,254 - INFO - pin found : Z
+2024-01-29 11:30:29,255 - INFO - net found : CLK
+2024-01-29 11:30:29,257 - INFO - Instance found : reg1
+2024-01-29 11:30:29,258 - INFO - Inside instance: reg1
+2024-01-29 11:30:29,259 - INFO - pin found : D
+2024-01-29 11:30:29,261 - INFO - net found : A
+2024-01-29 11:30:29,261 - INFO - It is a port-derived net
+2024-01-29 11:30:29,262 - INFO - Created a VerilogNet object : A
+2024-01-29 11:30:29,262 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,263 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,274 - INFO - pin found : CP
+2024-01-29 11:30:29,275 - INFO - net found : CLK
+2024-01-29 11:30:29,277 - INFO - pin found : Q
+2024-01-29 11:30:29,278 - INFO - net found : n4
+2024-01-29 11:30:29,281 - INFO - pin found : SI
+2024-01-29 11:30:29,281 - INFO - net found : 1'b0
+2024-01-29 11:30:29,281 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,282 - INFO - Pin SI connected to a constant 1'b0
+2024-01-29 11:30:29,283 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,284 - INFO - pin found : SE
+2024-01-29 11:30:29,285 - INFO - net found : 1'b0
+2024-01-29 11:30:29,286 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,287 - INFO - Pin SE connected to a constant 1'b0
+2024-01-29 11:30:29,290 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,291 - INFO - Instance found : reg2
+2024-01-29 11:30:29,292 - INFO - Inside instance: reg2
+2024-01-29 11:30:29,293 - INFO - pin found : D
+2024-01-29 11:30:29,303 - INFO - net found : B
+2024-01-29 11:30:29,325 - INFO - It is a port-derived net
+2024-01-29 11:30:29,329 - INFO - Created a VerilogNet object : B
+2024-01-29 11:30:29,332 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,333 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,336 - INFO - pin found : CP
+2024-01-29 11:30:29,338 - INFO - net found : CLK
+2024-01-29 11:30:29,340 - INFO - pin found : Q
+2024-01-29 11:30:29,341 - INFO - net found : n5
+2024-01-29 11:30:29,343 - INFO - pin found : SI
+2024-01-29 11:30:29,345 - INFO - net found : 1'b0
+2024-01-29 11:30:29,348 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,351 - INFO - Pin SI connected to a constant 1'b0
+2024-01-29 11:30:29,357 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,361 - INFO - pin found : SE
+2024-01-29 11:30:29,361 - INFO - net found : 1'b0
+2024-01-29 11:30:29,362 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,366 - INFO - Pin SE connected to a constant 1'b0
+2024-01-29 11:30:29,368 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,369 - INFO - Instance found : reg3
+2024-01-29 11:30:29,370 - INFO - Inside instance: reg3
+2024-01-29 11:30:29,376 - INFO - pin found : D
+2024-01-29 11:30:29,378 - INFO - net found : C
+2024-01-29 11:30:29,379 - INFO - It is a port-derived net
+2024-01-29 11:30:29,380 - INFO - Created a VerilogNet object : C
+2024-01-29 11:30:29,381 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,382 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,385 - INFO - pin found : CP
+2024-01-29 11:30:29,386 - INFO - net found : CLK
+2024-01-29 11:30:29,393 - INFO - pin found : Q
+2024-01-29 11:30:29,394 - INFO - net found : n6
+2024-01-29 11:30:29,395 - INFO - pin found : SI
+2024-01-29 11:30:29,397 - INFO - net found : 1'b0
+2024-01-29 11:30:29,398 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,401 - INFO - Pin SI connected to a constant 1'b0
+2024-01-29 11:30:29,402 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,410 - INFO - pin found : SE
+2024-01-29 11:30:29,413 - INFO - net found : 1'b0
+2024-01-29 11:30:29,415 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,417 - INFO - Pin SE connected to a constant 1'b0
+2024-01-29 11:30:29,418 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,418 - INFO - Instance found : G1
+2024-01-29 11:30:29,426 - INFO - Inside instance: G1
+2024-01-29 11:30:29,427 - INFO - pin found : A1
+2024-01-29 11:30:29,429 - INFO - net found : n4
+2024-01-29 11:30:29,430 - INFO - pin found : A2
+2024-01-29 11:30:29,431 - INFO - net found : n5
+2024-01-29 11:30:29,432 - INFO - pin found : Z
+2024-01-29 11:30:29,433 - INFO - net found : n7
+2024-01-29 11:30:29,435 - INFO - Instance found : G2
+2024-01-29 11:30:29,437 - INFO - Inside instance: G2
+2024-01-29 11:30:29,444 - INFO - pin found : A1
+2024-01-29 11:30:29,445 - INFO - net found : n7
+2024-01-29 11:30:29,446 - INFO - pin found : A2
+2024-01-29 11:30:29,449 - INFO - net found : n6
+2024-01-29 11:30:29,451 - INFO - pin found : Z
+2024-01-29 11:30:29,452 - INFO - net found : n8
+2024-01-29 11:30:29,453 - INFO - Instance found : G3
+2024-01-29 11:30:29,460 - INFO - Inside instance: G3
+2024-01-29 11:30:29,460 - INFO - pin found : A1
+2024-01-29 11:30:29,461 - INFO - net found : n5
+2024-01-29 11:30:29,463 - INFO - pin found : A2
+2024-01-29 11:30:29,467 - INFO - net found : n6
+2024-01-29 11:30:29,468 - INFO - pin found : Z
+2024-01-29 11:30:29,469 - INFO - net found : n9
+2024-01-29 11:30:29,474 - INFO - Instance found : G4
+2024-01-29 11:30:29,476 - INFO - Inside instance: G4
+2024-01-29 11:30:29,478 - INFO - pin found : A1
+2024-01-29 11:30:29,479 - INFO - net found : n4
+2024-01-29 11:30:29,480 - INFO - pin found : A2
+2024-01-29 11:30:29,481 - INFO - net found : n5
+2024-01-29 11:30:29,483 - INFO - pin found : Z
+2024-01-29 11:30:29,484 - INFO - net found : n10
+2024-01-29 11:30:29,486 - INFO - Instance found : G5
+2024-01-29 11:30:29,488 - INFO - Inside instance: G5
+2024-01-29 11:30:29,489 - INFO - pin found : A1
+2024-01-29 11:30:29,491 - INFO - net found : n4
+2024-01-29 11:30:29,492 - INFO - pin found : A2
+2024-01-29 11:30:29,494 - INFO - net found : n6
+2024-01-29 11:30:29,500 - INFO - pin found : Z
+2024-01-29 11:30:29,501 - INFO - net found : n11
+2024-01-29 11:30:29,503 - INFO - Instance found : G7
+2024-01-29 11:30:29,503 - INFO - Inside instance: G7
+2024-01-29 11:30:29,509 - INFO - pin found : A1
+2024-01-29 11:30:29,511 - INFO - net found : n9
+2024-01-29 11:30:29,512 - INFO - pin found : A2
+2024-01-29 11:30:29,513 - INFO - net found : n10
+2024-01-29 11:30:29,516 - INFO - pin found : Z
+2024-01-29 11:30:29,518 - INFO - net found : n12
+2024-01-29 11:30:29,518 - INFO - Instance found : G6
+2024-01-29 11:30:29,519 - INFO - Inside instance: G6
+2024-01-29 11:30:29,520 - INFO - pin found : A1
+2024-01-29 11:30:29,526 - INFO - net found : n12
+2024-01-29 11:30:29,526 - INFO - pin found : A2
+2024-01-29 11:30:29,529 - INFO - net found : n11
+2024-01-29 11:30:29,530 - INFO - pin found : Z
+2024-01-29 11:30:29,531 - INFO - net found : n13
+2024-01-29 11:30:29,534 - INFO - Instance found : reg4
+2024-01-29 11:30:29,536 - INFO - Inside instance: reg4
+2024-01-29 11:30:29,536 - INFO - pin found : D
+2024-01-29 11:30:29,541 - INFO - net found : n13
+2024-01-29 11:30:29,542 - INFO - pin found : CP
+2024-01-29 11:30:29,549 - INFO - net found : CLK
+2024-01-29 11:30:29,551 - INFO - pin found : Q
+2024-01-29 11:30:29,562 - INFO - net found : n14
+2024-01-29 11:30:29,566 - INFO - pin found : SI
+2024-01-29 11:30:29,569 - INFO - net found : 1'b0
+2024-01-29 11:30:29,579 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,587 - INFO - Pin SI connected to a constant 1'b0
+2024-01-29 11:30:29,594 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,597 - INFO - pin found : SE
+2024-01-29 11:30:29,598 - INFO - net found : 1'b0
+2024-01-29 11:30:29,599 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,603 - INFO - Pin SE connected to a constant 1'b0
+2024-01-29 11:30:29,604 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,608 - INFO - Instance found : reg5
+2024-01-29 11:30:29,609 - INFO - Inside instance: reg5
+2024-01-29 11:30:29,611 - INFO - pin found : D
+2024-01-29 11:30:29,612 - INFO - net found : n8
+2024-01-29 11:30:29,614 - INFO - pin found : CP
+2024-01-29 11:30:29,615 - INFO - net found : CLK
+2024-01-29 11:30:29,617 - INFO - pin found : Q
+2024-01-29 11:30:29,618 - INFO - net found : n15
+2024-01-29 11:30:29,622 - INFO - pin found : SI
+2024-01-29 11:30:29,624 - INFO - net found : 1'b0
+2024-01-29 11:30:29,625 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,628 - INFO - Pin SI connected to a constant 1'b0
+2024-01-29 11:30:29,628 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,629 - INFO - pin found : SE
+2024-01-29 11:30:29,630 - INFO - net found : 1'b0
+2024-01-29 11:30:29,631 - INFO - Net name with a constant found 1'b0
+2024-01-29 11:30:29,634 - INFO - Pin SE connected to a constant 1'b0
+2024-01-29 11:30:29,635 - INFO - Created a VerilogNet object for 1'b0
+2024-01-29 11:30:29,637 - INFO - Instance found : B1
+2024-01-29 11:30:29,640 - INFO - Inside instance: B1
+2024-01-29 11:30:29,642 - INFO - pin found : I
+2024-01-29 11:30:29,643 - INFO - net found : n14
+2024-01-29 11:30:29,644 - INFO - pin found : Z
+2024-01-29 11:30:29,646 - INFO - net found : Carry
+2024-01-29 11:30:29,647 - INFO - It is a port-derived net
+2024-01-29 11:30:29,648 - INFO - Created a VerilogNet object : Carry
+2024-01-29 11:30:29,651 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,653 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,655 - INFO - Instance found : B2
+2024-01-29 11:30:29,658 - INFO - Inside instance: B2
+2024-01-29 11:30:29,659 - INFO - pin found : I
+2024-01-29 11:30:29,660 - INFO - net found : n15
+2024-01-29 11:30:29,661 - INFO - pin found : Z
+2024-01-29 11:30:29,664 - INFO - net found : Sum
+2024-01-29 11:30:29,675 - INFO - It is a port-derived net
+2024-01-29 11:30:29,678 - INFO - Created a VerilogNet object : Sum
+2024-01-29 11:30:29,685 - INFO - Added the net object to the module.nets
+2024-01-29 11:30:29,686 - INFO - Added the net object to the module ports
+2024-01-29 11:30:29,686 - INFO - End of module: fulladdder
+2024-01-29 11:30:34,113 - INFO - Main function completed successfully.

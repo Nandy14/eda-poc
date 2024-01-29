@@ -1,0 +1,1596 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -nworst 10
+        -max_paths 100
+        -slack_lesser_than 10000.00
+        -report_by design
+        -nosplit
+        -input_pins
+        -nets
+        -transition_time
+        -capacitance
+Design : fulladder
+Version: R-2020.09-SP5
+Date   : Fri Feb  3 05:28:31 2023
+****************************************
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.18 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.08      4.26 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      4.26 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.02      0.05      4.31 r
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.02      0.00      4.31 r
+  data arrival time                                                                      4.31
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.31
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.94
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.18 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.03      0.08      4.26 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.03      0.00      4.26 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.02      0.04      4.31 r
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.02      0.00      4.31 r
+  data arrival time                                                                      4.31
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.31
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.93
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.29      4.19 f
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.19 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.06      4.25 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      4.25 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.02      0.05      4.30 r
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.02      0.00      4.30 r
+  data arrival time                                                                      4.30
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.30
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.92
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.29      4.19 f
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.19 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.03      0.07      4.26 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.03      0.00      4.26 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.02      0.04      4.30 r
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.02      0.00      4.30 r
+  data arrival time                                                                      4.30
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.30
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.92
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.18 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.03      0.08      4.26 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.03      0.00      4.26 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      4.32 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.32 f
+  data arrival time                                                                      4.32
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.32
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.91
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.29      4.19 f
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.19 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.03      0.07      4.26 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.03      0.00      4.26 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      4.31 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.31 f
+  data arrival time                                                                      4.31
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.31
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.90
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.18 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.08      4.26 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      4.26 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      4.30 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.30 f
+  data arrival time                                                                      4.30
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.30
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.90
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.29      4.19 f
+  n4 (net)                                          3      0.00
+  G4/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      4.19 f
+  G4/Z (AN2SGD0BWP30P140)                                            0.01      0.04      4.23 f
+  n10 (net)                                         1      0.00
+  G7/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      4.23 f
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.04      4.27 f
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.27 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.30 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.30 f
+  data arrival time                                                                      4.30
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.30
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.89
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.29      4.19 f
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.19 f
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.06      4.25 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      4.25 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      4.29 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.29 f
+  data arrival time                                                                      4.29
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.29
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.88
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n5 (net)                                          3      0.00
+  G4/A2 (AN2SGD0BWP30P140)                                           0.04      0.00      4.18 f
+  G4/Z (AN2SGD0BWP30P140)                                            0.01      0.04      4.22 f
+  n10 (net)                                         1      0.00
+  G7/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      4.22 f
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.04      4.26 f
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.26 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.29 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.29 f
+  data arrival time                                                                      4.29
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.29
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.88
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n6 (net)                                          3      0.00
+  G2/A2 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.18 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.02      0.08      4.26 r
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.02      0.00      4.26 r
+  data arrival time                                                                      4.26
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.26
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.88
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n6 (net)                                          3      0.00
+  G3/A2 (AN2SGD0BWP30P140)                                           0.04      0.00      4.18 f
+  G3/Z (AN2SGD0BWP30P140)                                            0.01      0.04      4.22 f
+  n9 (net)                                          1      0.00
+  G7/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.22 f
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.26 f
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.26 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.29 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.29 f
+  data arrival time                                                                      4.29
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.29
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.88
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n5 (net)                                          3      0.00
+  G3/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      4.18 f
+  G3/Z (AN2SGD0BWP30P140)                                            0.01      0.04      4.22 f
+  n9 (net)                                          1      0.00
+  G7/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.22 f
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.25 f
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.25 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.29 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.29 f
+  data arrival time                                                                      4.29
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.29
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.88
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.29      4.19 f
+  n4 (net)                                          3      0.00
+  G5/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      4.19 f
+  G5/Z (AN2SGD0BWP30P140)                                            0.01      0.04      4.23 f
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      4.23 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.04      4.27 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.27 f
+  data arrival time                                                                      4.27
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.27
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.85
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      4.09 r
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.04      0.00      4.09 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.08      4.18 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      4.18 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.02      0.05      4.23 r
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.02      0.00      4.23 r
+  data arrival time                                                                      4.23
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.23
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.85
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      4.18 f
+  n6 (net)                                          3      0.00
+  G5/A2 (AN2SGD0BWP30P140)                                           0.04      0.00      4.18 f
+  G5/Z (AN2SGD0BWP30P140)                                            0.01      0.04      4.22 f
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      4.22 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.04      4.26 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.26 f
+  data arrival time                                                                      4.26
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.05      3.41
+  data required time                                                                     3.41
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.41
+  data arrival time                                                                     -4.26
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.85
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.05      0.20      4.10 r
+  n4 (net)                                          3      0.00
+  G4/A1 (AN2SGD0BWP30P140)                                           0.05      0.00      4.10 r
+  G4/Z (AN2SGD0BWP30P140)                                            0.02      0.05      4.15 r
+  n10 (net)                                         1      0.00
+  G7/A2 (OR2SGD1BWP30P140)                                           0.02      0.00      4.15 r
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.18 r
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.18 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.20 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.20 r
+  data arrival time                                                                      4.20
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.20
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.82
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      4.09 r
+  n5 (net)                                          3      0.00
+  G4/A2 (AN2SGD0BWP30P140)                                           0.04      0.00      4.09 r
+  G4/Z (AN2SGD0BWP30P140)                                            0.02      0.05      4.14 r
+  n10 (net)                                         1      0.00
+  G7/A2 (OR2SGD1BWP30P140)                                           0.02      0.00      4.14 r
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.17 r
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.17 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.19 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.19 r
+  data arrival time                                                                      4.19
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.19
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.81
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      4.09 r
+  n6 (net)                                          3      0.00
+  G3/A2 (AN2SGD0BWP30P140)                                           0.04      0.00      4.09 r
+  G3/Z (AN2SGD0BWP30P140)                                            0.02      0.05      4.14 r
+  n9 (net)                                          1      0.00
+  G7/A1 (OR2SGD1BWP30P140)                                           0.02      0.00      4.14 r
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.17 r
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.17 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.19 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.19 r
+  data arrival time                                                                      4.19
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.19
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.81
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by test_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: test_clk
+  Path Type: max
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    3.90      3.90
+  clock network delay (ideal)                                                  0.00      3.90
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      3.90 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      4.09 r
+  n5 (net)                                          3      0.00
+  G3/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      4.09 r
+  G3/Z (AN2SGD0BWP30P140)                                            0.02      0.05      4.14 r
+  n9 (net)                                          1      0.00
+  G7/A1 (OR2SGD1BWP30P140)                                           0.02      0.00      4.14 r
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.17 r
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      4.17 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      4.19 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      4.19 r
+  data arrival time                                                                      4.19
+
+  clock test_clk (rise edge)                                                   4.00      4.00
+  clock network delay (ideal)                                                  0.00      4.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      4.00 r
+  clock uncertainty                                                           -0.54      3.46
+  library setup time                                                          -0.08      3.38
+  data required time                                                                     3.38
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     3.38
+  data arrival time                                                                     -4.19
+  ----------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.81
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n6 (net)                                          3      0.00
+  G2/A2 (XOR2SGD0BWP30P140)                                          0.03      0.00      0.19 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.08      0.27 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.27 f
+  data arrival time                                                                      0.27
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.27
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.12
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n6 (net)                                          3      0.00
+  G2/A2 (XOR2SGD0BWP30P140)                                          0.03      0.00      0.19 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.08      0.27 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.27 f
+  data arrival time                                                                      0.27
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.27
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.12
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      0.19 r
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.05      0.24 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.24 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      0.29 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.29 f
+  data arrival time                                                                      0.29
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.29
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.15
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      0.19 r
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.05      0.24 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.24 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      0.29 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.29 f
+  data arrival time                                                                      0.29
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.29
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.15
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      0.19 r
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.06      0.26 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.26 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.04      0.30 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.30 f
+  data arrival time                                                                      0.30
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.30
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.16
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      0.19 r
+  n4 (net)                                          3      0.00
+  G1/A1 (XOR2SGD0BWP30P140)                                          0.04      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.06      0.26 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.26 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.04      0.30 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.30 f
+  data arrival time                                                                      0.30
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.30
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.16
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.03      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.06      0.25 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.25 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      0.31 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.31 f
+  data arrival time                                                                      0.31
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.31
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.16
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.03      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.06      0.25 r
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.25 r
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.05      0.31 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.31 f
+  data arrival time                                                                      0.31
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.31
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.16
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.03      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.08      0.27 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.27 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.04      0.31 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.31 f
+  data arrival time                                                                      0.31
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.31
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.17
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg5 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n5 (net)                                          3      0.00
+  G1/A2 (XOR2SGD0BWP30P140)                                          0.03      0.00      0.19 r
+  G1/Z (XOR2SGD0BWP30P140)                                           0.02      0.08      0.27 f
+  n7 (net)                                          1      0.00
+  G2/A1 (XOR2SGD0BWP30P140)                                          0.02      0.00      0.27 f
+  G2/Z (XOR2SGD0BWP30P140)                                           0.01      0.04      0.31 f
+  n8 (net)                                          1      0.00
+  reg5/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.31 f
+  data arrival time                                                                      0.31
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg5/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.31
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.17
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n6 (net)                                          3      0.00
+  G5/A2 (AN2SGD0BWP30P140)                                           0.03      0.00      0.19 r
+  G5/Z (AN2SGD0BWP30P140)                                            0.02      0.04      0.23 r
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.02      0.00      0.23 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      0.26 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.26 r
+  data arrival time                                                                      0.26
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                           -0.04      0.06
+  data required time                                                                     0.06
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.06
+  data arrival time                                                                     -0.26
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.20
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n6 (net)                                          3      0.00
+  G5/A2 (AN2SGD0BWP30P140)                                           0.03      0.00      0.19 r
+  G5/Z (AN2SGD0BWP30P140)                                            0.02      0.04      0.23 r
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.02      0.00      0.23 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      0.26 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.26 r
+  data arrival time                                                                      0.26
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                           -0.04      0.06
+  data required time                                                                     0.06
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.06
+  data arrival time                                                                     -0.26
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.20
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      0.19 r
+  n4 (net)                                          3      0.00
+  G5/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      0.19 r
+  G5/Z (AN2SGD0BWP30P140)                                            0.02      0.04      0.24 r
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.02      0.00      0.24 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      0.27 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.27 r
+  data arrival time                                                                      0.27
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                           -0.04      0.06
+  data required time                                                                     0.06
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.06
+  data arrival time                                                                     -0.27
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.20
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.19      0.19 r
+  n4 (net)                                          3      0.00
+  G5/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      0.19 r
+  G5/Z (AN2SGD0BWP30P140)                                            0.02      0.04      0.24 r
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.02      0.00      0.24 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.03      0.27 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.27 r
+  data arrival time                                                                      0.27
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                           -0.04      0.06
+  data required time                                                                     0.06
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.06
+  data arrival time                                                                     -0.27
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.20
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.28      0.28 f
+  n6 (net)                                          3      0.00
+  G5/A2 (AN2SGD0BWP30P140)                                           0.03      0.00      0.28 f
+  G5/Z (AN2SGD0BWP30P140)                                            0.01      0.04      0.32 f
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      0.32 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.04      0.36 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.36 f
+  data arrival time                                                                      0.36
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.36
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.21
+
+
+
+  Startpoint: reg3 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg3/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg3/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.28      0.28 f
+  n6 (net)                                          3      0.00
+  G5/A2 (AN2SGD0BWP30P140)                                           0.03      0.00      0.28 f
+  G5/Z (AN2SGD0BWP30P140)                                            0.01      0.04      0.32 f
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      0.32 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.04      0.36 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.36 f
+  data arrival time                                                                      0.36
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.36
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.21
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      0.28 f
+  n4 (net)                                          3      0.00
+  G5/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      0.28 f
+  G5/Z (AN2SGD0BWP30P140)                                            0.01      0.04      0.32 f
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      0.32 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.04      0.36 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.36 f
+  data arrival time                                                                      0.36
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.36
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.22
+
+
+
+  Startpoint: reg1 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg1/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg1/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.04      0.28      0.28 f
+  n4 (net)                                          3      0.00
+  G5/A1 (AN2SGD0BWP30P140)                                           0.04      0.00      0.28 f
+  G5/Z (AN2SGD0BWP30P140)                                            0.01      0.04      0.32 f
+  n11 (net)                                         1      0.00
+  G6/A2 (OR2SGD1BWP30P140)                                           0.01      0.00      0.32 f
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.04      0.36 f
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.36 f
+  data arrival time                                                                      0.36
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                            0.04      0.14
+  data required time                                                                     0.14
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.14
+  data arrival time                                                                     -0.36
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.22
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by sys_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n5 (net)                                          3      0.00
+  G3/A1 (AN2SGD0BWP30P140)                                           0.03      0.00      0.19 r
+  G3/Z (AN2SGD0BWP30P140)                                            0.01      0.04      0.23 r
+  n9 (net)                                          1      0.00
+  G7/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      0.23 r
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      0.26 r
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      0.26 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.02      0.28 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.28 r
+  data arrival time                                                                      0.28
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                           -0.04      0.06
+  data required time                                                                     0.06
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.06
+  data arrival time                                                                     -0.28
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.22
+
+
+
+  Startpoint: reg2 (rising edge-triggered flip-flop clocked by test_clk)
+  Endpoint: reg4 (rising edge-triggered flip-flop clocked by sys_clk)
+  Mode: func
+  Corner: MAX_LT_SETUP_CW
+  Scenario: func_MAX_LT_SETUP_CW
+  Path Group: sys_clk
+  Path Type: min
+
+  Point                                          Fanout    Cap      Trans      Incr      Path  
+  ----------------------------------------------------------------------------------------------------
+  clock test_clk (rise edge)                                                   0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+
+  reg2/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  reg2/Q (SDFQOPPSBSGD1BWP30P140HVT)                                 0.03      0.19      0.19 r
+  n5 (net)                                          3      0.00
+  G3/A1 (AN2SGD0BWP30P140)                                           0.03      0.00      0.19 r
+  G3/Z (AN2SGD0BWP30P140)                                            0.01      0.04      0.23 r
+  n9 (net)                                          1      0.00
+  G7/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      0.23 r
+  G7/Z (OR2SGD1BWP30P140)                                            0.01      0.03      0.26 r
+  n12 (net)                                         1      0.00
+  G6/A1 (OR2SGD1BWP30P140)                                           0.01      0.00      0.26 r
+  G6/Z (OR2SGD1BWP30P140)                                            0.01      0.02      0.28 r
+  n13 (net)                                         1      0.00
+  reg4/D (SDFQOPPSBSGD1BWP30P140HVT)                                 0.01      0.00      0.28 r
+  data arrival time                                                                      0.28
+
+  clock sys_clk (rise edge)                                                    0.00      0.00
+  clock network delay (ideal)                                                  0.00      0.00
+  reg4/CP (SDFQOPPSBSGD1BWP30P140HVT)                                0.10      0.00      0.00 r
+  clock uncertainty                                                            0.10      0.10
+  library hold time                                                           -0.04      0.06
+  data required time                                                                     0.06
+  ----------------------------------------------------------------------------------------------------
+  data required time                                                                     0.06
+  data arrival time                                                                     -0.28
+  ----------------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.22
+

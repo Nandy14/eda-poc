@@ -1,7 +1,9 @@
 import datetime
 import re
-
+import os
+import tkinter as tk
 import logging
+from tkinter import filedialog, messagebox
 
 class Report:
     def __init__(self) -> None:
@@ -61,6 +63,29 @@ date_pattern = re.compile(r'Date\s*:\s*(.+)')
 
 # Point patterns
 point_pattern = re.compile(r'\s*([\w\d_/]+(?:\s*\(.*\))?)(?:\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s*([rf])?\s*(\S*))?')
+
+# Function to get the file path using a file selector dialog
+def get_file_path():
+    while True:
+        if os.path.exists('json/parsed_objects.json'):
+            file_path = 'json/parsed_objects.json'
+            break
+        root = tk.Tk()
+        root.withdraw()  # Hide the main window
+
+        file_path = filedialog.askopenfilename(
+            title="Select Timing report file",
+            filetypes=[("Timing report files", "*.txt"), ("All Files", "*.*")]
+        )
+
+        # Check if the selected file has a valid extension
+        if file_path and not file_path.lower().endswith((".txt")):
+            error_message = "Invalid file format. Please select a valid timing report file with a '.v' extension."
+            messagebox.showerror("Error", error_message)
+        else:
+            break  # Break out of the loop if a valid file is selected
+
+    return file_path
 
 def parse_timing_report(file_path):
     try:
@@ -217,7 +242,7 @@ def parse_timing_report(file_path):
         raise ValueError(error_message)
 
 # Example usage:
-file_path = 'timing_report_2.txt'
+file_path = get_file_path()
 parsed_report = parse_timing_report(file_path)
 
 # Verification

@@ -222,5 +222,4 @@ MODULE_PATTERN = re.compile(r'module (\w+)\s*\(')
 PORT_PATTERN = re.compile(r'(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;]+);', re.DOTALL)
 NET_PATTERN = re.compile(r'wire\s+((?:\[\d+:\d+\])?\s*\w+\s*(?:,\s*\w+\s*)*);', re.DOTALL)
 INSTANCE_PATTERN = re.compile(r'^\s*(\w+)\s+(\w+)\s*\((?!\s*input\s|\s*output\s|\s*inout\s)')
-PIN_PATTERN = re.compile(r'\.(\w+)\(([^)]+)\)')
-
+PIN_PATTERN = re.compile(r'\.(\w+)\s*\(\s*([^)]+)\s*\)')

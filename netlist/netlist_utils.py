@@ -503,3 +503,46 @@ def get_file_path():
             break  # Break out of the loop if a valid file is selected
 
     return file_path
+
+def update_net_objects_with_connectivity(net_connections, modules):
+
+    for module in modules:
+
+        # Update the connectivity information in VerilogNet objects
+        for _, row in net_connections.iterrows():
+            net_name = row["Net"]
+            startpoint = row["Startpoint"]
+            endpoints = row["Endpoint"]
+
+            # print(net_name, startpoint, endpoint)
+            # print()
+
+            # Check if the base net name is already a declared and a parsed net
+            net_obj = next((net for net in module.nets if net.name == net_name), None)
+
+            if net_obj:
+                print(f'Found a net object with the same name as {net_name}')                
+                
+                # Update the startpoint and endpoint of the net
+                print('Add connectivity information to the net object')
+
+                net_obj.connections['startpoint'] = startpoint
+                net_obj.connections['endpoints'] = endpoints
+
+            else:
+                print('No net obj found. Abort')
+
+            # Find the corresponding VerilogNet object
+            # Assume nets are stored in a dictionary with net names as keys
+            # if net_name in your_net_dictionary:
+            #     verilog_net = your_net_dictionary[net_name]
+                
+            #     # Update connectivity information
+            #     if startpoint:
+            #         verilog_net.add_connection("startpoint", startpoint)
+            #     elif endpoint:
+            #         verilog_net.add_connection("endpoint", endpoint)
+
+    for module in modules:
+        for net in module.nets:            
+            print(net)

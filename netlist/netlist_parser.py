@@ -5,14 +5,12 @@ import logging
 # import networkx as nx
 # import matplotlib.pyplot as plt
 # import numpy as np
-import json
 import pickle
-import tkinter as tk
-from tkinter import filedialog, messagebox
-from netlist_query import retrieve_all_instances_in_module, retrieve_all_modules, retrieve_all_nets_connected_to_instance, retrieve_all_nets_in_module, retrieve_all_pins_in_module, retrieve_instances_and_connected_nets_in_module, retrieve_instances_and_their_connected_nets, retrieve_modules_and_their_instances_with_pins, retrieve_modules_and_their_ports, retrieve_modules_and_their_ports_and_nets, retrieve_modules_with_specific_net, retrieve_modules_with_specific_port, retrieve_nets_connected_to_specific_pin, retrieve_port_derived_nets_connected_to_port, retrieve_ports_and_their_connected_nets, retrieve_ports_and_their_nets_with_port_derived_nets, retrieve_ports_and_their_nets_with_relationships_and_port_derived_nets, retrieve_ports_in_module, add_new_query, view_query, execute_query
+from netlist_query import add_new_query, view_query, execute_query
 from netlist_models import VerilogModule, VerilogInstance, VerilogPort, VerilogPin, VerilogNet, MODULE_PATTERN, INSTANCE_PATTERN, PIN_PATTERN, PORT_PATTERN, NET_PATTERN, GraphNode
-from netlist_utils import determine_cell_type, generate_verilog, get_file_path, verify_parser, prepare_graph, load_from_json, save_to_json_file, print_module_details, pickling_file, verify_instance_declaration, parse_netlist_hierarchy_module_template
+from netlist_utils import determine_cell_type, generate_verilog, get_file_path, update_net_objects_with_connectivity, load_from_json, save_to_json_file, parse_netlist_hierarchy_module_template
 from collections import defaultdict
+from netlist_connectivity import net_connectivity
 
 
 # Load environment variables from .env file
@@ -313,7 +311,11 @@ def main(input_netlist_file_path):
         # Parse module templates from the netlist
         logging.info('Parsing module templates from the netlist.')
         modules_templates = parse_netlist_hierarchy_module_template(input_netlist_file_path)
-
+        print()
+        print('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$')
+        print('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$')
+        print('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$')
+        print(modules_templates)
         option = 0
         modules = []
         while True:
@@ -372,27 +374,32 @@ def main(input_netlist_file_path):
                     print()
                     print('Generating json')
                     # After parsing is complete
-                    for module in modules:
-                        module.print_net_fanout()                    
-                    save_to_json_file(modules)                    
+                    # for module in modules:
+                    #     module.print_net_fanout()                    
+                    save_to_json_file(modules)
+                    print()
+                    print()
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('Modules were written to json')                    
+                    # imported the function from netlist_connectivity
+                    # Let's call it
+                    net_connections = net_connectivity()
+                    updated_modules = update_net_objects_with_connectivity(net_connections,modules)
                     print('Modules were parsed from input netlist file, please proceed to POC WRITE\n')                    
                     # Creating Graph
                     
-                    print()
-                    print()
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
-                    print('######################################')
 
-                    graph = create_graph(modules)
+                    # graph = create_graph(modules)
                     # print(graph)
                     # # Pickle the data
                     # pickled_data = '\n'.join(modules)

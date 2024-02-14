@@ -5,19 +5,19 @@ import logging
 # import networkx as nx
 # import matplotlib.pyplot as plt
 # import numpy as np
-import json
 import pickle
-import tkinter as tk
-from tkinter import filedialog, messagebox
-from netlist_query import retrieve_all_instances_in_module, retrieve_all_modules, retrieve_all_nets_connected_to_instance, retrieve_all_nets_in_module, retrieve_all_pins_in_module, retrieve_instances_and_connected_nets_in_module, retrieve_instances_and_their_connected_nets, retrieve_modules_and_their_instances_with_pins, retrieve_modules_and_their_ports, retrieve_modules_and_their_ports_and_nets, retrieve_modules_with_specific_net, retrieve_modules_with_specific_port, retrieve_nets_connected_to_specific_pin, retrieve_port_derived_nets_connected_to_port, retrieve_ports_and_their_connected_nets, retrieve_ports_and_their_nets_with_port_derived_nets, retrieve_ports_and_their_nets_with_relationships_and_port_derived_nets, retrieve_ports_in_module, add_new_query, view_query, execute_query
-from netlist_models import VerilogModule, VerilogInstance, VerilogPort, VerilogPin, VerilogNet, MODULE_PATTERN, INSTANCE_PATTERN, PIN_PATTERN, PORT_PATTERN, NET_PATTERN
-from netlist_utils import determine_cell_type, generate_verilog, get_file_path, verify_parser, prepare_graph, load_from_json, save_to_json_file, print_module_details, pickling_file, verify_instance_declaration, parse_netlist_hierarchy_module_template
+from netlist_query import add_new_query, view_query, execute_query
+from netlist_models import VerilogModule, VerilogInstance, VerilogPort, VerilogPin, VerilogNet, MODULE_PATTERN, INSTANCE_PATTERN, PIN_PATTERN, PORT_PATTERN, NET_PATTERN, GraphNode
+from netlist_utils import determine_cell_type, generate_verilog, get_file_path, update_net_objects_with_connectivity, load_from_json, save_to_json_file, parse_netlist_hierarchy_module_template
+from collections import defaultdict
+from netlist_connectivity import net_connectivity
+
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Configure logging
-logging.basicConfig(filename='log/verilog_parser.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='verilog_parser.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def parse_netlist(file_path, modules_templates):
     """
@@ -167,9 +167,9 @@ def parse_netlist(file_path, modules_templates):
                                 else:
                                     print(f'Found a port name matching a wire net, connecting and adding the net {net_name_instance} to the port {port_obj}')
                                     logging.info("Found a port name matching a wire net, connecting and adding the net %s to the port %s", net_name_instance, port_obj)
-                                    net_obj = VerilogNet(f"{net_name_instance}", "wire-single", (1,0))
-                                    print(f'Created a VerilogNet object for {net_name_instance}')
-                                    logging.info("Created a VerilogNet object for %s", net_name_instance)
+                                    # net_obj = VerilogNet(f"{net_name_instance}", "wire-single", (1,0))
+                                    # print(f'Created a VerilogNet object for {net_name_instance}')
+                                    # logging.info("Created a VerilogNet object for %s", net_name_instance)
                                     port_obj.net.append(net_obj)
                                     print(f'Added the net object to the module ports')
                                     logging.info("Added the net object to the module ports")
@@ -236,6 +236,10 @@ def parse_netlist(file_path, modules_templates):
                                 logging.info("No net found for %s Pin %s connected to %s", instance_name, pin_name, net_name_instance)
 
                         pin = VerilogPin(pin_name, instance, net_obj)
+                        # Increment fanout when connecting a pin to a net
+                        if net_obj:
+                            if pin_name not in ['Z','Q']:
+                                net_obj.increment_fanout()                        
                         instance.pins.append(pin)
                     
                     # Check if this is the end of the instance declaration
@@ -255,6 +259,34 @@ def parse_netlist(file_path, modules_templates):
         logging.error(error_message)
         print(error_message)
         raise ValueError(error_message)
+
+def create_graph(modules):
+    graph_nodes = defaultdict(lambda: GraphNode("", ""))
+
+    for module in modules:
+        graph_nodes[module.name] = GraphNode(module.name, "Module")
+        
+        for port in module.ports['input'] + module.ports['output']:
+            graph_nodes[port.name] = GraphNode(port.name, "Port")
+            
+        for net in module.nets:
+            graph_nodes[net.name] = GraphNode(net.name, "Net")
+            
+        for instance in module.instances:
+            graph_nodes[instance.name] = GraphNode(instance.name, "Instance")
+
+    # for module in modules:
+    #     # Connect VerilogPorts to VerilogNets
+    #     for port in module.ports['input'] + module.ports['output']:
+    #         for net in port.net:
+    #             graph_nodes[port.name].edges.add(graph_nodes[net.name])
+
+    #     # Connect VerilogNets to VerilogPins (instances)
+    #     for net in module.nets:
+    #         for pin in net.pins:
+    #             graph_nodes[net.name].edges.add(graph_nodes[pin.instance.name])
+
+    return graph_nodes
 
 def main(input_netlist_file_path):
     """
@@ -279,7 +311,11 @@ def main(input_netlist_file_path):
         # Parse module templates from the netlist
         logging.info('Parsing module templates from the netlist.')
         modules_templates = parse_netlist_hierarchy_module_template(input_netlist_file_path)
-
+        print()
+        print('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$')
+        print('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$')
+        print('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$')
+        print(modules_templates)
         option = 0
         modules = []
         while True:
@@ -323,17 +359,48 @@ def main(input_netlist_file_path):
                     print('Unpickling completed, Parsing file')
                     modules = parse_netlist('pickle/netlist_unpickled.v.txt',modules_templates)
                     print('Generating json')
+                    # After parsing is complete
+                    for module in modules:
+                        module.print_net_fanout()
                     save_to_json_file(modules)
                     print('Modules were parsed from pickled netlist file, JSON generated, please proceed to POC WRITE\n')
 
                 elif not os.path.exists('json/parsed_objects.json') and not os.path.exists('pickle/netlist_pickle.pkl') and os.path.exists(input_netlist_file_path):
                     print('Previous database not found, pickle version not found, proceeding with input netlist file ')
                     modules = parse_netlist(input_netlist_file_path,modules_templates)
+                    # Example usage
+                    # fanout_table = create_fanout_table(input_netlist_file_path)
+                    # print(fanout_table)
                     print()
                     print('Generating json')
-                    save_to_json_file(modules)                    
-                    print('Modules were parsed from input netlist file, please proceed to POC WRITE\n')
+                    # After parsing is complete
+                    # for module in modules:
+                    #     module.print_net_fanout()                    
+                    save_to_json_file(modules)
+                    print()
+                    print()
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('######################################')
+                    print('Modules were written to json')                    
+                    # imported the function from netlist_connectivity
+                    # Let's call it
+                    net_connections = net_connectivity()
+                    updated_modules = update_net_objects_with_connectivity(net_connections,modules)
+                    print('Modules were parsed from input netlist file, please proceed to POC WRITE\n')                    
+                    # Creating Graph
                     
+
+                    # graph = create_graph(modules)
+                    # print(graph)
                     # # Pickle the data
                     # pickled_data = '\n'.join(modules)
                     # with open('netlist_pickle.pkl', 'wb') as pickle_file:

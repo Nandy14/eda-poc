@@ -1,0 +1,438 @@
+Primary input Ports - vertices/nodes
+
+Pins of the instance - vertices 
+
+Nets - edges
+
+2024-02-21 13:06:47,613 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fulladder.v
+2024-02-21 13:06:47,621 - INFO - Parsing module templates from the netlist.
+2024-02-21 13:06:47,622 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-21 13:06:47,623 - INFO - Module found: fulladdder
+2024-02-21 13:06:49,993 - INFO - def parse_netlist function called.
+2024-02-21 13:06:49,994 - INFO - Module found : fulladdder
+2024-02-21 13:06:49,998 - INFO - New net created: n4 with width None
+2024-02-21 13:06:49,999 - INFO - New net created: n5 with width None
+2024-02-21 13:06:50,000 - INFO - New net created: n6 with width None
+2024-02-21 13:06:50,001 - INFO - New net created: n7 with width None
+2024-02-21 13:06:50,003 - INFO - New net created: n8 with width None
+2024-02-21 13:06:50,004 - INFO - New net created: n9 with width None
+2024-02-21 13:06:50,005 - INFO - New net created: n10 with width None
+2024-02-21 13:06:50,006 - INFO - New net created: n11 with width None
+2024-02-21 13:06:50,009 - INFO - New net created: n12 with width None
+2024-02-21 13:06:50,011 - INFO - New net created: n13 with width None
+2024-02-21 13:06:50,018 - INFO - New net created: n14 with width None
+2024-02-21 13:06:50,024 - INFO - New net created: n15 with width None
+2024-02-21 13:06:50,025 - INFO - New net created: CLK with width None
+2024-02-21 13:06:50,032 - INFO - New net created: mux_clock with width None
+2024-02-21 13:06:50,034 - INFO - New net created: gated_clock with width None
+2024-02-21 13:06:50,039 - INFO - Instance found : mux1
+2024-02-21 13:06:50,041 - INFO - Inside instance: mux1
+2024-02-21 13:06:50,044 - INFO - pin found : I0
+2024-02-21 13:06:50,045 - INFO - net found : Clock
+2024-02-21 13:06:50,046 - INFO - No net found for mux1 Pin I0 connected to Clock
+2024-02-21 13:06:50,047 - INFO - pin found : I1
+2024-02-21 13:06:50,048 - INFO - net found : Scan_clk
+2024-02-21 13:06:50,049 - INFO - No net found for mux1 Pin I1 connected to Scan_clk
+2024-02-21 13:06:50,050 - INFO - pin found : S
+2024-02-21 13:06:50,051 - INFO - net found : Scan_en
+2024-02-21 13:06:50,052 - INFO - No net found for mux1 Pin S connected to Scan_en
+2024-02-21 13:06:50,056 - INFO - pin found : Z
+2024-02-21 13:06:50,057 - INFO - net found : mux_clock
+2024-02-21 13:06:50,059 - INFO - Instance found : gate
+2024-02-21 13:06:50,060 - INFO - Inside instance: gate
+2024-02-21 13:06:50,061 - INFO - pin found : A1
+2024-02-21 13:06:50,062 - INFO - net found : mux_clock
+2024-02-21 13:06:50,063 - INFO - pin found : A2
+2024-02-21 13:06:50,064 - INFO - net found : cg_en
+2024-02-21 13:06:50,066 - INFO - No net found for gate Pin A2 connected to cg_en
+2024-02-21 13:06:50,067 - INFO - pin found : Z
+2024-02-21 13:06:50,068 - INFO - net found : gated_clock
+2024-02-21 13:06:50,070 - INFO - Instance found : CLKx_B1
+2024-02-21 13:06:50,072 - INFO - Inside instance: CLKx_B1
+2024-02-21 13:06:50,074 - INFO - pin found : I
+2024-02-21 13:06:50,075 - INFO - net found : gated_clock
+2024-02-21 13:06:50,076 - INFO - pin found : Z
+2024-02-21 13:06:50,077 - INFO - net found : CLK
+2024-02-21 13:06:50,078 - INFO - Instance found : reg1
+2024-02-21 13:06:50,079 - INFO - Inside instance: reg1
+2024-02-21 13:06:50,080 - INFO - pin found : D
+2024-02-21 13:06:50,081 - INFO - net found : A
+2024-02-21 13:06:50,082 - INFO - No net found for reg1 Pin D connected to A
+2024-02-21 13:06:50,083 - INFO - pin found : CP
+2024-02-21 13:06:50,084 - INFO - net found : CLK
+2024-02-21 13:06:50,085 - INFO - pin found : Q
+2024-02-21 13:06:50,088 - INFO - net found : n4
+2024-02-21 13:06:50,091 - INFO - pin found : SI
+2024-02-21 13:06:50,092 - INFO - net found : 1'b0
+2024-02-21 13:06:50,092 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,093 - INFO - Pin SI connected to a constant 1'b0
+2024-02-21 13:06:50,094 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,095 - INFO - pin found : SE
+2024-02-21 13:06:50,096 - INFO - net found : 1'b0
+2024-02-21 13:06:50,097 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,098 - INFO - Pin SE connected to a constant 1'b0
+2024-02-21 13:06:50,099 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,100 - INFO - Instance found : reg2
+2024-02-21 13:06:50,101 - INFO - Inside instance: reg2
+2024-02-21 13:06:50,101 - INFO - pin found : D
+2024-02-21 13:06:50,102 - INFO - net found : B
+2024-02-21 13:06:50,104 - INFO - No net found for reg2 Pin D connected to B
+2024-02-21 13:06:50,106 - INFO - pin found : CP
+2024-02-21 13:06:50,115 - INFO - net found : CLK
+2024-02-21 13:06:50,123 - INFO - pin found : Q
+2024-02-21 13:06:50,125 - INFO - net found : n5
+2024-02-21 13:06:50,128 - INFO - pin found : SI
+2024-02-21 13:06:50,128 - INFO - net found : 1'b0
+2024-02-21 13:06:50,129 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,130 - INFO - Pin SI connected to a constant 1'b0
+2024-02-21 13:06:50,131 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,134 - INFO - pin found : SE
+2024-02-21 13:06:50,135 - INFO - net found : 1'b0
+2024-02-21 13:06:50,140 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,143 - INFO - Pin SE connected to a constant 1'b0
+2024-02-21 13:06:50,143 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,144 - INFO - Instance found : reg3
+2024-02-21 13:06:50,145 - INFO - Inside instance: reg3
+2024-02-21 13:06:50,146 - INFO - pin found : D
+2024-02-21 13:06:50,147 - INFO - net found : C
+2024-02-21 13:06:50,148 - INFO - No net found for reg3 Pin D connected to C
+2024-02-21 13:06:50,149 - INFO - pin found : CP
+2024-02-21 13:06:50,150 - INFO - net found : CLK
+2024-02-21 13:06:50,151 - INFO - pin found : Q
+2024-02-21 13:06:50,153 - INFO - net found : n6
+2024-02-21 13:06:50,157 - INFO - pin found : SI
+2024-02-21 13:06:50,158 - INFO - net found : 1'b0
+2024-02-21 13:06:50,159 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,159 - INFO - Pin SI connected to a constant 1'b0
+2024-02-21 13:06:50,160 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,160 - INFO - pin found : SE
+2024-02-21 13:06:50,161 - INFO - net found : 1'b0
+2024-02-21 13:06:50,162 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,163 - INFO - Pin SE connected to a constant 1'b0
+2024-02-21 13:06:50,164 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,165 - INFO - Instance found : G1
+2024-02-21 13:06:50,165 - INFO - Inside instance: G1
+2024-02-21 13:06:50,166 - INFO - pin found : A1
+2024-02-21 13:06:50,166 - INFO - net found : n4
+2024-02-21 13:06:50,167 - INFO - pin found : A2
+2024-02-21 13:06:50,168 - INFO - net found : n5
+2024-02-21 13:06:50,168 - INFO - pin found : Z
+2024-02-21 13:06:50,171 - INFO - net found : n7
+2024-02-21 13:06:50,173 - INFO - Instance found : G2
+2024-02-21 13:06:50,175 - INFO - Inside instance: G2
+2024-02-21 13:06:50,176 - INFO - pin found : A1
+2024-02-21 13:06:50,176 - INFO - net found : n7
+2024-02-21 13:06:50,177 - INFO - pin found : A2
+2024-02-21 13:06:50,178 - INFO - net found : n6
+2024-02-21 13:06:50,179 - INFO - pin found : Z
+2024-02-21 13:06:50,180 - INFO - net found : n8
+2024-02-21 13:06:50,181 - INFO - Instance found : G3
+2024-02-21 13:06:50,182 - INFO - Inside instance: G3
+2024-02-21 13:06:50,183 - INFO - pin found : A1
+2024-02-21 13:06:50,183 - INFO - net found : n5
+2024-02-21 13:06:50,184 - INFO - pin found : A2
+2024-02-21 13:06:50,185 - INFO - net found : n6
+2024-02-21 13:06:50,185 - INFO - pin found : Z
+2024-02-21 13:06:50,193 - INFO - net found : n9
+2024-02-21 13:06:50,195 - INFO - Instance found : G4
+2024-02-21 13:06:50,199 - INFO - Inside instance: G4
+2024-02-21 13:06:50,200 - INFO - pin found : A1
+2024-02-21 13:06:50,202 - INFO - net found : n4
+2024-02-21 13:06:50,210 - INFO - pin found : A2
+2024-02-21 13:06:50,216 - INFO - net found : n5
+2024-02-21 13:06:50,222 - INFO - pin found : Z
+2024-02-21 13:06:50,224 - INFO - net found : n10
+2024-02-21 13:06:50,225 - INFO - Instance found : G5
+2024-02-21 13:06:50,228 - INFO - Inside instance: G5
+2024-02-21 13:06:50,229 - INFO - pin found : A1
+2024-02-21 13:06:50,229 - INFO - net found : n4
+2024-02-21 13:06:50,232 - INFO - pin found : A2
+2024-02-21 13:06:50,233 - INFO - net found : n6
+2024-02-21 13:06:50,234 - INFO - pin found : Z
+2024-02-21 13:06:50,235 - INFO - net found : n11
+2024-02-21 13:06:50,237 - INFO - Instance found : G7
+2024-02-21 13:06:50,239 - INFO - Inside instance: G7
+2024-02-21 13:06:50,240 - INFO - pin found : A1
+2024-02-21 13:06:50,241 - INFO - net found : n9
+2024-02-21 13:06:50,242 - INFO - pin found : A2
+2024-02-21 13:06:50,243 - INFO - net found : n10
+2024-02-21 13:06:50,243 - INFO - pin found : Z
+2024-02-21 13:06:50,244 - INFO - net found : n12
+2024-02-21 13:06:50,245 - INFO - Instance found : G6
+2024-02-21 13:06:50,246 - INFO - Inside instance: G6
+2024-02-21 13:06:50,247 - INFO - pin found : A1
+2024-02-21 13:06:50,248 - INFO - net found : n12
+2024-02-21 13:06:50,248 - INFO - pin found : A2
+2024-02-21 13:06:50,249 - INFO - net found : n11
+2024-02-21 13:06:50,250 - INFO - pin found : Z
+2024-02-21 13:06:50,250 - INFO - net found : n13
+2024-02-21 13:06:50,251 - INFO - Instance found : reg4
+2024-02-21 13:06:50,252 - INFO - Inside instance: reg4
+2024-02-21 13:06:50,255 - INFO - pin found : D
+2024-02-21 13:06:50,256 - INFO - net found : n13
+2024-02-21 13:06:50,258 - INFO - pin found : CP
+2024-02-21 13:06:50,259 - INFO - net found : CLK
+2024-02-21 13:06:50,259 - INFO - pin found : Q
+2024-02-21 13:06:50,260 - INFO - net found : n14
+2024-02-21 13:06:50,261 - INFO - pin found : SI
+2024-02-21 13:06:50,261 - INFO - net found : 1'b0
+2024-02-21 13:06:50,262 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,263 - INFO - Pin SI connected to a constant 1'b0
+2024-02-21 13:06:50,264 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,266 - INFO - pin found : SE
+2024-02-21 13:06:50,266 - INFO - net found : 1'b0
+2024-02-21 13:06:50,267 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,268 - INFO - Pin SE connected to a constant 1'b0
+2024-02-21 13:06:50,273 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,275 - INFO - Instance found : reg5
+2024-02-21 13:06:50,275 - INFO - Inside instance: reg5
+2024-02-21 13:06:50,276 - INFO - pin found : D
+2024-02-21 13:06:50,279 - INFO - net found : n8
+2024-02-21 13:06:50,284 - INFO - pin found : CP
+2024-02-21 13:06:50,295 - INFO - net found : CLK
+2024-02-21 13:06:50,296 - INFO - pin found : Q
+2024-02-21 13:06:50,301 - INFO - net found : n15
+2024-02-21 13:06:50,302 - INFO - pin found : SI
+2024-02-21 13:06:50,308 - INFO - net found : 1'b0
+2024-02-21 13:06:50,310 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,311 - INFO - Pin SI connected to a constant 1'b0
+2024-02-21 13:06:50,311 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,314 - INFO - pin found : SE
+2024-02-21 13:06:50,315 - INFO - net found : 1'b0
+2024-02-21 13:06:50,315 - INFO - Net name with a constant found 1'b0
+2024-02-21 13:06:50,316 - INFO - Pin SE connected to a constant 1'b0
+2024-02-21 13:06:50,317 - INFO - Created a VerilogNet object for 1'b0
+2024-02-21 13:06:50,318 - INFO - Instance found : B1
+2024-02-21 13:06:50,320 - INFO - Inside instance: B1
+2024-02-21 13:06:50,322 - INFO - pin found : I
+2024-02-21 13:06:50,323 - INFO - net found : n14
+2024-02-21 13:06:50,325 - INFO - pin found : Z
+2024-02-21 13:06:50,325 - INFO - net found : Carry
+2024-02-21 13:06:50,326 - INFO - No net found for B1 Pin Z connected to Carry
+2024-02-21 13:06:50,327 - INFO - Instance found : B2
+2024-02-21 13:06:50,328 - INFO - Inside instance: B2
+2024-02-21 13:06:50,328 - INFO - pin found : I
+2024-02-21 13:06:50,329 - INFO - net found : n15
+2024-02-21 13:06:50,331 - INFO - pin found : Z
+2024-02-21 13:06:50,332 - INFO - net found : Sum
+2024-02-21 13:06:50,332 - INFO - No net found for B2 Pin Z connected to Sum
+2024-02-21 13:06:50,333 - INFO - End of module: fulladdder
+2024-02-21 14:45:00,380 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-21 14:45:00,387 - INFO - Parsing module templates from the netlist.
+2024-02-21 14:45:00,389 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-21 14:45:00,389 - INFO - Module found: FourBitAdder
+2024-02-21 14:45:00,390 - INFO - Port Found : COUT)
+2024-02-21 14:45:00,391 - INFO - Module found: FullAdder
+2024-02-21 14:45:00,391 - INFO - Port Found : COUT)
+2024-02-21 14:45:21,558 - INFO - Module found : FourBitAdder
+2024-02-21 15:43:04,597 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-21 15:43:04,600 - INFO - Parsing module templates from the netlist.
+2024-02-21 15:43:04,601 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-21 15:43:04,601 - INFO - Module found: FourBitAdder
+2024-02-21 15:43:04,601 - INFO - Port Found : COUT)
+2024-02-21 15:43:04,602 - INFO - Module found: FullAdder
+2024-02-21 15:43:04,602 - INFO - Port Found : COUT)
+2024-02-21 15:43:06,329 - INFO - def parse_netlist function called.
+2024-02-21 15:43:25,182 - INFO - Module found : FourBitAdder
+2024-02-21 15:45:19,285 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-21 15:45:19,304 - INFO - Parsing module templates from the netlist.
+2024-02-21 15:45:19,305 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-21 15:45:19,306 - INFO - Module found: FourBitAdder
+2024-02-21 15:45:19,307 - INFO - Port Found : COUT)
+2024-02-21 15:45:19,307 - INFO - Module found: FullAdder
+2024-02-21 15:45:19,307 - INFO - Port Found : COUT)
+2024-02-21 15:45:24,686 - INFO - def parse_netlist function called.
+2024-02-21 15:45:33,219 - INFO - Module found : FourBitAdder
+2024-02-21 17:12:37,838 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-21 17:12:37,845 - INFO - Parsing module templates from the netlist.
+2024-02-21 17:12:37,846 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-21 17:12:37,848 - INFO - Module found: FourBitAdder
+2024-02-21 17:12:37,848 - INFO - Port Found : COUT)
+2024-02-21 17:12:37,848 - INFO - Module found: FullAdder
+2024-02-21 17:12:37,849 - INFO - Port Found : COUT)
+2024-02-21 17:12:40,023 - INFO - def parse_netlist function called.
+2024-02-21 17:12:40,024 - INFO - Module found : FourBitAdder
+2024-02-21 17:43:41,306 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-21 17:43:41,327 - INFO - Parsing module templates from the netlist.
+2024-02-21 17:43:41,328 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-21 17:43:41,329 - INFO - Module found: FourBitAdder
+2024-02-21 17:43:41,330 - INFO - Port Found : COUT)
+2024-02-21 17:43:41,331 - INFO - Module found: FullAdder
+2024-02-21 17:43:41,331 - INFO - Port Found : COUT)
+2024-02-21 17:43:43,191 - INFO - def parse_netlist function called.
+2024-02-21 17:43:50,752 - INFO - Module found : FourBitAdder
+2024-02-21 17:44:37,361 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-21 17:44:37,364 - INFO - Parsing module templates from the netlist.
+2024-02-21 17:44:37,366 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-21 17:44:37,367 - INFO - Module found: FourBitAdder
+2024-02-21 17:44:37,368 - INFO - Port Found : COUT)
+2024-02-21 17:44:37,368 - INFO - Module found: FullAdder
+2024-02-21 17:44:37,369 - INFO - Port Found : COUT)
+2024-02-21 17:44:39,614 - INFO - def parse_netlist function called.
+2024-02-21 17:44:47,718 - INFO - Module found : FourBitAdder
+2024-02-22 17:00:18,991 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-22 17:00:18,994 - INFO - Parsing module templates from the netlist.
+2024-02-22 17:00:18,995 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-22 17:00:18,996 - INFO - Module found: FourBitAdder
+2024-02-22 17:00:18,996 - INFO - Port Found : A
+2024-02-22 17:00:18,996 - INFO - Port Found : B
+2024-02-22 17:00:18,996 - INFO - Port Found : SUM
+2024-02-22 17:00:18,996 - INFO - Port Found : COUT)
+2024-02-22 17:00:18,997 - INFO - Module found: FullAdder
+2024-02-22 17:00:18,997 - INFO - Port Found : A
+2024-02-22 17:00:18,997 - INFO - Port Found : B
+2024-02-22 17:00:18,997 - INFO - Port Found : CIN
+2024-02-22 17:00:18,997 - INFO - Port Found : SUM
+2024-02-22 17:00:18,997 - INFO - Port Found : COUT)
+2024-02-22 17:00:24,134 - INFO - def parse_netlist function called.
+2024-02-22 17:07:40,663 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-22 17:07:40,667 - INFO - Parsing module templates from the netlist.
+2024-02-22 17:07:40,668 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-22 17:07:40,669 - INFO - Module found: FourBitAdder
+2024-02-22 17:07:40,670 - INFO - Port Found : A
+2024-02-22 17:07:40,670 - INFO - Port Found : B
+2024-02-22 17:07:40,671 - INFO - Port Found : SUM
+2024-02-22 17:07:40,671 - INFO - Port Found : COUT)
+2024-02-22 17:07:40,671 - INFO - Module found: FullAdder
+2024-02-22 17:07:40,672 - INFO - Port Found : A
+2024-02-22 17:07:40,672 - INFO - Port Found : B
+2024-02-22 17:07:40,672 - INFO - Port Found : CIN
+2024-02-22 17:07:40,673 - INFO - Port Found : SUM
+2024-02-22 17:07:40,673 - INFO - Port Found : COUT)
+2024-02-22 17:07:42,729 - INFO - def parse_netlist function called.
+2024-02-22 17:10:29,116 - INFO - Module found : FourBitAdder
+2024-02-22 17:12:20,069 - INFO - input Port found : A width 3:0.
+2024-02-22 17:14:27,945 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-22 17:14:27,966 - INFO - Parsing module templates from the netlist.
+2024-02-22 17:14:27,967 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-22 17:14:27,969 - INFO - Module found: FourBitAdder
+2024-02-22 17:14:27,969 - INFO - Port Found : A
+2024-02-22 17:14:27,970 - INFO - Port Found : B
+2024-02-22 17:14:27,970 - INFO - Port Found : SUM
+2024-02-22 17:14:27,970 - INFO - Port Found : COUT)
+2024-02-22 17:14:27,971 - INFO - Module found: FullAdder
+2024-02-22 17:14:27,971 - INFO - Port Found : A
+2024-02-22 17:14:27,971 - INFO - Port Found : B
+2024-02-22 17:14:27,972 - INFO - Port Found : CIN
+2024-02-22 17:14:27,972 - INFO - Port Found : SUM
+2024-02-22 17:14:27,973 - INFO - Port Found : COUT)
+2024-02-22 17:14:31,168 - INFO - def parse_netlist function called.
+2024-02-22 17:16:03,944 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-02-22 17:16:03,947 - INFO - Parsing module templates from the netlist.
+2024-02-22 17:16:03,948 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-22 17:16:03,950 - INFO - Module found: FourBitAdder
+2024-02-22 17:16:03,950 - INFO - Port Found : A
+2024-02-22 17:16:03,951 - INFO - Port Found : B
+2024-02-22 17:16:03,951 - INFO - Port Found : SUM
+2024-02-22 17:16:03,951 - INFO - Port Found : COUT)
+2024-02-22 17:16:03,952 - INFO - Module found: FullAdder
+2024-02-22 17:16:03,952 - INFO - Port Found : A
+2024-02-22 17:16:03,956 - INFO - Port Found : B
+2024-02-22 17:16:03,958 - INFO - Port Found : CIN
+2024-02-22 17:16:03,958 - INFO - Port Found : SUM
+2024-02-22 17:16:03,959 - INFO - Port Found : COUT)
+2024-02-22 17:16:05,240 - INFO - def parse_netlist function called.
+2024-02-22 17:30:10,163 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v
+2024-02-22 17:30:10,166 - INFO - Parsing module templates from the netlist.
+2024-02-22 17:30:10,167 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-22 17:30:10,168 - INFO - Module found: bit_parity
+2024-02-22 17:30:10,168 - INFO - Port Found : D
+2024-02-22 17:30:10,169 - INFO - Port Found : Pout
+2024-02-22 17:30:10,169 - INFO - Module found: nibble_parity
+2024-02-22 17:30:10,169 - INFO - Port Found : D
+2024-02-22 17:30:10,170 - INFO - Port Found : DP
+2024-02-22 17:30:10,170 - INFO - Module found: byte_parity
+2024-02-22 17:30:10,171 - INFO - Port Found : D
+2024-02-22 17:30:10,171 - INFO - Port Found : DP
+2024-02-22 17:30:14,411 - INFO - def parse_netlist function called.
+2024-02-22 17:30:23,164 - INFO - Module found : bit_parity
+2024-02-22 17:30:38,566 - INFO - Instance found : bit_parity
+2024-02-22 17:30:38,568 - INFO - Inside instance: bit_parity
+2024-02-22 17:30:41,725 - INFO - input Port found : D width .
+2024-02-22 17:30:44,346 - INFO - output Port found : Pout width .
+2024-02-22 17:30:52,921 - INFO - input Port found : D width .
+2024-02-22 17:30:52,925 - INFO - output Port found : Pout width .
+2024-02-22 17:30:52,931 - INFO - New net created: Pout with width None
+2024-02-22 17:30:52,937 - INFO - Instance found : G1
+2024-02-22 17:30:52,938 - INFO - Inside instance: G1
+2024-02-22 17:30:52,939 - INFO - pin found : A1
+2024-02-22 17:30:59,791 - INFO - net found : D
+2024-02-22 17:30:59,792 - INFO - It is a port-derived net
+2024-02-22 17:30:59,795 - INFO - Created a VerilogNet object : D
+2024-02-22 17:30:59,808 - INFO - Added the net object to the module.nets
+2024-02-22 17:30:59,809 - INFO - Added the net object to the module ports
+2024-02-22 17:30:59,814 - INFO - pin found : A2
+2024-02-22 17:31:03,341 - INFO - net found : Pin
+2024-02-22 17:32:57,773 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v
+2024-02-22 17:32:57,776 - INFO - Parsing module templates from the netlist.
+2024-02-22 17:32:57,778 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-22 17:32:57,779 - INFO - Module found: bit_parity
+2024-02-22 17:32:57,779 - INFO - Port Found : D
+2024-02-22 17:32:57,780 - INFO - Port Found : Pout
+2024-02-22 17:32:57,780 - INFO - Module found: nibble_parity
+2024-02-22 17:32:57,781 - INFO - Port Found : D
+2024-02-22 17:32:57,781 - INFO - Port Found : DP
+2024-02-22 17:32:57,782 - INFO - Module found: byte_parity
+2024-02-22 17:32:57,782 - INFO - Port Found : D
+2024-02-22 17:32:57,782 - INFO - Port Found : DP
+2024-02-22 17:32:59,627 - INFO - def parse_netlist function called.
+2024-02-22 17:32:59,629 - INFO - Module found : bit_parity
+2024-02-22 17:32:59,632 - INFO - Instance found : bit_parity
+2024-02-22 17:32:59,635 - INFO - Inside instance: bit_parity
+2024-02-22 17:32:59,638 - INFO - input Port found : D width .
+2024-02-22 17:32:59,640 - INFO - output Port found : Pout width .
+2024-02-22 17:32:59,641 - INFO - input Port found : D width .
+2024-02-22 17:32:59,642 - INFO - output Port found : Pout width .
+2024-02-22 17:32:59,644 - INFO - New net created: Pout with width None
+2024-02-22 17:32:59,649 - INFO - Instance found : G1
+2024-02-22 17:32:59,654 - INFO - Inside instance: G1
+2024-02-22 17:32:59,657 - INFO - pin found : A1
+2024-02-22 17:33:01,762 - INFO - net found : D
+2024-02-22 17:33:01,772 - INFO - It is a port-derived net
+2024-02-22 17:33:01,773 - INFO - Created a VerilogNet object : D
+2024-02-22 17:33:01,774 - INFO - Added the net object to the module.nets
+2024-02-22 17:33:01,775 - INFO - Added the net object to the module ports
+2024-02-22 17:33:01,778 - INFO - pin found : A2
+2024-02-22 17:33:16,587 - INFO - net found : Pin
+2024-02-22 17:33:16,588 - ERROR - Error parsing netlist file: cannot access free variable 'base_net_name' where it is not associated with a value in enclosing scope
+2024-02-22 17:33:19,511 - ERROR - Exception occurred: Error parsing netlist file: cannot access free variable 'base_net_name' where it is not associated with a value in enclosing scope
+2024-02-27 12:22:17,699 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v
+2024-02-27 12:22:17,721 - INFO - Parsing module templates from the netlist.
+2024-02-27 12:22:17,742 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-02-27 12:22:17,743 - INFO - Module found: bit_parity
+2024-02-27 12:22:17,743 - INFO - Port Found : D
+2024-02-27 12:22:17,744 - INFO - Port Found : Pin
+2024-02-27 12:22:17,744 - INFO - Port Found : Pout
+2024-02-27 12:22:17,746 - INFO - Module found: nibble_parity
+2024-02-27 12:22:17,746 - INFO - Port Found : D
+2024-02-27 12:22:17,746 - INFO - Port Found : EN
+2024-02-27 12:22:17,746 - INFO - Port Found : DP
+2024-02-27 12:22:17,748 - INFO - Module found: byte_parity
+2024-02-27 12:22:17,748 - INFO - Port Found : D
+2024-02-27 12:22:17,749 - INFO - Port Found : EN
+2024-02-27 12:22:17,749 - INFO - Port Found : DP
+2024-02-27 12:22:21,911 - INFO - def parse_netlist function called.
+2024-02-27 12:22:21,913 - INFO - Module found : bit_parity
+2024-02-27 12:22:21,914 - INFO - input Port found : D width .
+2024-02-27 12:22:21,915 - INFO - input Port found : Pin width .
+2024-02-27 12:22:21,916 - INFO - output Port found : Pout width .
+2024-02-27 12:22:21,918 - INFO - New net created: Pout with width None
+2024-02-27 12:22:21,920 - INFO - Instance found : G1
+2024-02-27 12:22:21,921 - INFO - Inside instance: G1
+2024-02-27 12:22:21,922 - INFO - pin found : A1
+2024-02-27 12:22:21,923 - INFO - net found : D
+2024-02-27 12:22:21,924 - INFO - It is a port-derived net
+2024-02-27 12:22:21,925 - INFO - Created a VerilogNet object : D
+2024-02-27 12:22:21,926 - INFO - Added the net object to the module.nets
+2024-02-27 12:23:30,198 - INFO - Added the net object to the module ports
+2024-02-27 12:23:30,200 - INFO - pin found : A2
+2024-02-27 12:23:30,201 - INFO - net found : Pin
+2024-02-27 12:23:30,202 - INFO - It is a port-derived net
+2024-02-27 12:23:30,203 - INFO - Created a VerilogNet object : Pin
+2024-02-27 12:23:30,204 - INFO - Added the net object to the module.nets
+2024-02-27 12:23:32,321 - INFO - Added the net object to the module ports
+2024-02-27 12:23:32,322 - INFO - pin found : Z
+2024-02-27 12:23:32,323 - INFO - net found : Pout
+2024-02-27 12:23:32,324 - INFO - It is a port-derived net
+2024-02-27 12:23:32,325 - INFO - Created a VerilogNet object : Pout
+2024-02-27 12:23:32,325 - INFO - Added the net object to the module.nets

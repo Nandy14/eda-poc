@@ -6,9 +6,10 @@ class VerilogModule:
     """
     def __init__(self, name):
         self.name = name
-        self.ports = {"input": [], "output": []}
-        self.instances = []
-        self.nets = []        
+        self.ports = {"input": [], "output": []} 
+        self.instances = [] 
+        self.nets = [] 
+        self.hierarchical_name = ""        
 
     def __str__(self):
         return f"Module: {self.name}"
@@ -34,8 +35,8 @@ class VerilogInstance:
         self.name = name
         self.cell_type = cell_type
         self.ref_name = ref_name
-        self.pins = []
-
+        self.pins = [] #VerilogPin
+        self.hierarchical_name = ""
     def __str__(self):
         return f"Instance: {self.name}, Cell Type: {self.cell_type}, Reference: {self.ref_name}"
 
@@ -112,7 +113,8 @@ class VerilogNet:
         self.net_type = net_type
         self.width = self.parse_width(width)
         self.fanout = 0
-        self.connections = {"startpoint": [], "endpoints": []}
+        # self.connections = {"startpoint": [], "endpoints": []}
+        self.hierarchical_name = ""        
 
     def increment_fanout(self):
         self.fanout += 1
@@ -157,16 +159,15 @@ class VerilogNet:
 
     def __str__(self):
         width_str = f"[{self.width[0]}:{self.width[1]}]" if self.width else ""
-        return f"Net: {self.name}, Type: {self.net_type}, Width:{width_str}, Connections: {self.connections}"
+        return f"Net: {self.name}, Type: {self.net_type}, Width:{width_str}"
 
     def to_dict(self):
         return {
             "name": self.name,
             "net_type": self.net_type,
             "width": self.width,
-            "connections": self.connections
         }
-
+ 
 class VerilogPin:
     '''
     Verilog Pin objects that represents the pins of a VerilogInstance object,
@@ -176,7 +177,8 @@ class VerilogPin:
         self.name = name
         self.direction = direction
         self.instance = instance
-        self.net = net
+        self.net = net 
+        self.hierarchical_name = ""        
 
     def __str__(self):
         net_str = self.net.name if self.net else "None"
@@ -196,30 +198,44 @@ class VerilogPort:
     '''
     def __init__(self, name, direction, width=None):
         self.name = name
-        self.direction = direction
         self.width = VerilogNet.parse_width(width)
         self.net = []
+        self.hierarchical_name = ""
 
     def __str__(self):
         width_str = f"[{self.width[0]}:{self.width[1]}]" if self.width else ""
-        return f"Port: {self.name}, Direction: {self.direction}, Width: {width_str}"
+        return f"Port: {self.name}, Width: {width_str}"
 
     def to_dict(self):
+        net_names = list(set(net.name for net in self.net))  # Get a list of unique net names
         return {
             "name": self.name,
-            "direction": self.direction,
-            "width": self.width
+            "width": self.width,
+            "net": net_names
         }
+
+
+# Precompiled regex patterns
+MODULE_PATTERN = re.compile(r'module (\w+)\s*\(')
+PORT_PATTERN = re.compile(r'\s*(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;]+);', re.DOTALL)
+# PORT_PATTERN = re.compile(r'\s*(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;,]+(?:\([^)]+\))?)\s*(?:[;,]|\s*\/\/.*)', re.DOTALL)
+# PORT_PATTERN = re.compile(r'\s*(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;,]+)(?:[;,]|\s*\/\/.*)', re.DOTALL)
+# PORT_PATTERN = re.compile(r'\s*(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;,]+?)(?:[;,]|\s*\/\/.*)', re.DOTALL)
+NET_PATTERN = re.compile(r'wire\s+((?:\[\d+:\d+\])?\s*\w+\s*(?:,\s*\w+\s*)*);', re.DOTALL)
+INSTANCE_PATTERN = re.compile(r'^\s*(\w+)\s+(\w+)\s*\((?!\s*input\s|\s*output\s|\s*inout\s)')
+PIN_PATTERN = re.compile(r'\.(\w+)\s*\(\s*([^)]+)\s*\)')
+
+# MODULE_PATTERN = re.compile(r'\bmodule\s+(\w+)', re.IGNORECASE)
+# PORT_PATTERN = re.compile(r'(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;]+);', re.DOTALL)
+# PORT_PATTERN = re.compile(r'\b(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;]+);', re.DOTALL)
+# PORT_PATTERN = re.compile(r'\b(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;]+);', re.DOTALL)
+# NET_PATTERN = re.compile(r'\bwire\b(.+?);')
+# INSTANCE_PATTERN = re.compile(r'\b(\w+)\s+(\w+)\s*\(', re.IGNORECASE)
+# PIN_PATTERN = re.compile(r'\.(\w+)\s*\(\s*(\w+|\d+\'[bBhHdDoOnNrRxXzZ\?]+)\s*\)')
+
 
 class GraphNode:
     def __init__(self, name, node_type):
         self.name = name
         self.node_type = node_type
         self.edges = set()
-
-# Precompiled regex patterns
-MODULE_PATTERN = re.compile(r'module (\w+)\s*\(')
-PORT_PATTERN = re.compile(r'(input|output)\s*(?:\[(\d+:\d+)\])?\s*([^;]+);', re.DOTALL)
-NET_PATTERN = re.compile(r'wire\s+((?:\[\d+:\d+\])?\s*\w+\s*(?:,\s*\w+\s*)*);', re.DOTALL)
-INSTANCE_PATTERN = re.compile(r'^\s*(\w+)\s+(\w+)\s*\((?!\s*input\s|\s*output\s|\s*inout\s)')
-PIN_PATTERN = re.compile(r'\.(\w+)\s*\(\s*([^)]+)\s*\)')

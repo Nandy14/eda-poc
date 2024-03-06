@@ -1,0 +1,934 @@
+ {
+        "module_name": "nibble_parity",
+        "ports": {
+            "input": [
+                {
+                    "name": "D",
+                    "width": [
+                        3,
+                        0
+                    ],
+                    "net": [
+                        "D[0]",
+                        "D[2]",
+                        "D[3]",
+                        "D[1]"
+                    ]
+                },
+                {
+                    "name": "EN",
+                    "width": [
+                        3,
+                        0
+                    ],
+                    "net": [
+                        "EN[2]",
+                        "EN[0]",
+                        "EN[1]",
+                        "EN[3]"
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "DP",
+                    "width": [
+                        4,
+                        0
+                    ],
+                    "net": [
+                        "DP[0]",
+                        "DP[4]",
+                        "DP[3]",
+                        "DP[2]",
+                        "DP[1]"
+                    ]
+                }
+            ]
+        },
+        "instances": [
+            {
+                "instance": "p0",
+                "cell_type": "hierarchical",
+                "ref_name": "bit_parity",
+                "pins": [
+                    {
+                        "name": "D",
+                        "direction": null,
+                        "instance": "p0",
+                        "net": "D[0]"
+                    },
+                    {
+                        "name": "Pin",
+                        "direction": null,
+                        "instance": "p0",
+                        "net": "1'b0"
+                    },
+                    {
+                        "name": "Pout",
+                        "direction": null,
+                        "instance": "p0",
+                        "net": "n1"
+                    }
+                ]
+            },
+            {
+                "instance": "mux0",
+                "cell_type": "leaf-level",
+                "ref_name": "CKMUX2SGD1BWP30P140",
+                "pins": [
+                    {
+                        "name": "I0",
+                        "direction": null,
+                        "instance": "mux0",
+                        "net": "1'b0"
+                    },
+                    {
+                        "name": "I1",
+                        "direction": null,
+                        "instance": "mux0",
+                        "net": "n1"
+                    },
+                    {
+                        "name": "S",
+                        "direction": null,
+                        "instance": "mux0",
+                        "net": "EN[0]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "mux0",
+                        "net": "n2"
+                    }
+                ]
+            },
+            {
+                "instance": "p1",
+                "cell_type": "hierarchical",
+                "ref_name": "bit_parity",
+                "pins": [
+                    {
+                        "name": "D",
+                        "direction": null,
+                        "instance": "p1",
+                        "net": "D[1]"
+                    },
+                    {
+                        "name": "Pin",
+                        "direction": null,
+                        "instance": "p1",
+                        "net": "n2"
+                    },
+                    {
+                        "name": "Pout",
+                        "direction": null,
+                        "instance": "p1",
+                        "net": "n3"
+                    }
+                ]
+            },
+            {
+                "instance": "mux1",
+                "cell_type": "leaf-level",
+                "ref_name": "CKMUX2SGD1BWP30P140",
+                "pins": [
+                    {
+                        "name": "I0",
+                        "direction": null,
+                        "instance": "mux1",
+                        "net": "n2"
+                    },
+                    {
+                        "name": "I1",
+                        "direction": null,
+                        "instance": "mux1",
+                        "net": "n3"
+                    },
+                    {
+                        "name": "S",
+                        "direction": null,
+                        "instance": "mux1",
+                        "net": "EN[1]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "mux1",
+                        "net": "n4"
+                    }
+                ]
+            },
+            {
+                "instance": "p2",
+                "cell_type": "hierarchical",
+                "ref_name": "bit_parity",
+                "pins": [
+                    {
+                        "name": "D",
+                        "direction": null,
+                        "instance": "p2",
+                        "net": "D[2]"
+                    },
+                    {
+                        "name": "Pin",
+                        "direction": null,
+                        "instance": "p2",
+                        "net": "n4"
+                    },
+                    {
+                        "name": "Pout",
+                        "direction": null,
+                        "instance": "p2",
+                        "net": "n5"
+                    }
+                ]
+            },
+            {
+                "instance": "mux2",
+                "cell_type": "leaf-level",
+                "ref_name": "CKMUX2SGD1BWP30P140",
+                "pins": [
+                    {
+                        "name": "I0",
+                        "direction": null,
+                        "instance": "mux2",
+                        "net": "n4"
+                    },
+                    {
+                        "name": "I1",
+                        "direction": null,
+                        "instance": "mux2",
+                        "net": "n5"
+                    },
+                    {
+                        "name": "S",
+                        "direction": null,
+                        "instance": "mux2",
+                        "net": "EN[2]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "mux2",
+                        "net": "n6"
+                    }
+                ]
+            },
+            {
+                "instance": "p3",
+                "cell_type": "hierarchical",
+                "ref_name": "bit_parity",
+                "pins": [
+                    {
+                        "name": "D",
+                        "direction": null,
+                        "instance": "p3",
+                        "net": "D[3]"
+                    },
+                    {
+                        "name": "Pin",
+                        "direction": null,
+                        "instance": "p3",
+                        "net": "n6"
+                    },
+                    {
+                        "name": "Pout",
+                        "direction": null,
+                        "instance": "p3",
+                        "net": "n7"
+                    }
+                ]
+            },
+            {
+                "instance": "mux3",
+                "cell_type": "leaf-level",
+                "ref_name": "CKMUX2SGD1BWP30P140",
+                "pins": [
+                    {
+                        "name": "I0",
+                        "direction": null,
+                        "instance": "mux3",
+                        "net": "n6"
+                    },
+                    {
+                        "name": "I1",
+                        "direction": null,
+                        "instance": "mux3",
+                        "net": "n7"
+                    },
+                    {
+                        "name": "S",
+                        "direction": null,
+                        "instance": "mux3",
+                        "net": "EN[3]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "mux3",
+                        "net": "DP[4]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf0",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf0",
+                        "net": "D[0]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf0",
+                        "net": "DP[0]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf1",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf1",
+                        "net": "D[1]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf1",
+                        "net": "DP[1]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf2",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf2",
+                        "net": "D[2]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf2",
+                        "net": "DP[2]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf3",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf3",
+                        "net": "D[3]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf3",
+                        "net": "DP[3]"
+                    }
+                ]
+            }
+        ],
+        "nets": [
+            {
+                "name": "n1",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n2",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n3",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n4",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n5",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n6",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n7",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n8",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "D[0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "EN[0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[1]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "EN[1]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[2]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "EN[2]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[3]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "EN[3]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[4]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[1]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[1]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[2]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[2]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[3]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[3]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "module_name": "byte_parity",
+        "ports": {
+            "input": [
+                {
+                    "name": "D",
+                    "width": [
+                        7,
+                        0
+                    ],
+                    "net": [
+                        "D[7:4]",
+                        "D[3:0]"
+                    ]
+                },
+                {
+                    "name": "EN",
+                    "width": [
+                        7,
+                        0
+                    ],
+                    "net": [
+                        "EN[3:0]",
+                        "EN[7:4]"
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "DP",
+                    "width": [
+                        8,
+                        0
+                    ],
+                    "net": [
+                        "DP[0]",
+                        "DP[4]",
+                        "DP[6]",
+                        "DP[5]",
+                        "DP[7]",
+                        "DP[8]",
+                        "DP[3]",
+                        "DP[2]",
+                        "DP[1]"
+                    ]
+                }
+            ]
+        },
+        "instances": [
+            {
+                "instance": "p0",
+                "cell_type": "hierarchical",
+                "ref_name": "nibble_parity",
+                "pins": [
+                    {
+                        "name": "D",
+                        "direction": null,
+                        "instance": "p0",
+                        "net": "D[3:0]"
+                    },
+                    {
+                        "name": "EN",
+                        "direction": null,
+                        "instance": "p0",
+                        "net": "EN[3:0]"
+                    },
+                    {
+                        "name": "DP",
+                        "direction": null,
+                        "instance": "p0",
+                        "net": "n1"
+                    }
+                ]
+            },
+            {
+                "instance": "p1",
+                "cell_type": "hierarchical",
+                "ref_name": "nibble_parity",
+                "pins": [
+                    {
+                        "name": "D",
+                        "direction": null,
+                        "instance": "p1",
+                        "net": "D[7:4]"
+                    },
+                    {
+                        "name": "EN",
+                        "direction": null,
+                        "instance": "p1",
+                        "net": "EN[7:4]"
+                    },
+                    {
+                        "name": "DP",
+                        "direction": null,
+                        "instance": "p1",
+                        "net": "n2"
+                    }
+                ]
+            },
+            {
+                "instance": "G1",
+                "cell_type": "leaf-level",
+                "ref_name": "XOR2SGD0BWP30P140",
+                "pins": [
+                    {
+                        "name": "A1",
+                        "direction": null,
+                        "instance": "G1",
+                        "net": "n1[4]"
+                    },
+                    {
+                        "name": "A2",
+                        "direction": null,
+                        "instance": "G1",
+                        "net": "n2[4]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "G1",
+                        "net": "DP[8]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf0",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf0",
+                        "net": "n1[0]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf0",
+                        "net": "DP[0]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf1",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf1",
+                        "net": "n1[1]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf1",
+                        "net": "DP[1]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf2",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf2",
+                        "net": "n1[2]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf2",
+                        "net": "DP[2]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf3",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf3",
+                        "net": "n1[3]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf3",
+                        "net": "DP[3]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf4",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf4",
+                        "net": "n2[0]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf4",
+                        "net": "DP[4]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf5",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf5",
+                        "net": "n2[1]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf5",
+                        "net": "DP[5]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf6",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf6",
+                        "net": "n2[2]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf6",
+                        "net": "DP[6]"
+                    }
+                ]
+            },
+            {
+                "instance": "buf7",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "buf7",
+                        "net": "n2[3]"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "buf7",
+                        "net": "DP[7]"
+                    }
+                ]
+            }
+        ],
+        "nets": [
+            {
+                "name": "n1",
+                "net_type": "wire",
+                "width": [
+                    4,
+                    0
+                ]
+            },
+            {
+                "name": "n2",
+                "net_type": "wire",
+                "width": [
+                    4,
+                    0
+                ]
+            },
+            {
+                "name": "n3",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "D[3:0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "EN[3:0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "D[7:4]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "EN[7:4]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[8]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[1]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[2]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[3]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[4]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[5]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[6]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "DP[7]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            }
+        ]
+    }

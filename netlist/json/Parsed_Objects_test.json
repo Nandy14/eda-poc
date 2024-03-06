@@ -1,0 +1,463 @@
+[
+    {
+        "module_name": "FourBitAdder",
+        "ports": {
+            "input": [
+                {
+                    "name": "A",
+                    "width": [
+                        3,
+                        0
+                    ]
+                },
+                {
+                    "name": "B",
+                    "width": [
+                        3,
+                        0
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "SUM",
+                    "width": [
+                        3,
+                        0
+                    ]
+                },
+                {
+                    "name": "COUT)",
+                    "width": null
+                }
+            ]
+        },
+        "instances": [
+            {
+                "instance": "fa0",
+                "cell_type": "hierarchical",
+                "ref_name": "FullAdder",
+                "pins": [
+                    {
+                        "name": "A",
+                        "direction": null,
+                        "instance": "fa0",
+                        "net": "A[0]"
+                    },
+                    {
+                        "name": "B",
+                        "direction": null,
+                        "instance": "fa0",
+                        "net": "B[0]"
+                    },
+                    {
+                        "name": "CIN",
+                        "direction": null,
+                        "instance": "fa0",
+                        "net": "1'b0"
+                    },
+                    {
+                        "name": "SUM",
+                        "direction": null,
+                        "instance": "fa0",
+                        "net": "sum"
+                    },
+                    {
+                        "name": "COUT",
+                        "direction": null,
+                        "instance": "fa0",
+                        "net": "carry[0]"
+                    }
+                ]
+            },
+            {
+                "instance": "fa1",
+                "cell_type": "hierarchical",
+                "ref_name": "FullAdder",
+                "pins": [
+                    {
+                        "name": "A",
+                        "direction": null,
+                        "instance": "fa1",
+                        "net": "A[1]"
+                    },
+                    {
+                        "name": "B",
+                        "direction": null,
+                        "instance": "fa1",
+                        "net": "B[1]"
+                    },
+                    {
+                        "name": "CIN",
+                        "direction": null,
+                        "instance": "fa1",
+                        "net": "carry[0]"
+                    },
+                    {
+                        "name": "SUM",
+                        "direction": null,
+                        "instance": "fa1",
+                        "net": "sum"
+                    },
+                    {
+                        "name": "COUT",
+                        "direction": null,
+                        "instance": "fa1",
+                        "net": "carry[1]"
+                    }
+                ]
+            },
+            {
+                "instance": "fa2",
+                "cell_type": "hierarchical",
+                "ref_name": "FullAdder",
+                "pins": [
+                    {
+                        "name": "A",
+                        "direction": null,
+                        "instance": "fa2",
+                        "net": "A[2]"
+                    },
+                    {
+                        "name": "B",
+                        "direction": null,
+                        "instance": "fa2",
+                        "net": "B[2]"
+                    },
+                    {
+                        "name": "CIN",
+                        "direction": null,
+                        "instance": "fa2",
+                        "net": "carry[1]"
+                    },
+                    {
+                        "name": "SUM",
+                        "direction": null,
+                        "instance": "fa2",
+                        "net": "sum"
+                    },
+                    {
+                        "name": "COUT",
+                        "direction": null,
+                        "instance": "fa2",
+                        "net": "carry[2]"
+                    }
+                ]
+            },
+            {
+                "instance": "fa3",
+                "cell_type": "hierarchical",
+                "ref_name": "FullAdder",
+                "pins": [
+                    {
+                        "name": "A",
+                        "direction": null,
+                        "instance": "fa3",
+                        "net": "A[3]"
+                    },
+                    {
+                        "name": "B",
+                        "direction": null,
+                        "instance": "fa3",
+                        "net": "B[3]"
+                    },
+                    {
+                        "name": "CIN",
+                        "direction": null,
+                        "instance": "fa3",
+                        "net": "carry[2]"
+                    },
+                    {
+                        "name": "SUM",
+                        "direction": null,
+                        "instance": "fa3",
+                        "net": "sum"
+                    },
+                    {
+                        "name": "COUT",
+                        "direction": null,
+                        "instance": "fa3",
+                        "net": null
+                    }
+                ]
+            }
+        ],
+        "nets": [
+            {
+                "name": "carry",
+                "net_type": "wire",
+                "width": [
+                    3,
+                    0
+                ]
+            },
+            {
+                "name": "sum",
+                "net_type": "wire",
+                "width": [
+                    3,
+                    0
+                ]
+            },
+            {
+                "name": "A[0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "B[0]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "A[1]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "B[1]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "A[2]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "B[2]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "A[3]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "B[3]",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "module_name": "FullAdder",
+        "ports": {
+            "input": [
+                {
+                    "name": "A",
+                    "width": null
+                },
+                {
+                    "name": "B",
+                    "width": null
+                },
+                {
+                    "name": "CIN",
+                    "width": null
+                }
+            ],
+            "output": [
+                {
+                    "name": "SUM",
+                    "width": null
+                },
+                {
+                    "name": "COUT)",
+                    "width": null
+                }
+            ]
+        },
+        "instances": [
+            {
+                "instance": "CLK_B1",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "CLK_B1",
+                        "net": "B"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "CLK_B1",
+                        "net": "n1"
+                    }
+                ]
+            },
+            {
+                "instance": "G1",
+                "cell_type": "leaf-level",
+                "ref_name": "XOR2SGD0BWP30P140",
+                "pins": [
+                    {
+                        "name": "A1",
+                        "direction": null,
+                        "instance": "G1",
+                        "net": "A"
+                    },
+                    {
+                        "name": "A2",
+                        "direction": null,
+                        "instance": "G1",
+                        "net": "n1"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "G1",
+                        "net": "n2"
+                    }
+                ]
+            },
+            {
+                "instance": "G2",
+                "cell_type": "leaf-level",
+                "ref_name": "XOR2SGD0BWP30P140",
+                "pins": [
+                    {
+                        "name": "A1",
+                        "direction": null,
+                        "instance": "G2",
+                        "net": "CIN"
+                    },
+                    {
+                        "name": "A2",
+                        "direction": null,
+                        "instance": "G2",
+                        "net": "n2"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "G2",
+                        "net": "n8"
+                    }
+                ]
+            },
+            {
+                "instance": "CLK_B2",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "CLK_B2",
+                        "net": "n8"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "CLK_B2",
+                        "net": "SUM"
+                    }
+                ]
+            },
+            {
+                "instance": "CLK_B3",
+                "cell_type": "leaf-level",
+                "ref_name": "BUFFSGD3BWP30P140HVT",
+                "pins": [
+                    {
+                        "name": "I",
+                        "direction": null,
+                        "instance": "CLK_B3",
+                        "net": "CIN"
+                    },
+                    {
+                        "name": "Z",
+                        "direction": null,
+                        "instance": "CLK_B3",
+                        "net": null
+                    }
+                ]
+            }
+        ],
+        "nets": [
+            {
+                "name": "n1",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n2",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "n8",
+                "net_type": "wire",
+                "width": null
+            },
+            {
+                "name": "B",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "A",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "CIN",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "SUM",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "CIN",
+                "net_type": "port-derived",
+                "width": [
+                    1,
+                    0
+                ]
+            }
+        ]
+    }
+]

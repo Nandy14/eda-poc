@@ -48,62 +48,6 @@ class VerilogInstance:
             "pins": [pin.to_dict() for pin in self.pins]
         }
 
-# class VerilogNet:
-#     '''
-#     Verilog Net object that represents the connection between a port and an Instance pin or between two different Instances(pins) 
-#     '''
-#     def __init__(self, name, net_type, width):
-#         self.name = name
-#         self.net_type = net_type
-#         self.width = self.parse_width(width)
-#         self.fanout = 0
-
-#     def increment_fanout(self):
-#         self.fanout += 1
-
-#     @staticmethod
-#     def parse_width(width_str_or_tuple):
-#         '''
-#         Parses a width specification from a string or tuple into a tuple of integers.
-
-#         It can accept either a string in the format '[x:y]' or a tuple.
-#         If the input is a string, it strips the brackets and whitespace, then splits the string
-#         at the colon to create a tuple of integers. If the input is already a tuple, it returns
-#         it directly. If the input is None or an empty string, it returns None.
-
-#         Args:
-#             width_str_or_tuple (str or tuple): The width specification to be parsed. It can be
-#                                                a string in the format '[x:y]' or a tuple (x, y).
-
-#         Returns:
-#             tuple or None: A tuple of two integers representing the parsed width (x, y) if the
-#                            input is a valid width specification. Returns None if the input is
-#                            None, an empty string, or an invalid format.
-
-#         Example:
-#             parse_width('[3:0]') returns (3, 0)
-#             parse_width((5, 1)) returns (5, 1)
-#             parse_width(None) returns None
-#         '''
-#         if isinstance(width_str_or_tuple, tuple):
-#             return width_str_or_tuple
-#         if width_str_or_tuple:
-#             # Strip the brackets and whitespace, then split it
-#             return tuple(map(int, width_str_or_tuple.strip('[] ').split(':')))
-#         return None
-
-#     def __str__(self):
-#         width_str = f"[{self.width[0]}:{self.width[1]}]" if self.width else ""
-#         return f"Net: {self.name}, Type: {self.net_type}, Width:{width_str}"
-
-#     def to_dict(self):
-#         return {
-#             "name": self.name,
-#             "net_type": self.net_type,
-#             "width": self.width
-#         }
-
-
 class VerilogNet:
     '''
     Verilog Net object that represents the connection between a port and an Instance pin or between two different Instances(pins) 

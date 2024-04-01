@@ -1,0 +1,38 @@
++-------------------------+
+|   Start                 |
++-------------------------+
+|                         |
+|  Load JSON file         |
+|  Get file path          |
+|  Load JSON data         |
+|  Convert to dictionary  |
+|  (module_objects)       |
+|                         |
++-----------+-------------+
+            |
+            v
++-------------------------+
+|   Determine top-level   |
+|   module                |
++-------------------------+
+|                         |
+|  Get top-level module   |
+|  Check if found         |
+|  Print top-level module |
+|  Retrieve instances     |
+|  Generate hierarchical  |
+|  names for top module   |
+|  Print hierarchical     |
+|  names                  |
+|                         |
++-----------+-------------+
+            |
+            v
++-------------------------+
+|   No top-level module   |
+|   found                 |
++-------------------------+
+|                         |
+|  Print error message    |
+|                         |
++-------------------------+

@@ -5510,3 +5510,3135 @@ Continue creating pin I
 2024-02-27 18:21:53,474 - INFO - Net DP[7] added to port_obj
 2024-02-27 18:21:53,474 - INFO - End of module: byte_parity
 2024-02-28 11:04:06,869 - INFO - Main function completed successfully.
+2024-03-06 15:09:32,743 - INFO - Main function called with file path: json/parsed_objects.json
+2024-03-06 15:09:32,748 - INFO - Parsing module templates from the netlist.
+2024-03-06 15:09:32,749 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-06 15:09:34,349 - ERROR - Exception occurred: 'direction'
+2024-03-06 15:09:51,941 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v
+2024-03-06 15:09:51,942 - INFO - Parsing module templates from the netlist.
+2024-03-06 15:09:51,944 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-06 15:09:51,945 - INFO - Module found: bit_parity
+2024-03-06 15:09:51,945 - INFO - Port Found : D
+2024-03-06 15:09:51,946 - INFO - Port Found : Pin
+2024-03-06 15:09:51,946 - INFO - Port Found : Pout
+2024-03-06 15:09:51,946 - INFO - Module found: nibble_parity
+2024-03-06 15:09:51,946 - INFO - Port Found : D
+2024-03-06 15:09:51,946 - INFO - Port Found : EN
+2024-03-06 15:09:51,946 - INFO - Port Found : DP
+2024-03-06 15:09:51,946 - INFO - Module found: byte_parity
+2024-03-06 15:09:51,946 - INFO - Port Found : D
+2024-03-06 15:09:51,946 - INFO - Port Found : EN
+2024-03-06 15:09:51,946 - INFO - Port Found : DP
+2024-03-06 15:09:53,840 - INFO - def parse_netlist function called.
+2024-03-06 15:09:53,841 - INFO - Module found : bit_parity
+2024-03-06 15:09:53,841 - INFO - input Port found : D width .
+2024-03-06 15:09:53,842 - INFO - input Port found : Pin width .
+2024-03-06 15:09:53,842 - INFO - output Port found : Pout width .
+2024-03-06 15:09:53,845 - INFO - New net created: Pout with width None
+2024-03-06 15:09:53,846 - INFO - Instance found : G1
+2024-03-06 15:09:53,847 - INFO - Inside instance: G1
+2024-03-06 15:09:53,847 - INFO - pin found : A1
+2024-03-06 15:09:53,848 - INFO - net found : D
+2024-03-06 15:09:53,849 - INFO - It is a port-derived net
+2024-03-06 15:09:53,850 - INFO - Created a VerilogNet object : D
+2024-03-06 15:09:53,850 - INFO - Added the net object to the module.nets
+2024-03-06 15:09:53,851 - INFO - Added the net object to the module ports
+2024-03-06 15:09:53,851 - INFO - pin found : A2
+2024-03-06 15:09:53,852 - INFO - net found : Pin
+2024-03-06 15:09:53,852 - INFO - It is a port-derived net
+2024-03-06 15:09:53,853 - INFO - Created a VerilogNet object : Pin
+2024-03-06 15:09:53,854 - INFO - Added the net object to the module.nets
+2024-03-06 15:09:53,854 - INFO - Added the net object to the module ports
+2024-03-06 15:09:53,855 - INFO - pin found : Z
+2024-03-06 15:09:53,855 - INFO - net found : Pout
+2024-03-06 15:09:53,855 - INFO - It is a port-derived net
+2024-03-06 15:09:53,856 - INFO - Created a VerilogNet object : Pout
+2024-03-06 15:09:53,856 - INFO - Added the net object to the module.nets
+2024-03-06 15:09:53,857 - INFO - Added the net object to the module ports
+2024-03-06 15:09:53,857 - INFO - End of module: bit_parity
+2024-03-06 15:09:53,858 - INFO - Module found : nibble_parity
+2024-03-06 15:09:53,858 - INFO - input Port found : D width 3:0.
+2024-03-06 15:09:53,862 - INFO - input Port found : EN width 3:0.
+2024-03-06 15:09:53,865 - INFO - output Port found : DP width 4:0.
+2024-03-06 15:09:53,865 - INFO - New net created: n1 with width None
+2024-03-06 15:09:53,866 - INFO - New net created: n2 with width None
+2024-03-06 15:09:53,866 - INFO - New net created: n3 with width None
+2024-03-06 15:09:53,867 - INFO - New net created: n4 with width None
+2024-03-06 15:09:53,868 - INFO - New net created: n5 with width None
+2024-03-06 15:09:53,868 - INFO - New net created: n6 with width None
+2024-03-06 15:09:53,870 - INFO - New net created: n7 with width None
+2024-03-06 15:09:53,871 - INFO - New net created: n8 with width None
+2024-03-06 15:09:53,871 - INFO - Instance found : p0
+2024-03-06 15:09:53,872 - INFO - Inside instance: p0
+2024-03-06 15:09:53,872 - INFO - pin found : D
+2024-03-06 15:09:53,873 - INFO - net found : D[0]
+2024-03-06 15:09:53,882 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-06 15:09:53,883 - INFO - Not a declared or parsed net
+2024-03-06 15:09:53,883 - INFO - It is a port-derived net
+2024-03-06 15:09:53,884 - INFO - p0 Pin D connected to port-derived Net D[0]
+2024-03-06 15:09:53,884 - INFO - New port-derived Net D[0] created
+2024-03-06 15:09:53,885 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-06 15:09:53,885 - INFO - Net D[0] added to port_obj
+2024-03-06 15:09:53,887 - INFO - pin found : Pin
+2024-03-06 15:09:53,887 - INFO - net found : 1'b0
+2024-03-06 15:09:53,889 - INFO - Net name with a constant found 1'b0
+2024-03-06 15:09:53,890 - INFO - Pin Pin connected to a constant 1'b0
+2024-03-06 15:09:53,896 - INFO - Created a VerilogNet object for 1'b0
+2024-03-06 15:09:53,898 - INFO - pin found : Pout
+2024-03-06 15:09:53,901 - INFO - net found : n1
+2024-03-06 15:09:53,902 - INFO - Instance found : mux0
+2024-03-06 15:09:53,902 - INFO - Inside instance: mux0
+2024-03-06 15:09:53,903 - INFO - pin found : I0
+2024-03-06 15:09:53,903 - INFO - net found : 1'b0
+2024-03-06 15:09:53,904 - INFO - Net name with a constant found 1'b0
+2024-03-06 15:09:53,904 - INFO - Pin I0 connected to a constant 1'b0
+2024-03-06 15:09:53,905 - INFO - Created a VerilogNet object for 1'b0
+2024-03-06 15:09:53,906 - INFO - pin found : I1
+2024-03-06 15:09:53,906 - INFO - net found : n1
+2024-03-06 15:09:53,907 - INFO - pin found : S
+2024-03-06 15:09:53,913 - INFO - net found : EN[0]
+2024-03-06 15:09:53,916 - INFO - Extracted net name, start_index, end_index: EN, 0, None
+2024-03-06 15:09:53,916 - INFO - Not a declared or parsed net
+2024-03-06 15:09:53,917 - INFO - It is a port-derived net
+2024-03-06 15:09:53,918 - INFO - mux0 Pin S connected to port-derived Net EN[0]
+2024-03-06 15:09:53,918 - INFO - New port-derived Net EN[0] created
+2024-03-06 15:09:53,920 - INFO - Port-derived Net EN[0] added to current module.nets
+2024-03-06 15:09:53,920 - INFO - Net EN[0] added to port_obj
+2024-03-06 15:09:53,921 - INFO - pin found : Z
+2024-03-06 15:09:53,922 - INFO - net found : n2
+2024-03-06 15:09:53,923 - INFO - Instance found : p1
+2024-03-06 15:09:53,923 - INFO - Inside instance: p1
+2024-03-06 15:09:53,924 - INFO - pin found : D
+2024-03-06 15:09:53,925 - INFO - net found : D[1]
+2024-03-06 15:09:53,931 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-06 15:09:53,933 - INFO - Not a declared or parsed net
+2024-03-06 15:09:53,933 - INFO - It is a port-derived net
+2024-03-06 15:09:53,934 - INFO - p1 Pin D connected to port-derived Net D[1]
+2024-03-06 15:09:53,934 - INFO - New port-derived Net D[1] created
+2024-03-06 15:09:53,935 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-06 15:09:53,936 - INFO - Net D[1] added to port_obj
+2024-03-06 15:09:53,936 - INFO - pin found : Pin
+2024-03-06 15:09:53,937 - INFO - net found : n2
+2024-03-06 15:09:53,937 - INFO - pin found : Pout
+2024-03-06 15:09:53,938 - INFO - net found : n3
+2024-03-06 15:09:53,940 - INFO - Instance found : mux1
+2024-03-06 15:09:53,942 - INFO - Inside instance: mux1
+2024-03-06 15:09:53,943 - INFO - pin found : I0
+2024-03-06 15:09:53,949 - INFO - net found : n2
+2024-03-06 15:09:53,950 - INFO - pin found : I1
+2024-03-06 15:09:53,951 - INFO - net found : n3
+2024-03-06 15:09:53,951 - INFO - pin found : S
+2024-03-06 15:09:53,952 - INFO - net found : EN[1]
+2024-03-06 15:09:53,953 - INFO - Extracted net name, start_index, end_index: EN, 1, None
+2024-03-06 15:09:53,953 - INFO - Not a declared or parsed net
+2024-03-06 15:09:53,954 - INFO - It is a port-derived net
+2024-03-06 15:09:53,955 - INFO - mux1 Pin S connected to port-derived Net EN[1]
+2024-03-06 15:09:53,955 - INFO - New port-derived Net EN[1] created
+2024-03-06 15:09:53,956 - INFO - Port-derived Net EN[1] added to current module.nets
+2024-03-06 15:09:53,958 - INFO - Net EN[1] added to port_obj
+2024-03-06 15:09:53,960 - INFO - pin found : Z
+2024-03-06 15:09:53,965 - INFO - net found : n4
+2024-03-06 15:09:53,966 - INFO - Instance found : p2
+2024-03-06 15:09:53,967 - INFO - Inside instance: p2
+2024-03-06 15:09:53,967 - INFO - pin found : D
+2024-03-06 15:09:53,968 - INFO - net found : D[2]
+2024-03-06 15:09:53,968 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-06 15:09:53,969 - INFO - Not a declared or parsed net
+2024-03-06 15:09:53,969 - INFO - It is a port-derived net
+2024-03-06 15:09:53,970 - INFO - p2 Pin D connected to port-derived Net D[2]
+2024-03-06 15:09:53,971 - INFO - New port-derived Net D[2] created
+2024-03-06 15:09:53,971 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-06 15:09:53,972 - INFO - Net D[2] added to port_obj
+2024-03-06 15:09:53,975 - INFO - pin found : Pin
+2024-03-06 15:09:53,976 - INFO - net found : n4
+2024-03-06 15:09:53,982 - INFO - pin found : Pout
+2024-03-06 15:09:53,983 - INFO - net found : n5
+2024-03-06 15:09:53,984 - INFO - Instance found : mux2
+2024-03-06 15:09:53,984 - INFO - Inside instance: mux2
+2024-03-06 15:09:53,985 - INFO - pin found : I0
+2024-03-06 15:09:53,986 - INFO - net found : n4
+2024-03-06 15:09:53,986 - INFO - pin found : I1
+2024-03-06 15:09:53,987 - INFO - net found : n5
+2024-03-06 15:09:53,987 - INFO - pin found : S
+2024-03-06 15:09:53,988 - INFO - net found : EN[2]
+2024-03-06 15:09:53,988 - INFO - Extracted net name, start_index, end_index: EN, 2, None
+2024-03-06 15:09:53,989 - INFO - Not a declared or parsed net
+2024-03-06 15:09:53,989 - INFO - It is a port-derived net
+2024-03-06 15:09:53,991 - INFO - mux2 Pin S connected to port-derived Net EN[2]
+2024-03-06 15:09:53,992 - INFO - New port-derived Net EN[2] created
+2024-03-06 15:09:53,996 - INFO - Port-derived Net EN[2] added to current module.nets
+2024-03-06 15:09:53,997 - INFO - Net EN[2] added to port_obj
+2024-03-06 15:09:53,998 - INFO - pin found : Z
+2024-03-06 15:09:53,999 - INFO - net found : n6
+2024-03-06 15:09:53,999 - INFO - Instance found : p3
+2024-03-06 15:09:54,000 - INFO - Inside instance: p3
+2024-03-06 15:09:54,001 - INFO - pin found : D
+2024-03-06 15:09:54,002 - INFO - net found : D[3]
+2024-03-06 15:09:54,003 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-06 15:09:54,004 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,004 - INFO - It is a port-derived net
+2024-03-06 15:09:54,005 - INFO - p3 Pin D connected to port-derived Net D[3]
+2024-03-06 15:09:54,006 - INFO - New port-derived Net D[3] created
+2024-03-06 15:09:54,007 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-06 15:09:54,013 - INFO - Net D[3] added to port_obj
+2024-03-06 15:09:54,014 - INFO - pin found : Pin
+2024-03-06 15:09:54,016 - INFO - net found : n6
+2024-03-06 15:09:54,016 - INFO - pin found : Pout
+2024-03-06 15:09:54,017 - INFO - net found : n7
+2024-03-06 15:09:54,018 - INFO - Instance found : mux3
+2024-03-06 15:09:54,019 - INFO - Inside instance: mux3
+2024-03-06 15:09:54,020 - INFO - pin found : I0
+2024-03-06 15:09:54,020 - INFO - net found : n6
+2024-03-06 15:09:54,021 - INFO - pin found : I1
+2024-03-06 15:09:54,021 - INFO - net found : n7
+2024-03-06 15:09:54,021 - INFO - pin found : S
+2024-03-06 15:09:54,023 - INFO - net found : EN[3]
+2024-03-06 15:09:54,025 - INFO - Extracted net name, start_index, end_index: EN, 3, None
+2024-03-06 15:09:54,026 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,031 - INFO - It is a port-derived net
+2024-03-06 15:09:54,033 - INFO - mux3 Pin S connected to port-derived Net EN[3]
+2024-03-06 15:09:54,033 - INFO - New port-derived Net EN[3] created
+2024-03-06 15:09:54,033 - INFO - Port-derived Net EN[3] added to current module.nets
+2024-03-06 15:09:54,034 - INFO - Net EN[3] added to port_obj
+2024-03-06 15:09:54,034 - INFO - pin found : Z
+2024-03-06 15:09:54,036 - INFO - net found : DP[4]
+2024-03-06 15:09:54,036 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-06 15:09:54,036 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,036 - INFO - It is a port-derived net
+2024-03-06 15:09:54,037 - INFO - mux3 Pin Z connected to port-derived Net DP[4]
+2024-03-06 15:09:54,038 - INFO - New port-derived Net DP[4] created
+2024-03-06 15:09:54,038 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-06 15:09:54,039 - INFO - Net DP[4] added to port_obj
+2024-03-06 15:09:54,040 - INFO - Instance found : buf0
+2024-03-06 15:09:54,041 - INFO - Inside instance: buf0
+2024-03-06 15:09:54,046 - INFO - pin found : I
+2024-03-06 15:09:54,049 - INFO - net found : D[0]
+2024-03-06 15:09:54,050 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-06 15:09:54,050 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,051 - INFO - It is a port-derived net
+2024-03-06 15:09:54,052 - INFO - buf0 Pin I connected to port-derived Net D[0]
+2024-03-06 15:09:54,053 - INFO - New port-derived Net D[0] created
+2024-03-06 15:09:54,054 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-06 15:09:54,055 - INFO - Net D[0] added to port_obj
+2024-03-06 15:09:54,055 - INFO - pin found : Z
+2024-03-06 15:09:54,056 - INFO - net found : DP[0]
+2024-03-06 15:09:54,065 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-06 15:09:54,068 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,069 - INFO - It is a port-derived net
+2024-03-06 15:09:54,070 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-06 15:09:54,070 - INFO - New port-derived Net DP[0] created
+2024-03-06 15:09:54,071 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-06 15:09:54,072 - INFO - Net DP[0] added to port_obj
+2024-03-06 15:09:54,073 - INFO - Instance found : buf1
+2024-03-06 15:09:54,073 - INFO - Inside instance: buf1
+2024-03-06 15:09:54,073 - INFO - pin found : I
+2024-03-06 15:09:54,074 - INFO - net found : D[1]
+2024-03-06 15:09:54,074 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-06 15:09:54,075 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,082 - INFO - It is a port-derived net
+2024-03-06 15:09:54,083 - INFO - buf1 Pin I connected to port-derived Net D[1]
+2024-03-06 15:09:54,085 - INFO - New port-derived Net D[1] created
+2024-03-06 15:09:54,086 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-06 15:09:54,087 - INFO - Net D[1] added to port_obj
+2024-03-06 15:09:54,087 - INFO - pin found : Z
+2024-03-06 15:09:54,088 - INFO - net found : DP[1]
+2024-03-06 15:09:54,089 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-06 15:09:54,089 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,089 - INFO - It is a port-derived net
+2024-03-06 15:09:54,090 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-06 15:09:54,091 - INFO - New port-derived Net DP[1] created
+2024-03-06 15:09:54,098 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-06 15:09:54,099 - INFO - Net DP[1] added to port_obj
+2024-03-06 15:09:54,101 - INFO - Instance found : buf2
+2024-03-06 15:09:54,102 - INFO - Inside instance: buf2
+2024-03-06 15:09:54,102 - INFO - pin found : I
+2024-03-06 15:09:54,103 - INFO - net found : D[2]
+2024-03-06 15:09:54,104 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-06 15:09:54,104 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,105 - INFO - It is a port-derived net
+2024-03-06 15:09:54,105 - INFO - buf2 Pin I connected to port-derived Net D[2]
+2024-03-06 15:09:54,106 - INFO - New port-derived Net D[2] created
+2024-03-06 15:09:54,106 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-06 15:09:54,107 - INFO - Net D[2] added to port_obj
+2024-03-06 15:09:54,108 - INFO - pin found : Z
+2024-03-06 15:09:54,108 - INFO - net found : DP[2]
+2024-03-06 15:09:54,109 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-06 15:09:54,115 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,116 - INFO - It is a port-derived net
+2024-03-06 15:09:54,118 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-06 15:09:54,120 - INFO - New port-derived Net DP[2] created
+2024-03-06 15:09:54,120 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-06 15:09:54,120 - INFO - Net DP[2] added to port_obj
+2024-03-06 15:09:54,120 - INFO - Instance found : buf3
+2024-03-06 15:09:54,121 - INFO - Inside instance: buf3
+2024-03-06 15:09:54,121 - INFO - pin found : I
+2024-03-06 15:09:54,122 - INFO - net found : D[3]
+2024-03-06 15:09:54,122 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-06 15:09:54,123 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,124 - INFO - It is a port-derived net
+2024-03-06 15:09:54,126 - INFO - buf3 Pin I connected to port-derived Net D[3]
+2024-03-06 15:09:54,131 - INFO - New port-derived Net D[3] created
+2024-03-06 15:09:54,132 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-06 15:09:54,134 - INFO - Net D[3] added to port_obj
+2024-03-06 15:09:54,135 - INFO - pin found : Z
+2024-03-06 15:09:54,136 - INFO - net found : DP[3]
+2024-03-06 15:09:54,137 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-06 15:09:54,138 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,138 - INFO - It is a port-derived net
+2024-03-06 15:09:54,139 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-06 15:09:54,139 - INFO - New port-derived Net DP[3] created
+2024-03-06 15:09:54,140 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-06 15:09:54,142 - INFO - Net DP[3] added to port_obj
+2024-03-06 15:09:54,142 - INFO - End of module: nibble_parity
+2024-03-06 15:09:54,152 - INFO - Module found : byte_parity
+2024-03-06 15:09:54,153 - INFO - input Port found : D width 7:0.
+2024-03-06 15:09:54,154 - INFO - input Port found : EN width 7:0.
+2024-03-06 15:09:54,155 - INFO - output Port found : DP width 8:0.
+2024-03-06 15:09:54,155 - INFO - New net created: n1 with width [4:0]
+2024-03-06 15:09:54,155 - INFO - New net created: n2 with width [4:0]
+2024-03-06 15:09:54,155 - INFO - New net created: n3 with width None
+2024-03-06 15:09:54,156 - INFO - Instance found : p0
+2024-03-06 15:09:54,156 - INFO - Inside instance: p0
+2024-03-06 15:09:54,158 - INFO - pin found : D
+2024-03-06 15:09:54,164 - INFO - net found : D[3:0]
+2024-03-06 15:09:54,165 - INFO - Extracted net name, start_index, end_index: D, 3, 0
+2024-03-06 15:09:54,167 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,168 - INFO - It is a port-derived net
+2024-03-06 15:09:54,168 - INFO - p0 Pin D connected to port-derived Net D[3:0]
+2024-03-06 15:09:54,169 - INFO - New port-derived Net D[3:0] created
+2024-03-06 15:09:54,169 - INFO - Port-derived Net D[3:0] added to current module.nets
+2024-03-06 15:09:54,170 - INFO - Net D[3:0] added to port_obj
+2024-03-06 15:09:54,170 - INFO - pin found : EN
+2024-03-06 15:09:54,171 - INFO - net found : EN[3:0]
+2024-03-06 15:09:54,171 - INFO - Extracted net name, start_index, end_index: EN, 3, 0
+2024-03-06 15:09:54,172 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,174 - INFO - It is a port-derived net
+2024-03-06 15:09:54,175 - INFO - p0 Pin EN connected to port-derived Net EN[3:0]
+2024-03-06 15:09:54,175 - INFO - New port-derived Net EN[3:0] created
+2024-03-06 15:09:54,176 - INFO - Port-derived Net EN[3:0] added to current module.nets
+2024-03-06 15:09:54,181 - INFO - Net EN[3:0] added to port_obj
+2024-03-06 15:09:54,182 - INFO - pin found : DP
+2024-03-06 15:09:54,184 - INFO - net found : n1
+2024-03-06 15:09:54,185 - INFO - Instance found : p1
+2024-03-06 15:09:54,185 - INFO - Inside instance: p1
+2024-03-06 15:09:54,185 - INFO - pin found : D
+2024-03-06 15:09:54,186 - INFO - net found : D[7:4]
+2024-03-06 15:09:54,186 - INFO - Extracted net name, start_index, end_index: D, 7, 4
+2024-03-06 15:09:54,187 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,188 - INFO - It is a port-derived net
+2024-03-06 15:09:54,188 - INFO - p1 Pin D connected to port-derived Net D[7:4]
+2024-03-06 15:09:54,190 - INFO - New port-derived Net D[7:4] created
+2024-03-06 15:09:54,191 - INFO - Port-derived Net D[7:4] added to current module.nets
+2024-03-06 15:09:54,191 - INFO - Net D[7:4] added to port_obj
+2024-03-06 15:09:54,192 - INFO - pin found : EN
+2024-03-06 15:09:54,192 - INFO - net found : EN[7:4]
+2024-03-06 15:09:54,199 - INFO - Extracted net name, start_index, end_index: EN, 7, 4
+2024-03-06 15:09:54,200 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,201 - INFO - It is a port-derived net
+2024-03-06 15:09:54,202 - INFO - p1 Pin EN connected to port-derived Net EN[7:4]
+2024-03-06 15:09:54,202 - INFO - New port-derived Net EN[7:4] created
+2024-03-06 15:09:54,203 - INFO - Port-derived Net EN[7:4] added to current module.nets
+2024-03-06 15:09:54,203 - INFO - Net EN[7:4] added to port_obj
+2024-03-06 15:09:54,205 - INFO - pin found : DP
+2024-03-06 15:09:54,205 - INFO - net found : n2
+2024-03-06 15:09:54,207 - INFO - Instance found : G1
+2024-03-06 15:09:54,207 - INFO - Inside instance: G1
+2024-03-06 15:09:54,214 - INFO - pin found : A1
+2024-03-06 15:09:54,214 - INFO - net found : n1[4]
+2024-03-06 15:09:54,216 - INFO - Extracted net name, start_index, end_index: n1, 4, None
+2024-03-06 15:09:54,218 - INFO - Already declared and parsed net : n1
+2024-03-06 15:09:54,218 - INFO - No matching port found for declared net n1[4] 
+Continue creating pin A1
+2024-03-06 15:09:54,219 - INFO - Created a VerilogNet object for n1[4]
+2024-03-06 15:09:54,220 - INFO - pin found : A2
+2024-03-06 15:09:54,225 - INFO - net found : n2[4]
+2024-03-06 15:09:54,225 - INFO - Extracted net name, start_index, end_index: n2, 4, None
+2024-03-06 15:09:54,226 - INFO - Already declared and parsed net : n2
+2024-03-06 15:09:54,234 - INFO - No matching port found for declared net n2[4] 
+Continue creating pin A2
+2024-03-06 15:09:54,235 - INFO - Created a VerilogNet object for n2[4]
+2024-03-06 15:09:54,236 - INFO - pin found : Z
+2024-03-06 15:09:54,236 - INFO - net found : DP[8]
+2024-03-06 15:09:54,236 - INFO - Extracted net name, start_index, end_index: DP, 8, None
+2024-03-06 15:09:54,237 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,237 - INFO - It is a port-derived net
+2024-03-06 15:09:54,238 - INFO - G1 Pin Z connected to port-derived Net DP[8]
+2024-03-06 15:09:54,239 - INFO - New port-derived Net DP[8] created
+2024-03-06 15:09:54,239 - INFO - Port-derived Net DP[8] added to current module.nets
+2024-03-06 15:09:54,240 - INFO - Net DP[8] added to port_obj
+2024-03-06 15:09:54,240 - INFO - Instance found : buf0
+2024-03-06 15:09:54,241 - INFO - Inside instance: buf0
+2024-03-06 15:09:54,242 - INFO - pin found : I
+2024-03-06 15:09:54,246 - INFO - net found : n1[0]
+2024-03-06 15:09:54,247 - INFO - Extracted net name, start_index, end_index: n1, 0, None
+2024-03-06 15:09:54,248 - INFO - Already declared and parsed net : n1
+2024-03-06 15:09:54,250 - INFO - No matching port found for declared net n1[0] 
+Continue creating pin I
+2024-03-06 15:09:54,250 - INFO - Created a VerilogNet object for n1[0]
+2024-03-06 15:09:54,251 - INFO - pin found : Z
+2024-03-06 15:09:54,252 - INFO - net found : DP[0]
+2024-03-06 15:09:54,252 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-06 15:09:54,253 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,253 - INFO - It is a port-derived net
+2024-03-06 15:09:54,254 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-06 15:09:54,254 - INFO - New port-derived Net DP[0] created
+2024-03-06 15:09:54,255 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-06 15:09:54,256 - INFO - Net DP[0] added to port_obj
+2024-03-06 15:09:54,256 - INFO - Instance found : buf1
+2024-03-06 15:09:54,256 - INFO - Inside instance: buf1
+2024-03-06 15:09:54,257 - INFO - pin found : I
+2024-03-06 15:09:54,257 - INFO - net found : n1[1]
+2024-03-06 15:09:54,259 - INFO - Extracted net name, start_index, end_index: n1, 1, None
+2024-03-06 15:09:54,264 - INFO - Already declared and parsed net : n1
+2024-03-06 15:09:54,265 - INFO - No matching port found for declared net n1[1] 
+Continue creating pin I
+2024-03-06 15:09:54,267 - INFO - Created a VerilogNet object for n1[1]
+2024-03-06 15:09:54,268 - INFO - pin found : Z
+2024-03-06 15:09:54,269 - INFO - net found : DP[1]
+2024-03-06 15:09:54,270 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-06 15:09:54,270 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,271 - INFO - It is a port-derived net
+2024-03-06 15:09:54,271 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-06 15:09:54,272 - INFO - New port-derived Net DP[1] created
+2024-03-06 15:09:54,272 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-06 15:09:54,273 - INFO - Net DP[1] added to port_obj
+2024-03-06 15:09:54,273 - INFO - Instance found : buf2
+2024-03-06 15:09:54,275 - INFO - Inside instance: buf2
+2024-03-06 15:09:54,276 - INFO - pin found : I
+2024-03-06 15:09:54,280 - INFO - net found : n1[2]
+2024-03-06 15:09:54,282 - INFO - Extracted net name, start_index, end_index: n1, 2, None
+2024-03-06 15:09:54,283 - INFO - Already declared and parsed net : n1
+2024-03-06 15:09:54,286 - INFO - No matching port found for declared net n1[2] 
+Continue creating pin I
+2024-03-06 15:09:54,286 - INFO - Created a VerilogNet object for n1[2]
+2024-03-06 15:09:54,287 - INFO - pin found : Z
+2024-03-06 15:09:54,287 - INFO - net found : DP[2]
+2024-03-06 15:09:54,288 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-06 15:09:54,289 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,289 - INFO - It is a port-derived net
+2024-03-06 15:09:54,289 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-06 15:09:54,290 - INFO - New port-derived Net DP[2] created
+2024-03-06 15:09:54,290 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-06 15:09:54,291 - INFO - Net DP[2] added to port_obj
+2024-03-06 15:09:54,291 - INFO - Instance found : buf3
+2024-03-06 15:09:54,292 - INFO - Inside instance: buf3
+2024-03-06 15:09:54,299 - INFO - pin found : I
+2024-03-06 15:09:54,301 - INFO - net found : n1[3]
+2024-03-06 15:09:54,302 - INFO - Extracted net name, start_index, end_index: n1, 3, None
+2024-03-06 15:09:54,302 - INFO - Already declared and parsed net : n1
+2024-03-06 15:09:54,303 - INFO - No matching port found for declared net n1[3] 
+Continue creating pin I
+2024-03-06 15:09:54,303 - INFO - Created a VerilogNet object for n1[3]
+2024-03-06 15:09:54,304 - INFO - pin found : Z
+2024-03-06 15:09:54,304 - INFO - net found : DP[3]
+2024-03-06 15:09:54,305 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-06 15:09:54,305 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,306 - INFO - It is a port-derived net
+2024-03-06 15:09:54,306 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-06 15:09:54,306 - INFO - New port-derived Net DP[3] created
+2024-03-06 15:09:54,307 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-06 15:09:54,307 - INFO - Net DP[3] added to port_obj
+2024-03-06 15:09:54,308 - INFO - Instance found : buf4
+2024-03-06 15:09:54,308 - INFO - Inside instance: buf4
+2024-03-06 15:09:54,310 - INFO - pin found : I
+2024-03-06 15:09:54,316 - INFO - net found : n2[0]
+2024-03-06 15:09:54,317 - INFO - Extracted net name, start_index, end_index: n2, 0, None
+2024-03-06 15:09:54,317 - INFO - Already declared and parsed net : n2
+2024-03-06 15:09:54,319 - INFO - No matching port found for declared net n2[0] 
+Continue creating pin I
+2024-03-06 15:09:54,319 - INFO - Created a VerilogNet object for n2[0]
+2024-03-06 15:09:54,319 - INFO - pin found : Z
+2024-03-06 15:09:54,320 - INFO - net found : DP[4]
+2024-03-06 15:09:54,320 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-06 15:09:54,321 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,321 - INFO - It is a port-derived net
+2024-03-06 15:09:54,322 - INFO - buf4 Pin Z connected to port-derived Net DP[4]
+2024-03-06 15:09:54,322 - INFO - New port-derived Net DP[4] created
+2024-03-06 15:09:54,323 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-06 15:09:54,324 - INFO - Net DP[4] added to port_obj
+2024-03-06 15:09:54,325 - INFO - Instance found : buf5
+2024-03-06 15:09:54,325 - INFO - Inside instance: buf5
+2024-03-06 15:09:54,326 - INFO - pin found : I
+2024-03-06 15:09:54,326 - INFO - net found : n2[1]
+2024-03-06 15:09:54,332 - INFO - Extracted net name, start_index, end_index: n2, 1, None
+2024-03-06 15:09:54,333 - INFO - Already declared and parsed net : n2
+2024-03-06 15:09:54,335 - INFO - No matching port found for declared net n2[1] 
+Continue creating pin I
+2024-03-06 15:09:54,335 - INFO - Created a VerilogNet object for n2[1]
+2024-03-06 15:09:54,336 - INFO - pin found : Z
+2024-03-06 15:09:54,337 - INFO - net found : DP[5]
+2024-03-06 15:09:54,338 - INFO - Extracted net name, start_index, end_index: DP, 5, None
+2024-03-06 15:09:54,338 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,339 - INFO - It is a port-derived net
+2024-03-06 15:09:54,339 - INFO - buf5 Pin Z connected to port-derived Net DP[5]
+2024-03-06 15:09:54,341 - INFO - New port-derived Net DP[5] created
+2024-03-06 15:09:54,342 - INFO - Port-derived Net DP[5] added to current module.nets
+2024-03-06 15:09:54,343 - INFO - Net DP[5] added to port_obj
+2024-03-06 15:09:54,350 - INFO - Instance found : buf6
+2024-03-06 15:09:54,352 - INFO - Inside instance: buf6
+2024-03-06 15:09:54,352 - INFO - pin found : I
+2024-03-06 15:09:54,353 - INFO - net found : n2[2]
+2024-03-06 15:09:54,353 - INFO - Extracted net name, start_index, end_index: n2, 2, None
+2024-03-06 15:09:54,354 - INFO - Already declared and parsed net : n2
+2024-03-06 15:09:54,355 - INFO - No matching port found for declared net n2[2] 
+Continue creating pin I
+2024-03-06 15:09:54,355 - INFO - Created a VerilogNet object for n2[2]
+2024-03-06 15:09:54,356 - INFO - pin found : Z
+2024-03-06 15:09:54,356 - INFO - net found : DP[6]
+2024-03-06 15:09:54,357 - INFO - Extracted net name, start_index, end_index: DP, 6, None
+2024-03-06 15:09:54,357 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,359 - INFO - It is a port-derived net
+2024-03-06 15:09:54,365 - INFO - buf6 Pin Z connected to port-derived Net DP[6]
+2024-03-06 15:09:54,368 - INFO - New port-derived Net DP[6] created
+2024-03-06 15:09:54,369 - INFO - Port-derived Net DP[6] added to current module.nets
+2024-03-06 15:09:54,369 - INFO - Net DP[6] added to port_obj
+2024-03-06 15:09:54,369 - INFO - Instance found : buf7
+2024-03-06 15:09:54,370 - INFO - Inside instance: buf7
+2024-03-06 15:09:54,370 - INFO - pin found : I
+2024-03-06 15:09:54,371 - INFO - net found : n2[3]
+2024-03-06 15:09:54,371 - INFO - Extracted net name, start_index, end_index: n2, 3, None
+2024-03-06 15:09:54,372 - INFO - Already declared and parsed net : n2
+2024-03-06 15:09:54,373 - INFO - No matching port found for declared net n2[3] 
+Continue creating pin I
+2024-03-06 15:09:54,375 - INFO - Created a VerilogNet object for n2[3]
+2024-03-06 15:09:54,383 - INFO - pin found : Z
+2024-03-06 15:09:54,384 - INFO - net found : DP[7]
+2024-03-06 15:09:54,385 - INFO - Extracted net name, start_index, end_index: DP, 7, None
+2024-03-06 15:09:54,385 - INFO - Not a declared or parsed net
+2024-03-06 15:09:54,386 - INFO - It is a port-derived net
+2024-03-06 15:09:54,386 - INFO - buf7 Pin Z connected to port-derived Net DP[7]
+2024-03-06 15:09:54,387 - INFO - New port-derived Net DP[7] created
+2024-03-06 15:09:54,387 - INFO - Port-derived Net DP[7] added to current module.nets
+2024-03-06 15:09:54,388 - INFO - Net DP[7] added to port_obj
+2024-03-06 15:09:54,388 - INFO - End of module: byte_parity
+2024-03-06 15:09:59,680 - INFO - Main function completed successfully.
+2024-03-07 15:07:47,582 - INFO - Main function called with file path: 
+2024-03-07 15:07:47,588 - INFO - Parsing module templates from the netlist.
+2024-03-07 15:07:47,589 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-07 15:07:47,589 - ERROR - The file at  was not found.
+2024-03-07 15:07:47,589 - ERROR - FileNotFoundError: The file '' was not found.
+2024-03-07 15:08:02,394 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v.1.txt.v
+2024-03-07 15:08:02,402 - INFO - Parsing module templates from the netlist.
+2024-03-07 15:08:02,403 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-07 15:08:02,404 - INFO - Module found: bit_parity
+2024-03-07 15:08:02,404 - INFO - Port Found : D
+2024-03-07 15:08:02,404 - INFO - Port Found : Pin
+2024-03-07 15:08:02,404 - INFO - Port Found : Pout
+2024-03-07 15:08:02,405 - INFO - Module found: nibble_parity
+2024-03-07 15:08:02,405 - INFO - Port Found : D
+2024-03-07 15:08:02,405 - INFO - Port Found : EN
+2024-03-07 15:08:02,405 - INFO - Port Found : DP
+2024-03-07 15:08:02,405 - INFO - Module found: byte_parity
+2024-03-07 15:08:02,406 - INFO - Port Found : D
+2024-03-07 15:08:02,406 - INFO - Port Found : EN
+2024-03-07 15:08:02,406 - INFO - Port Found : DP
+2024-03-07 15:08:04,800 - INFO - def parse_netlist function called.
+2024-03-07 15:08:04,801 - INFO - Module found : bit_parity
+2024-03-07 15:08:04,802 - INFO - input Port found : D width .
+2024-03-07 15:08:04,802 - INFO - input Port found : Pin width .
+2024-03-07 15:08:04,803 - INFO - output Port found : Pout width .
+2024-03-07 15:08:04,804 - INFO - New net created: Pout with width None
+2024-03-07 15:08:04,805 - INFO - Instance found : G1
+2024-03-07 15:08:04,805 - INFO - Inside instance: G1
+2024-03-07 15:08:04,806 - INFO - pin found : A1
+2024-03-07 15:08:04,807 - INFO - net found : D
+2024-03-07 15:08:04,808 - INFO - It is a port-derived net
+2024-03-07 15:08:04,808 - INFO - Created a VerilogNet object : D
+2024-03-07 15:08:04,809 - INFO - Added the net object to the module.nets
+2024-03-07 15:08:04,809 - INFO - Added the net object to the module ports
+2024-03-07 15:08:04,811 - INFO - pin found : A2
+2024-03-07 15:08:04,821 - INFO - net found : Pin
+2024-03-07 15:08:04,823 - INFO - It is a port-derived net
+2024-03-07 15:08:04,823 - INFO - Created a VerilogNet object : Pin
+2024-03-07 15:08:04,824 - INFO - Added the net object to the module.nets
+2024-03-07 15:08:04,825 - INFO - Added the net object to the module ports
+2024-03-07 15:08:04,826 - INFO - pin found : Z
+2024-03-07 15:08:04,826 - INFO - net found : Pout
+2024-03-07 15:08:04,827 - INFO - It is a port-derived net
+2024-03-07 15:08:04,828 - INFO - Created a VerilogNet object : Pout
+2024-03-07 15:08:04,830 - INFO - Added the net object to the module.nets
+2024-03-07 15:08:04,832 - INFO - Added the net object to the module ports
+2024-03-07 15:08:04,833 - INFO - End of module: bit_parity
+2024-03-07 15:08:04,834 - INFO - Module found : nibble_parity
+2024-03-07 15:08:04,835 - INFO - input Port found : D width 3:0.
+2024-03-07 15:08:04,836 - INFO - input Port found : EN width 3:0.
+2024-03-07 15:08:04,836 - INFO - output Port found : DP width 4:0.
+2024-03-07 15:08:04,837 - INFO - New net created: n1 with width None
+2024-03-07 15:08:04,837 - INFO - New net created: n2 with width None
+2024-03-07 15:08:04,839 - INFO - New net created: n3 with width None
+2024-03-07 15:08:04,840 - INFO - New net created: n4 with width None
+2024-03-07 15:08:04,840 - INFO - New net created: n5 with width None
+2024-03-07 15:08:04,841 - INFO - New net created: n6 with width None
+2024-03-07 15:08:04,842 - INFO - New net created: n7 with width None
+2024-03-07 15:08:04,842 - INFO - New net created: n8 with width None
+2024-03-07 15:08:04,843 - INFO - Instance found : p0
+2024-03-07 15:08:04,843 - INFO - Inside instance: p0
+2024-03-07 15:08:04,844 - INFO - pin found : D
+2024-03-07 15:08:04,847 - INFO - net found : D[0]
+2024-03-07 15:08:04,850 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-07 15:08:04,851 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,852 - INFO - It is a port-derived net
+2024-03-07 15:08:04,854 - INFO - p0 Pin D connected to port-derived Net D[0]
+2024-03-07 15:08:04,854 - INFO - New port-derived Net D[0] created
+2024-03-07 15:08:04,854 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-07 15:08:04,855 - INFO - Net D[0] added to port_obj
+2024-03-07 15:08:04,856 - INFO - pin found : Pin
+2024-03-07 15:08:04,858 - INFO - net found : 1'b0
+2024-03-07 15:08:04,858 - INFO - Net name with a constant found 1'b0
+2024-03-07 15:08:04,860 - INFO - Pin Pin connected to a constant 1'b0
+2024-03-07 15:08:04,860 - INFO - Created a VerilogNet object for 1'b0
+2024-03-07 15:08:04,866 - INFO - pin found : Pout
+2024-03-07 15:08:04,868 - INFO - net found : n1
+2024-03-07 15:08:04,870 - INFO - Instance found : mux0
+2024-03-07 15:08:04,873 - INFO - Inside instance: mux0
+2024-03-07 15:08:04,875 - INFO - pin found : I0
+2024-03-07 15:08:04,876 - INFO - net found : 1'b0
+2024-03-07 15:08:04,878 - INFO - Net name with a constant found 1'b0
+2024-03-07 15:08:04,884 - INFO - Pin I0 connected to a constant 1'b0
+2024-03-07 15:08:04,884 - INFO - Created a VerilogNet object for 1'b0
+2024-03-07 15:08:04,887 - INFO - pin found : I1
+2024-03-07 15:08:04,888 - INFO - net found : n1
+2024-03-07 15:08:04,888 - INFO - pin found : S
+2024-03-07 15:08:04,888 - INFO - net found : EN[0]
+2024-03-07 15:08:04,889 - INFO - Extracted net name, start_index, end_index: EN, 0, None
+2024-03-07 15:08:04,890 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,891 - INFO - It is a port-derived net
+2024-03-07 15:08:04,892 - INFO - mux0 Pin S connected to port-derived Net EN[0]
+2024-03-07 15:08:04,893 - INFO - New port-derived Net EN[0] created
+2024-03-07 15:08:04,893 - INFO - Port-derived Net EN[0] added to current module.nets
+2024-03-07 15:08:04,894 - INFO - Net EN[0] added to port_obj
+2024-03-07 15:08:04,897 - INFO - pin found : Z
+2024-03-07 15:08:04,900 - INFO - net found : n2
+2024-03-07 15:08:04,902 - INFO - Instance found : p1
+2024-03-07 15:08:04,904 - INFO - Inside instance: p1
+2024-03-07 15:08:04,905 - INFO - pin found : D
+2024-03-07 15:08:04,905 - INFO - net found : D[1]
+2024-03-07 15:08:04,907 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-07 15:08:04,907 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,907 - INFO - It is a port-derived net
+2024-03-07 15:08:04,909 - INFO - p1 Pin D connected to port-derived Net D[1]
+2024-03-07 15:08:04,909 - INFO - New port-derived Net D[1] created
+2024-03-07 15:08:04,909 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-07 15:08:04,910 - INFO - Net D[1] added to port_obj
+2024-03-07 15:08:04,910 - INFO - pin found : Pin
+2024-03-07 15:08:04,911 - INFO - net found : n2
+2024-03-07 15:08:04,912 - INFO - pin found : Pout
+2024-03-07 15:08:04,914 - INFO - net found : n3
+2024-03-07 15:08:04,916 - INFO - Instance found : mux1
+2024-03-07 15:08:04,917 - INFO - Inside instance: mux1
+2024-03-07 15:08:04,917 - INFO - pin found : I0
+2024-03-07 15:08:04,919 - INFO - net found : n2
+2024-03-07 15:08:04,920 - INFO - pin found : I1
+2024-03-07 15:08:04,921 - INFO - net found : n3
+2024-03-07 15:08:04,921 - INFO - pin found : S
+2024-03-07 15:08:04,922 - INFO - net found : EN[1]
+2024-03-07 15:08:04,923 - INFO - Extracted net name, start_index, end_index: EN, 1, None
+2024-03-07 15:08:04,924 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,924 - INFO - It is a port-derived net
+2024-03-07 15:08:04,925 - INFO - mux1 Pin S connected to port-derived Net EN[1]
+2024-03-07 15:08:04,925 - INFO - New port-derived Net EN[1] created
+2024-03-07 15:08:04,926 - INFO - Port-derived Net EN[1] added to current module.nets
+2024-03-07 15:08:04,926 - INFO - Net EN[1] added to port_obj
+2024-03-07 15:08:04,927 - INFO - pin found : Z
+2024-03-07 15:08:04,927 - INFO - net found : n4
+2024-03-07 15:08:04,928 - INFO - Instance found : p2
+2024-03-07 15:08:04,931 - INFO - Inside instance: p2
+2024-03-07 15:08:04,932 - INFO - pin found : D
+2024-03-07 15:08:04,934 - INFO - net found : D[2]
+2024-03-07 15:08:04,936 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-07 15:08:04,937 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,937 - INFO - It is a port-derived net
+2024-03-07 15:08:04,938 - INFO - p2 Pin D connected to port-derived Net D[2]
+2024-03-07 15:08:04,939 - INFO - New port-derived Net D[2] created
+2024-03-07 15:08:04,940 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-07 15:08:04,940 - INFO - Net D[2] added to port_obj
+2024-03-07 15:08:04,941 - INFO - pin found : Pin
+2024-03-07 15:08:04,942 - INFO - net found : n4
+2024-03-07 15:08:04,942 - INFO - pin found : Pout
+2024-03-07 15:08:04,942 - INFO - net found : n5
+2024-03-07 15:08:04,943 - INFO - Instance found : mux2
+2024-03-07 15:08:04,943 - INFO - Inside instance: mux2
+2024-03-07 15:08:04,944 - INFO - pin found : I0
+2024-03-07 15:08:04,944 - INFO - net found : n4
+2024-03-07 15:08:04,955 - INFO - pin found : I1
+2024-03-07 15:08:04,955 - INFO - net found : n5
+2024-03-07 15:08:04,956 - INFO - pin found : S
+2024-03-07 15:08:04,957 - INFO - net found : EN[2]
+2024-03-07 15:08:04,957 - INFO - Extracted net name, start_index, end_index: EN, 2, None
+2024-03-07 15:08:04,959 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,960 - INFO - It is a port-derived net
+2024-03-07 15:08:04,960 - INFO - mux2 Pin S connected to port-derived Net EN[2]
+2024-03-07 15:08:04,961 - INFO - New port-derived Net EN[2] created
+2024-03-07 15:08:04,962 - INFO - Port-derived Net EN[2] added to current module.nets
+2024-03-07 15:08:04,967 - INFO - Net EN[2] added to port_obj
+2024-03-07 15:08:04,967 - INFO - pin found : Z
+2024-03-07 15:08:04,970 - INFO - net found : n6
+2024-03-07 15:08:04,970 - INFO - Instance found : p3
+2024-03-07 15:08:04,970 - INFO - Inside instance: p3
+2024-03-07 15:08:04,971 - INFO - pin found : D
+2024-03-07 15:08:04,971 - INFO - net found : D[3]
+2024-03-07 15:08:04,972 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-07 15:08:04,973 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,973 - INFO - It is a port-derived net
+2024-03-07 15:08:04,975 - INFO - p3 Pin D connected to port-derived Net D[3]
+2024-03-07 15:08:04,976 - INFO - New port-derived Net D[3] created
+2024-03-07 15:08:04,976 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-07 15:08:04,977 - INFO - Net D[3] added to port_obj
+2024-03-07 15:08:04,977 - INFO - pin found : Pin
+2024-03-07 15:08:04,981 - INFO - net found : n6
+2024-03-07 15:08:04,982 - INFO - pin found : Pout
+2024-03-07 15:08:04,984 - INFO - net found : n7
+2024-03-07 15:08:04,985 - INFO - Instance found : mux3
+2024-03-07 15:08:04,986 - INFO - Inside instance: mux3
+2024-03-07 15:08:04,987 - INFO - pin found : I0
+2024-03-07 15:08:04,987 - INFO - net found : n6
+2024-03-07 15:08:04,988 - INFO - pin found : I1
+2024-03-07 15:08:04,989 - INFO - net found : n7
+2024-03-07 15:08:04,989 - INFO - pin found : S
+2024-03-07 15:08:04,990 - INFO - net found : EN[3]
+2024-03-07 15:08:04,991 - INFO - Extracted net name, start_index, end_index: EN, 3, None
+2024-03-07 15:08:04,992 - INFO - Not a declared or parsed net
+2024-03-07 15:08:04,993 - INFO - It is a port-derived net
+2024-03-07 15:08:04,993 - INFO - mux3 Pin S connected to port-derived Net EN[3]
+2024-03-07 15:08:04,994 - INFO - New port-derived Net EN[3] created
+2024-03-07 15:08:04,999 - INFO - Port-derived Net EN[3] added to current module.nets
+2024-03-07 15:08:05,000 - INFO - Net EN[3] added to port_obj
+2024-03-07 15:08:05,003 - INFO - pin found : Z
+2024-03-07 15:08:05,004 - INFO - net found : DP[4]
+2024-03-07 15:08:05,004 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-07 15:08:05,005 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,006 - INFO - It is a port-derived net
+2024-03-07 15:08:05,008 - INFO - mux3 Pin Z connected to port-derived Net DP[4]
+2024-03-07 15:08:05,008 - INFO - New port-derived Net DP[4] created
+2024-03-07 15:08:05,009 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-07 15:08:05,009 - INFO - Net DP[4] added to port_obj
+2024-03-07 15:08:05,010 - INFO - Instance found : buf0
+2024-03-07 15:08:05,011 - INFO - Inside instance: buf0
+2024-03-07 15:08:05,017 - INFO - pin found : I
+2024-03-07 15:08:05,019 - INFO - net found : D[0]
+2024-03-07 15:08:05,020 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-07 15:08:05,021 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,022 - INFO - It is a port-derived net
+2024-03-07 15:08:05,023 - INFO - buf0 Pin I connected to port-derived Net D[0]
+2024-03-07 15:08:05,024 - INFO - New port-derived Net D[0] created
+2024-03-07 15:08:05,025 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-07 15:08:05,025 - INFO - Net D[0] added to port_obj
+2024-03-07 15:08:05,026 - INFO - pin found : Z
+2024-03-07 15:08:05,026 - INFO - net found : DP[0]
+2024-03-07 15:08:05,027 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-07 15:08:05,028 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,031 - INFO - It is a port-derived net
+2024-03-07 15:08:05,032 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-07 15:08:05,033 - INFO - New port-derived Net DP[0] created
+2024-03-07 15:08:05,034 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-07 15:08:05,036 - INFO - Net DP[0] added to port_obj
+2024-03-07 15:08:05,037 - INFO - Instance found : buf1
+2024-03-07 15:08:05,037 - INFO - Inside instance: buf1
+2024-03-07 15:08:05,038 - INFO - pin found : I
+2024-03-07 15:08:05,040 - INFO - net found : D[1]
+2024-03-07 15:08:05,040 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-07 15:08:05,041 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,041 - INFO - It is a port-derived net
+2024-03-07 15:08:05,042 - INFO - buf1 Pin I connected to port-derived Net D[1]
+2024-03-07 15:08:05,042 - INFO - New port-derived Net D[1] created
+2024-03-07 15:08:05,042 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-07 15:08:05,043 - INFO - Net D[1] added to port_obj
+2024-03-07 15:08:05,044 - INFO - pin found : Z
+2024-03-07 15:08:05,044 - INFO - net found : DP[1]
+2024-03-07 15:08:05,045 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-07 15:08:05,048 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,049 - INFO - It is a port-derived net
+2024-03-07 15:08:05,050 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-07 15:08:05,051 - INFO - New port-derived Net DP[1] created
+2024-03-07 15:08:05,052 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-07 15:08:05,054 - INFO - Net DP[1] added to port_obj
+2024-03-07 15:08:05,055 - INFO - Instance found : buf2
+2024-03-07 15:08:05,055 - INFO - Inside instance: buf2
+2024-03-07 15:08:05,056 - INFO - pin found : I
+2024-03-07 15:08:05,057 - INFO - net found : D[2]
+2024-03-07 15:08:05,057 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-07 15:08:05,058 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,058 - INFO - It is a port-derived net
+2024-03-07 15:08:05,060 - INFO - buf2 Pin I connected to port-derived Net D[2]
+2024-03-07 15:08:05,060 - INFO - New port-derived Net D[2] created
+2024-03-07 15:08:05,060 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-07 15:08:05,060 - INFO - Net D[2] added to port_obj
+2024-03-07 15:08:05,061 - INFO - pin found : Z
+2024-03-07 15:08:05,065 - INFO - net found : DP[2]
+2024-03-07 15:08:05,067 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-07 15:08:05,067 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,068 - INFO - It is a port-derived net
+2024-03-07 15:08:05,070 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-07 15:08:05,070 - INFO - New port-derived Net DP[2] created
+2024-03-07 15:08:05,071 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-07 15:08:05,071 - INFO - Net DP[2] added to port_obj
+2024-03-07 15:08:05,072 - INFO - Instance found : buf3
+2024-03-07 15:08:05,073 - INFO - Inside instance: buf3
+2024-03-07 15:08:05,074 - INFO - pin found : I
+2024-03-07 15:08:05,074 - INFO - net found : D[3]
+2024-03-07 15:08:05,075 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-07 15:08:05,076 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,077 - INFO - It is a port-derived net
+2024-03-07 15:08:05,077 - INFO - buf3 Pin I connected to port-derived Net D[3]
+2024-03-07 15:08:05,082 - INFO - New port-derived Net D[3] created
+2024-03-07 15:08:05,083 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-07 15:08:05,085 - INFO - Net D[3] added to port_obj
+2024-03-07 15:08:05,086 - INFO - pin found : Z
+2024-03-07 15:08:05,087 - INFO - net found : DP[3]
+2024-03-07 15:08:05,088 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-07 15:08:05,088 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,088 - INFO - It is a port-derived net
+2024-03-07 15:08:05,089 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-07 15:08:05,090 - INFO - New port-derived Net DP[3] created
+2024-03-07 15:08:05,091 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-07 15:08:05,092 - INFO - Net DP[3] added to port_obj
+2024-03-07 15:08:05,093 - INFO - End of module: nibble_parity
+2024-03-07 15:08:05,094 - INFO - Module found : byte_parity
+2024-03-07 15:08:05,094 - INFO - input Port found : D width 7:0.
+2024-03-07 15:08:05,099 - INFO - input Port found : EN width 7:0.
+2024-03-07 15:08:05,101 - INFO - output Port found : DP width 8:0.
+2024-03-07 15:08:05,103 - INFO - New net created: n1 with width [4:0]
+2024-03-07 15:08:05,104 - INFO - New net created: n2 with width [4:0]
+2024-03-07 15:08:05,105 - INFO - New net created: n3 with width None
+2024-03-07 15:08:05,107 - INFO - Instance found : m0
+2024-03-07 15:08:05,108 - INFO - Inside instance: m0
+2024-03-07 15:08:05,108 - INFO - pin found : D
+2024-03-07 15:08:05,109 - INFO - net found : D[3:0]
+2024-03-07 15:08:05,109 - INFO - Extracted net name, start_index, end_index: D, 3, 0
+2024-03-07 15:08:05,109 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,111 - INFO - It is a port-derived net
+2024-03-07 15:08:05,114 - INFO - m0 Pin D connected to port-derived Net D[3:0]
+2024-03-07 15:08:05,116 - INFO - New port-derived Net D[3:0] created
+2024-03-07 15:08:05,117 - INFO - Port-derived Net D[3:0] added to current module.nets
+2024-03-07 15:08:05,118 - INFO - Net D[3:0] added to port_obj
+2024-03-07 15:08:05,120 - INFO - pin found : EN
+2024-03-07 15:08:05,120 - INFO - net found : EN[3:0]
+2024-03-07 15:08:05,121 - INFO - Extracted net name, start_index, end_index: EN, 3, 0
+2024-03-07 15:08:05,122 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,123 - INFO - It is a port-derived net
+2024-03-07 15:08:05,123 - INFO - m0 Pin EN connected to port-derived Net EN[3:0]
+2024-03-07 15:08:05,124 - INFO - New port-derived Net EN[3:0] created
+2024-03-07 15:08:05,125 - INFO - Port-derived Net EN[3:0] added to current module.nets
+2024-03-07 15:08:05,125 - INFO - Net EN[3:0] added to port_obj
+2024-03-07 15:08:05,126 - INFO - pin found : DP
+2024-03-07 15:08:05,126 - INFO - net found : n1
+2024-03-07 15:08:05,127 - INFO - Instance found : m1
+2024-03-07 15:08:05,128 - INFO - Inside instance: m1
+2024-03-07 15:08:05,131 - INFO - pin found : D
+2024-03-07 15:08:05,132 - INFO - net found : D[7:4]
+2024-03-07 15:08:05,134 - INFO - Extracted net name, start_index, end_index: D, 7, 4
+2024-03-07 15:08:05,134 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,136 - INFO - It is a port-derived net
+2024-03-07 15:08:05,136 - INFO - m1 Pin D connected to port-derived Net D[7:4]
+2024-03-07 15:08:05,138 - INFO - New port-derived Net D[7:4] created
+2024-03-07 15:08:05,138 - INFO - Port-derived Net D[7:4] added to current module.nets
+2024-03-07 15:08:05,138 - INFO - Net D[7:4] added to port_obj
+2024-03-07 15:08:05,141 - INFO - pin found : EN
+2024-03-07 15:08:05,141 - INFO - net found : EN[7:4]
+2024-03-07 15:08:05,141 - INFO - Extracted net name, start_index, end_index: EN, 7, 4
+2024-03-07 15:08:05,142 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,142 - INFO - It is a port-derived net
+2024-03-07 15:08:05,144 - INFO - m1 Pin EN connected to port-derived Net EN[7:4]
+2024-03-07 15:08:05,144 - INFO - New port-derived Net EN[7:4] created
+2024-03-07 15:08:05,145 - INFO - Port-derived Net EN[7:4] added to current module.nets
+2024-03-07 15:08:05,147 - INFO - Net EN[7:4] added to port_obj
+2024-03-07 15:08:05,148 - INFO - pin found : DP
+2024-03-07 15:08:05,150 - INFO - net found : n2
+2024-03-07 15:08:05,151 - INFO - Instance found : G1
+2024-03-07 15:08:05,151 - INFO - Inside instance: G1
+2024-03-07 15:08:05,153 - INFO - pin found : A1
+2024-03-07 15:08:05,154 - INFO - net found : n1[4]
+2024-03-07 15:08:05,154 - INFO - Extracted net name, start_index, end_index: n1, 4, None
+2024-03-07 15:08:05,155 - INFO - Already declared and parsed net : n1
+2024-03-07 15:08:05,157 - INFO - No matching port found for declared net n1[4] 
+Continue creating pin A1
+2024-03-07 15:08:05,157 - INFO - Created a VerilogNet object for n1[4]
+2024-03-07 15:08:05,157 - INFO - pin found : A2
+2024-03-07 15:08:05,158 - INFO - net found : n2[4]
+2024-03-07 15:08:05,158 - INFO - Extracted net name, start_index, end_index: n2, 4, None
+2024-03-07 15:08:05,159 - INFO - Already declared and parsed net : n2
+2024-03-07 15:08:05,160 - INFO - No matching port found for declared net n2[4] 
+Continue creating pin A2
+2024-03-07 15:08:05,160 - INFO - Created a VerilogNet object for n2[4]
+2024-03-07 15:08:05,160 - INFO - pin found : Z
+2024-03-07 15:08:05,164 - INFO - net found : DP[8]
+2024-03-07 15:08:05,165 - INFO - Extracted net name, start_index, end_index: DP, 8, None
+2024-03-07 15:08:05,166 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,167 - INFO - It is a port-derived net
+2024-03-07 15:08:05,168 - INFO - G1 Pin Z connected to port-derived Net DP[8]
+2024-03-07 15:08:05,170 - INFO - New port-derived Net DP[8] created
+2024-03-07 15:08:05,170 - INFO - Port-derived Net DP[8] added to current module.nets
+2024-03-07 15:08:05,171 - INFO - Net DP[8] added to port_obj
+2024-03-07 15:08:05,171 - INFO - Instance found : buf0
+2024-03-07 15:08:05,172 - INFO - Inside instance: buf0
+2024-03-07 15:08:05,172 - INFO - pin found : I
+2024-03-07 15:08:05,173 - INFO - net found : n1[0]
+2024-03-07 15:08:05,174 - INFO - Extracted net name, start_index, end_index: n1, 0, None
+2024-03-07 15:08:05,175 - INFO - Already declared and parsed net : n1
+2024-03-07 15:08:05,177 - INFO - No matching port found for declared net n1[0] 
+Continue creating pin I
+2024-03-07 15:08:05,177 - INFO - Created a VerilogNet object for n1[0]
+2024-03-07 15:08:05,177 - INFO - pin found : Z
+2024-03-07 15:08:05,179 - INFO - net found : DP[0]
+2024-03-07 15:08:05,181 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-07 15:08:05,182 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,184 - INFO - It is a port-derived net
+2024-03-07 15:08:05,186 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-07 15:08:05,186 - INFO - New port-derived Net DP[0] created
+2024-03-07 15:08:05,187 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-07 15:08:05,188 - INFO - Net DP[0] added to port_obj
+2024-03-07 15:08:05,188 - INFO - Instance found : buf1
+2024-03-07 15:08:05,188 - INFO - Inside instance: buf1
+2024-03-07 15:08:05,190 - INFO - pin found : I
+2024-03-07 15:08:05,191 - INFO - net found : n1[1]
+2024-03-07 15:08:05,193 - INFO - Extracted net name, start_index, end_index: n1, 1, None
+2024-03-07 15:08:05,194 - INFO - Already declared and parsed net : n1
+2024-03-07 15:08:05,194 - INFO - No matching port found for declared net n1[1] 
+Continue creating pin I
+2024-03-07 15:08:05,206 - INFO - Created a VerilogNet object for n1[1]
+2024-03-07 15:08:05,207 - INFO - pin found : Z
+2024-03-07 15:08:05,207 - INFO - net found : DP[1]
+2024-03-07 15:08:05,208 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-07 15:08:05,209 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,209 - INFO - It is a port-derived net
+2024-03-07 15:08:05,211 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-07 15:08:05,216 - INFO - New port-derived Net DP[1] created
+2024-03-07 15:08:05,219 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-07 15:08:05,221 - INFO - Net DP[1] added to port_obj
+2024-03-07 15:08:05,223 - INFO - Instance found : buf2
+2024-03-07 15:08:05,226 - INFO - Inside instance: buf2
+2024-03-07 15:08:05,227 - INFO - pin found : I
+2024-03-07 15:08:05,227 - INFO - net found : n1[2]
+2024-03-07 15:08:05,228 - INFO - Extracted net name, start_index, end_index: n1, 2, None
+2024-03-07 15:08:05,234 - INFO - Already declared and parsed net : n1
+2024-03-07 15:08:05,237 - INFO - No matching port found for declared net n1[2] 
+Continue creating pin I
+2024-03-07 15:08:05,237 - INFO - Created a VerilogNet object for n1[2]
+2024-03-07 15:08:05,238 - INFO - pin found : Z
+2024-03-07 15:08:05,241 - INFO - net found : DP[2]
+2024-03-07 15:08:05,242 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-07 15:08:05,242 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,243 - INFO - It is a port-derived net
+2024-03-07 15:08:05,243 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-07 15:08:05,244 - INFO - New port-derived Net DP[2] created
+2024-03-07 15:08:05,249 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-07 15:08:05,250 - INFO - Net DP[2] added to port_obj
+2024-03-07 15:08:05,254 - INFO - Instance found : buf3
+2024-03-07 15:08:05,255 - INFO - Inside instance: buf3
+2024-03-07 15:08:05,255 - INFO - pin found : I
+2024-03-07 15:08:05,257 - INFO - net found : n1[3]
+2024-03-07 15:08:05,258 - INFO - Extracted net name, start_index, end_index: n1, 3, None
+2024-03-07 15:08:05,259 - INFO - Already declared and parsed net : n1
+2024-03-07 15:08:05,260 - INFO - No matching port found for declared net n1[3] 
+Continue creating pin I
+2024-03-07 15:08:05,261 - INFO - Created a VerilogNet object for n1[3]
+2024-03-07 15:08:05,266 - INFO - pin found : Z
+2024-03-07 15:08:05,268 - INFO - net found : DP[3]
+2024-03-07 15:08:05,269 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-07 15:08:05,271 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,272 - INFO - It is a port-derived net
+2024-03-07 15:08:05,272 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-07 15:08:05,274 - INFO - New port-derived Net DP[3] created
+2024-03-07 15:08:05,274 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-07 15:08:05,275 - INFO - Net DP[3] added to port_obj
+2024-03-07 15:08:05,276 - INFO - Instance found : buf4
+2024-03-07 15:08:05,276 - INFO - Inside instance: buf4
+2024-03-07 15:08:05,277 - INFO - pin found : I
+2024-03-07 15:08:05,280 - INFO - net found : n2[0]
+2024-03-07 15:08:05,281 - INFO - Extracted net name, start_index, end_index: n2, 0, None
+2024-03-07 15:08:05,282 - INFO - Already declared and parsed net : n2
+2024-03-07 15:08:05,284 - INFO - No matching port found for declared net n2[0] 
+Continue creating pin I
+2024-03-07 15:08:05,285 - INFO - Created a VerilogNet object for n2[0]
+2024-03-07 15:08:05,287 - INFO - pin found : Z
+2024-03-07 15:08:05,287 - INFO - net found : DP[4]
+2024-03-07 15:08:05,288 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-07 15:08:05,288 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,289 - INFO - It is a port-derived net
+2024-03-07 15:08:05,290 - INFO - buf4 Pin Z connected to port-derived Net DP[4]
+2024-03-07 15:08:05,291 - INFO - New port-derived Net DP[4] created
+2024-03-07 15:08:05,292 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-07 15:08:05,293 - INFO - Net DP[4] added to port_obj
+2024-03-07 15:08:05,294 - INFO - Instance found : buf5
+2024-03-07 15:08:05,294 - INFO - Inside instance: buf5
+2024-03-07 15:08:05,297 - INFO - pin found : I
+2024-03-07 15:08:05,299 - INFO - net found : n2[1]
+2024-03-07 15:08:05,300 - INFO - Extracted net name, start_index, end_index: n2, 1, None
+2024-03-07 15:08:05,304 - INFO - Already declared and parsed net : n2
+2024-03-07 15:08:05,305 - INFO - No matching port found for declared net n2[1] 
+Continue creating pin I
+2024-03-07 15:08:05,306 - INFO - Created a VerilogNet object for n2[1]
+2024-03-07 15:08:05,307 - INFO - pin found : Z
+2024-03-07 15:08:05,309 - INFO - net found : DP[5]
+2024-03-07 15:08:05,309 - INFO - Extracted net name, start_index, end_index: DP, 5, None
+2024-03-07 15:08:05,310 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,311 - INFO - It is a port-derived net
+2024-03-07 15:08:05,311 - INFO - buf5 Pin Z connected to port-derived Net DP[5]
+2024-03-07 15:08:05,317 - INFO - New port-derived Net DP[5] created
+2024-03-07 15:08:05,319 - INFO - Port-derived Net DP[5] added to current module.nets
+2024-03-07 15:08:05,320 - INFO - Net DP[5] added to port_obj
+2024-03-07 15:08:05,321 - INFO - Instance found : buf6
+2024-03-07 15:08:05,322 - INFO - Inside instance: buf6
+2024-03-07 15:08:05,324 - INFO - pin found : I
+2024-03-07 15:08:05,324 - INFO - net found : n2[2]
+2024-03-07 15:08:05,325 - INFO - Extracted net name, start_index, end_index: n2, 2, None
+2024-03-07 15:08:05,326 - INFO - Already declared and parsed net : n2
+2024-03-07 15:08:05,327 - INFO - No matching port found for declared net n2[2] 
+Continue creating pin I
+2024-03-07 15:08:05,331 - INFO - Created a VerilogNet object for n2[2]
+2024-03-07 15:08:05,332 - INFO - pin found : Z
+2024-03-07 15:08:05,333 - INFO - net found : DP[6]
+2024-03-07 15:08:05,334 - INFO - Extracted net name, start_index, end_index: DP, 6, None
+2024-03-07 15:08:05,336 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,336 - INFO - It is a port-derived net
+2024-03-07 15:08:05,337 - INFO - buf6 Pin Z connected to port-derived Net DP[6]
+2024-03-07 15:08:05,338 - INFO - New port-derived Net DP[6] created
+2024-03-07 15:08:05,339 - INFO - Port-derived Net DP[6] added to current module.nets
+2024-03-07 15:08:05,339 - INFO - Net DP[6] added to port_obj
+2024-03-07 15:08:05,340 - INFO - Instance found : buf7
+2024-03-07 15:08:05,342 - INFO - Inside instance: buf7
+2024-03-07 15:08:05,343 - INFO - pin found : I
+2024-03-07 15:08:05,344 - INFO - net found : n2[3]
+2024-03-07 15:08:05,344 - INFO - Extracted net name, start_index, end_index: n2, 3, None
+2024-03-07 15:08:05,347 - INFO - Already declared and parsed net : n2
+2024-03-07 15:08:05,349 - INFO - No matching port found for declared net n2[3] 
+Continue creating pin I
+2024-03-07 15:08:05,350 - INFO - Created a VerilogNet object for n2[3]
+2024-03-07 15:08:05,351 - INFO - pin found : Z
+2024-03-07 15:08:05,354 - INFO - net found : DP[7]
+2024-03-07 15:08:05,354 - INFO - Extracted net name, start_index, end_index: DP, 7, None
+2024-03-07 15:08:05,355 - INFO - Not a declared or parsed net
+2024-03-07 15:08:05,356 - INFO - It is a port-derived net
+2024-03-07 15:08:05,356 - INFO - buf7 Pin Z connected to port-derived Net DP[7]
+2024-03-07 15:08:05,357 - INFO - New port-derived Net DP[7] created
+2024-03-07 15:08:05,358 - INFO - Port-derived Net DP[7] added to current module.nets
+2024-03-07 15:08:05,359 - INFO - Net DP[7] added to port_obj
+2024-03-07 15:08:05,359 - INFO - End of module: byte_parity
+2024-03-07 17:26:03,536 - INFO - Main function completed successfully.
+2024-03-15 09:53:46,058 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fulladder.v
+2024-03-15 09:53:46,060 - INFO - Parsing module templates from the netlist.
+2024-03-15 09:53:46,062 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-15 09:53:46,103 - INFO - Module found: fulladdder
+2024-03-15 09:53:46,103 - INFO - Port Found : A
+2024-03-15 09:53:46,104 - INFO - Port Found : B
+2024-03-15 09:53:46,104 - INFO - Port Found : C
+2024-03-15 09:53:46,104 - INFO - Port Found : Clock
+2024-03-15 09:53:46,105 - INFO - Port Found : Scan_clk
+2024-03-15 09:53:46,105 - INFO - Port Found : Scan_en
+2024-03-15 09:53:46,105 - INFO - Port Found : cg_en
+2024-03-15 09:53:46,105 - INFO - Port Found : gen_clk_mux
+2024-03-15 09:53:46,106 - INFO - Port Found : Sum
+2024-03-15 09:53:46,106 - INFO - Port Found : Carry
+2024-03-15 09:53:48,024 - INFO - def parse_netlist function called.
+2024-03-15 09:53:48,026 - INFO - Module found : fulladdder
+2024-03-15 09:53:48,027 - INFO - input Port found : A width .
+2024-03-15 09:53:48,028 - INFO - input Port found : B width .
+2024-03-15 09:53:48,029 - INFO - input Port found : C width .
+2024-03-15 09:53:48,029 - INFO - input Port found : Clock width .
+2024-03-15 09:53:48,031 - INFO - input Port found : Scan_clk width .
+2024-03-15 09:53:48,032 - INFO - input Port found : Scan_en width .
+2024-03-15 09:53:48,036 - INFO - input Port found : cg_en width .
+2024-03-15 09:53:48,037 - INFO - input Port found : gen_clk_mux width .
+2024-03-15 09:53:48,037 - INFO - output Port found : Sum width .
+2024-03-15 09:53:48,038 - INFO - output Port found : Carry width .
+2024-03-15 09:53:48,039 - INFO - New net created: n4 with width None
+2024-03-15 09:53:48,041 - INFO - New net created: n5 with width None
+2024-03-15 09:53:48,042 - INFO - New net created: n6 with width None
+2024-03-15 09:53:48,051 - INFO - New net created: n7 with width None
+2024-03-15 09:53:48,056 - INFO - New net created: n8 with width None
+2024-03-15 09:53:48,057 - INFO - New net created: n9 with width None
+2024-03-15 09:53:48,058 - INFO - New net created: n10 with width None
+2024-03-15 09:53:48,059 - INFO - New net created: n11 with width None
+2024-03-15 09:53:48,060 - INFO - New net created: n12 with width None
+2024-03-15 09:53:48,061 - INFO - New net created: n13 with width None
+2024-03-15 09:53:48,066 - INFO - New net created: n14 with width None
+2024-03-15 09:53:48,069 - INFO - New net created: n15 with width None
+2024-03-15 09:53:48,072 - INFO - New net created: CLK with width None
+2024-03-15 09:53:48,073 - INFO - New net created: mux_clock with width None
+2024-03-15 09:53:48,075 - INFO - New net created: gated_clock with width None
+2024-03-15 09:53:48,078 - INFO - Instance found : mux1
+2024-03-15 09:53:48,083 - INFO - Inside instance: mux1
+2024-03-15 09:53:48,090 - INFO - pin found : I0
+2024-03-15 09:53:48,096 - INFO - net found : Clock
+2024-03-15 09:53:48,104 - INFO - It is a port-derived net
+2024-03-15 09:53:48,106 - INFO - Created a VerilogNet object : Clock
+2024-03-15 09:53:48,107 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,108 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,109 - INFO - pin found : I1
+2024-03-15 09:53:48,110 - INFO - net found : Scan_clk
+2024-03-15 09:53:48,111 - INFO - It is a port-derived net
+2024-03-15 09:53:48,113 - INFO - Created a VerilogNet object : Scan_clk
+2024-03-15 09:53:48,121 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,124 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,127 - INFO - pin found : S
+2024-03-15 09:53:48,128 - INFO - net found : Scan_en
+2024-03-15 09:53:48,129 - INFO - It is a port-derived net
+2024-03-15 09:53:48,130 - INFO - Created a VerilogNet object : Scan_en
+2024-03-15 09:53:48,140 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,141 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,142 - INFO - pin found : Z
+2024-03-15 09:53:48,143 - INFO - net found : mux_clock
+2024-03-15 09:53:48,145 - INFO - Instance found : gate
+2024-03-15 09:53:48,147 - INFO - Inside instance: gate
+2024-03-15 09:53:48,150 - INFO - pin found : A1
+2024-03-15 09:53:48,152 - INFO - net found : mux_clock
+2024-03-15 09:53:48,155 - INFO - pin found : A2
+2024-03-15 09:53:48,158 - INFO - net found : cg_en
+2024-03-15 09:53:48,160 - INFO - It is a port-derived net
+2024-03-15 09:53:48,161 - INFO - Created a VerilogNet object : cg_en
+2024-03-15 09:53:48,163 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,174 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,176 - INFO - pin found : Z
+2024-03-15 09:53:48,178 - INFO - net found : gated_clock
+2024-03-15 09:53:48,185 - INFO - Instance found : CLKx_B1
+2024-03-15 09:53:48,190 - INFO - Inside instance: CLKx_B1
+2024-03-15 09:53:48,193 - INFO - pin found : I
+2024-03-15 09:53:48,204 - INFO - net found : gated_clock
+2024-03-15 09:53:48,210 - INFO - pin found : Z
+2024-03-15 09:53:48,212 - INFO - net found : CLK
+2024-03-15 09:53:48,250 - INFO - Instance found : reg1
+2024-03-15 09:53:48,279 - INFO - Inside instance: reg1
+2024-03-15 09:53:48,285 - INFO - pin found : D
+2024-03-15 09:53:48,287 - INFO - net found : A
+2024-03-15 09:53:48,335 - INFO - It is a port-derived net
+2024-03-15 09:53:48,339 - INFO - Created a VerilogNet object : A
+2024-03-15 09:53:48,360 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,374 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,375 - INFO - pin found : CP
+2024-03-15 09:53:48,377 - INFO - net found : CLK
+2024-03-15 09:53:48,379 - INFO - pin found : Q
+2024-03-15 09:53:48,389 - INFO - net found : n4
+2024-03-15 09:53:48,396 - INFO - pin found : SI
+2024-03-15 09:53:48,407 - INFO - net found : 1'b0
+2024-03-15 09:53:48,408 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,411 - INFO - Pin SI connected to a constant 1'b0
+2024-03-15 09:53:48,418 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,423 - INFO - pin found : SE
+2024-03-15 09:53:48,437 - INFO - net found : 1'b0
+2024-03-15 09:53:48,445 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,447 - INFO - Pin SE connected to a constant 1'b0
+2024-03-15 09:53:48,455 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,457 - INFO - Instance found : reg2
+2024-03-15 09:53:48,459 - INFO - Inside instance: reg2
+2024-03-15 09:53:48,462 - INFO - pin found : D
+2024-03-15 09:53:48,468 - INFO - net found : B
+2024-03-15 09:53:48,475 - INFO - It is a port-derived net
+2024-03-15 09:53:48,477 - INFO - Created a VerilogNet object : B
+2024-03-15 09:53:48,478 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,479 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,487 - INFO - pin found : CP
+2024-03-15 09:53:48,507 - INFO - net found : CLK
+2024-03-15 09:53:48,508 - INFO - pin found : Q
+2024-03-15 09:53:48,509 - INFO - net found : n5
+2024-03-15 09:53:48,509 - INFO - pin found : SI
+2024-03-15 09:53:48,510 - INFO - net found : 1'b0
+2024-03-15 09:53:48,510 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,511 - INFO - Pin SI connected to a constant 1'b0
+2024-03-15 09:53:48,512 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,513 - INFO - pin found : SE
+2024-03-15 09:53:48,520 - INFO - net found : 1'b0
+2024-03-15 09:53:48,522 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,523 - INFO - Pin SE connected to a constant 1'b0
+2024-03-15 09:53:48,523 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,525 - INFO - Instance found : reg3
+2024-03-15 09:53:48,526 - INFO - Inside instance: reg3
+2024-03-15 09:53:48,527 - INFO - pin found : D
+2024-03-15 09:53:48,528 - INFO - net found : C
+2024-03-15 09:53:48,530 - INFO - It is a port-derived net
+2024-03-15 09:53:48,536 - INFO - Created a VerilogNet object : C
+2024-03-15 09:53:48,540 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,541 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,543 - INFO - pin found : CP
+2024-03-15 09:53:48,543 - INFO - net found : CLK
+2024-03-15 09:53:48,545 - INFO - pin found : Q
+2024-03-15 09:53:48,545 - INFO - net found : n6
+2024-03-15 09:53:48,546 - INFO - pin found : SI
+2024-03-15 09:53:48,552 - INFO - net found : 1'b0
+2024-03-15 09:53:48,554 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,555 - INFO - Pin SI connected to a constant 1'b0
+2024-03-15 09:53:48,556 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,557 - INFO - pin found : SE
+2024-03-15 09:53:48,557 - INFO - net found : 1'b0
+2024-03-15 09:53:48,558 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,560 - INFO - Pin SE connected to a constant 1'b0
+2024-03-15 09:53:48,562 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,571 - INFO - Instance found : G1
+2024-03-15 09:53:48,576 - INFO - Inside instance: G1
+2024-03-15 09:53:48,577 - INFO - pin found : A1
+2024-03-15 09:53:48,579 - INFO - net found : n4
+2024-03-15 09:53:48,584 - INFO - pin found : A2
+2024-03-15 09:53:48,588 - INFO - net found : n5
+2024-03-15 09:53:48,590 - INFO - pin found : Z
+2024-03-15 09:53:48,591 - INFO - net found : n7
+2024-03-15 09:53:48,592 - INFO - Instance found : G2
+2024-03-15 09:53:48,593 - INFO - Inside instance: G2
+2024-03-15 09:53:48,594 - INFO - pin found : A1
+2024-03-15 09:53:48,600 - INFO - net found : n7
+2024-03-15 09:53:48,605 - INFO - pin found : A2
+2024-03-15 09:53:48,606 - INFO - net found : n6
+2024-03-15 09:53:48,607 - INFO - pin found : Z
+2024-03-15 09:53:48,608 - INFO - net found : n8
+2024-03-15 09:53:48,609 - INFO - Instance found : G3
+2024-03-15 09:53:48,610 - INFO - Inside instance: G3
+2024-03-15 09:53:48,611 - INFO - pin found : A1
+2024-03-15 09:53:48,613 - INFO - net found : n5
+2024-03-15 09:53:48,617 - INFO - pin found : A2
+2024-03-15 09:53:48,619 - INFO - net found : n6
+2024-03-15 09:53:48,620 - INFO - pin found : Z
+2024-03-15 09:53:48,621 - INFO - net found : n9
+2024-03-15 09:53:48,623 - INFO - Instance found : G4
+2024-03-15 09:53:48,624 - INFO - Inside instance: G4
+2024-03-15 09:53:48,625 - INFO - pin found : A1
+2024-03-15 09:53:48,626 - INFO - net found : n4
+2024-03-15 09:53:48,627 - INFO - pin found : A2
+2024-03-15 09:53:48,628 - INFO - net found : n5
+2024-03-15 09:53:48,630 - INFO - pin found : Z
+2024-03-15 09:53:48,636 - INFO - net found : n10
+2024-03-15 09:53:48,637 - INFO - Instance found : G5
+2024-03-15 09:53:48,639 - INFO - Inside instance: G5
+2024-03-15 09:53:48,642 - INFO - pin found : A1
+2024-03-15 09:53:48,645 - INFO - net found : n4
+2024-03-15 09:53:48,645 - INFO - pin found : A2
+2024-03-15 09:53:48,646 - INFO - net found : n6
+2024-03-15 09:53:48,647 - INFO - pin found : Z
+2024-03-15 09:53:48,652 - INFO - net found : n11
+2024-03-15 09:53:48,657 - INFO - Instance found : G7
+2024-03-15 09:53:48,658 - INFO - Inside instance: G7
+2024-03-15 09:53:48,658 - INFO - pin found : A1
+2024-03-15 09:53:48,659 - INFO - net found : n9
+2024-03-15 09:53:48,660 - INFO - pin found : A2
+2024-03-15 09:53:48,660 - INFO - net found : n10
+2024-03-15 09:53:48,661 - INFO - pin found : Z
+2024-03-15 09:53:48,661 - INFO - net found : n12
+2024-03-15 09:53:48,671 - INFO - Instance found : G6
+2024-03-15 09:53:48,673 - INFO - Inside instance: G6
+2024-03-15 09:53:48,676 - INFO - pin found : A1
+2024-03-15 09:53:48,678 - INFO - net found : n12
+2024-03-15 09:53:48,683 - INFO - pin found : A2
+2024-03-15 09:53:48,685 - INFO - net found : n11
+2024-03-15 09:53:48,688 - INFO - pin found : Z
+2024-03-15 09:53:48,689 - INFO - net found : n13
+2024-03-15 09:53:48,689 - INFO - Instance found : reg4
+2024-03-15 09:53:48,690 - INFO - Inside instance: reg4
+2024-03-15 09:53:48,691 - INFO - pin found : D
+2024-03-15 09:53:48,692 - INFO - net found : n13
+2024-03-15 09:53:48,693 - INFO - pin found : CP
+2024-03-15 09:53:48,693 - INFO - net found : CLK
+2024-03-15 09:53:48,696 - INFO - pin found : Q
+2024-03-15 09:53:48,701 - INFO - net found : n14
+2024-03-15 09:53:48,702 - INFO - pin found : SI
+2024-03-15 09:53:48,705 - INFO - net found : 1'b0
+2024-03-15 09:53:48,705 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,709 - INFO - Pin SI connected to a constant 1'b0
+2024-03-15 09:53:48,710 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,711 - INFO - pin found : SE
+2024-03-15 09:53:48,711 - INFO - net found : 1'b0
+2024-03-15 09:53:48,713 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,721 - INFO - Pin SE connected to a constant 1'b0
+2024-03-15 09:53:48,722 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,722 - INFO - Instance found : reg5
+2024-03-15 09:53:48,723 - INFO - Inside instance: reg5
+2024-03-15 09:53:48,723 - INFO - pin found : D
+2024-03-15 09:53:48,725 - INFO - net found : n8
+2024-03-15 09:53:48,725 - INFO - pin found : CP
+2024-03-15 09:53:48,725 - INFO - net found : CLK
+2024-03-15 09:53:48,726 - INFO - pin found : Q
+2024-03-15 09:53:48,727 - INFO - net found : n15
+2024-03-15 09:53:48,728 - INFO - pin found : SI
+2024-03-15 09:53:48,730 - INFO - net found : 1'b0
+2024-03-15 09:53:48,735 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,738 - INFO - Pin SI connected to a constant 1'b0
+2024-03-15 09:53:48,739 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,741 - INFO - pin found : SE
+2024-03-15 09:53:48,742 - INFO - net found : 1'b0
+2024-03-15 09:53:48,743 - INFO - Net name with a constant found 1'b0
+2024-03-15 09:53:48,744 - INFO - Pin SE connected to a constant 1'b0
+2024-03-15 09:53:48,746 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 09:53:48,747 - INFO - Instance found : B1
+2024-03-15 09:53:48,757 - INFO - Inside instance: B1
+2024-03-15 09:53:48,758 - INFO - pin found : I
+2024-03-15 09:53:48,759 - INFO - net found : n14
+2024-03-15 09:53:48,760 - INFO - pin found : Z
+2024-03-15 09:53:48,762 - INFO - net found : Carry
+2024-03-15 09:53:48,762 - INFO - It is a port-derived net
+2024-03-15 09:53:48,771 - INFO - Created a VerilogNet object : Carry
+2024-03-15 09:53:48,772 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,774 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,776 - INFO - Instance found : B2
+2024-03-15 09:53:48,779 - INFO - Inside instance: B2
+2024-03-15 09:53:48,785 - INFO - pin found : I
+2024-03-15 09:53:48,789 - INFO - net found : n15
+2024-03-15 09:53:48,790 - INFO - pin found : Z
+2024-03-15 09:53:48,790 - INFO - net found : Sum
+2024-03-15 09:53:48,791 - INFO - It is a port-derived net
+2024-03-15 09:53:48,791 - INFO - Created a VerilogNet object : Sum
+2024-03-15 09:53:48,792 - INFO - Added the net object to the module.nets
+2024-03-15 09:53:48,792 - INFO - Added the net object to the module ports
+2024-03-15 09:53:48,792 - INFO - End of module: fulladdder
+2024-03-15 12:52:16,270 - INFO - Main function completed successfully.
+2024-03-15 12:52:26,432 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v
+2024-03-15 12:52:26,434 - INFO - Parsing module templates from the netlist.
+2024-03-15 12:52:26,435 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-15 12:52:26,453 - INFO - Module found: bit_parity
+2024-03-15 12:52:26,453 - INFO - Port Found : D
+2024-03-15 12:52:26,454 - INFO - Port Found : Pin
+2024-03-15 12:52:26,454 - INFO - Port Found : Pout
+2024-03-15 12:52:26,454 - INFO - Module found: nibble_parity
+2024-03-15 12:52:26,454 - INFO - Port Found : D
+2024-03-15 12:52:26,454 - INFO - Port Found : EN
+2024-03-15 12:52:26,454 - INFO - Port Found : DP
+2024-03-15 12:52:26,454 - INFO - Module found: byte_parity
+2024-03-15 12:52:26,454 - INFO - Port Found : D
+2024-03-15 12:52:26,454 - INFO - Port Found : EN
+2024-03-15 12:52:26,454 - INFO - Port Found : DP
+2024-03-15 12:52:28,372 - INFO - def parse_netlist function called.
+2024-03-15 12:52:28,373 - INFO - Module found : bit_parity
+2024-03-15 12:52:28,373 - INFO - input Port found : D width .
+2024-03-15 12:52:28,375 - INFO - input Port found : Pin width .
+2024-03-15 12:52:28,376 - INFO - output Port found : Pout width .
+2024-03-15 12:52:28,377 - INFO - New net created: Pout with width None
+2024-03-15 12:52:28,377 - INFO - Instance found : G1
+2024-03-15 12:52:28,378 - INFO - Inside instance: G1
+2024-03-15 12:52:28,378 - INFO - pin found : A1
+2024-03-15 12:52:28,379 - INFO - net found : D
+2024-03-15 12:52:28,381 - INFO - It is a port-derived net
+2024-03-15 12:52:28,386 - INFO - Created a VerilogNet object : D
+2024-03-15 12:52:28,387 - INFO - Added the net object to the module.nets
+2024-03-15 12:52:28,388 - INFO - Added the net object to the module ports
+2024-03-15 12:52:28,389 - INFO - pin found : A2
+2024-03-15 12:52:28,390 - INFO - net found : Pin
+2024-03-15 12:52:28,392 - INFO - It is a port-derived net
+2024-03-15 12:52:28,393 - INFO - Created a VerilogNet object : Pin
+2024-03-15 12:52:28,394 - INFO - Added the net object to the module.nets
+2024-03-15 12:52:28,394 - INFO - Added the net object to the module ports
+2024-03-15 12:52:28,395 - INFO - pin found : Z
+2024-03-15 12:52:28,396 - INFO - net found : Pout
+2024-03-15 12:52:28,398 - INFO - It is a port-derived net
+2024-03-15 12:52:28,398 - INFO - Created a VerilogNet object : Pout
+2024-03-15 12:52:28,399 - INFO - Added the net object to the module.nets
+2024-03-15 12:52:28,404 - INFO - Added the net object to the module ports
+2024-03-15 12:52:28,404 - INFO - End of module: bit_parity
+2024-03-15 12:52:28,409 - INFO - Module found : nibble_parity
+2024-03-15 12:52:28,410 - INFO - input Port found : D width 3:0.
+2024-03-15 12:52:28,411 - INFO - input Port found : EN width 3:0.
+2024-03-15 12:52:28,412 - INFO - output Port found : DP width 4:0.
+2024-03-15 12:52:28,416 - INFO - New net created: n1 with width None
+2024-03-15 12:52:28,417 - INFO - New net created: n2 with width None
+2024-03-15 12:52:28,418 - INFO - New net created: n3 with width None
+2024-03-15 12:52:28,419 - INFO - New net created: n4 with width None
+2024-03-15 12:52:28,420 - INFO - New net created: n5 with width None
+2024-03-15 12:52:28,423 - INFO - New net created: n6 with width None
+2024-03-15 12:52:28,423 - INFO - New net created: n7 with width None
+2024-03-15 12:52:28,424 - INFO - New net created: n8 with width None
+2024-03-15 12:52:28,424 - INFO - Instance found : p0
+2024-03-15 12:52:28,425 - INFO - Inside instance: p0
+2024-03-15 12:52:28,425 - INFO - pin found : D
+2024-03-15 12:52:28,426 - INFO - net found : D[0]
+2024-03-15 12:52:28,427 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-15 12:52:28,427 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,428 - INFO - It is a port-derived net
+2024-03-15 12:52:28,429 - INFO - p0 Pin D connected to port-derived Net D[0]
+2024-03-15 12:52:28,434 - INFO - New port-derived Net D[0] created
+2024-03-15 12:52:28,436 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-15 12:52:28,437 - INFO - Net D[0] added to port_obj
+2024-03-15 12:52:28,438 - INFO - pin found : Pin
+2024-03-15 12:52:28,438 - INFO - net found : 1'b0
+2024-03-15 12:52:28,439 - INFO - Net name with a constant found 1'b0
+2024-03-15 12:52:28,440 - INFO - Pin Pin connected to a constant 1'b0
+2024-03-15 12:52:28,440 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 12:52:28,441 - INFO - pin found : Pout
+2024-03-15 12:52:28,441 - INFO - net found : n1
+2024-03-15 12:52:28,442 - INFO - Instance found : mux0
+2024-03-15 12:52:28,443 - INFO - Inside instance: mux0
+2024-03-15 12:52:28,444 - INFO - pin found : I0
+2024-03-15 12:52:28,445 - INFO - net found : 1'b0
+2024-03-15 12:52:28,446 - INFO - Net name with a constant found 1'b0
+2024-03-15 12:52:28,450 - INFO - Pin I0 connected to a constant 1'b0
+2024-03-15 12:52:28,451 - INFO - Created a VerilogNet object for 1'b0
+2024-03-15 12:52:28,452 - INFO - pin found : I1
+2024-03-15 12:52:28,467 - INFO - net found : n1
+2024-03-15 12:52:28,472 - INFO - pin found : S
+2024-03-15 12:52:28,472 - INFO - net found : EN[0]
+2024-03-15 12:52:28,473 - INFO - Extracted net name, start_index, end_index: EN, 0, None
+2024-03-15 12:52:28,473 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,474 - INFO - It is a port-derived net
+2024-03-15 12:52:28,475 - INFO - mux0 Pin S connected to port-derived Net EN[0]
+2024-03-15 12:52:28,475 - INFO - New port-derived Net EN[0] created
+2024-03-15 12:52:28,476 - INFO - Port-derived Net EN[0] added to current module.nets
+2024-03-15 12:52:28,477 - INFO - Net EN[0] added to port_obj
+2024-03-15 12:52:28,478 - INFO - pin found : Z
+2024-03-15 12:52:28,478 - INFO - net found : n2
+2024-03-15 12:52:28,479 - INFO - Instance found : p1
+2024-03-15 12:52:28,479 - INFO - Inside instance: p1
+2024-03-15 12:52:28,483 - INFO - pin found : D
+2024-03-15 12:52:28,484 - INFO - net found : D[1]
+2024-03-15 12:52:28,486 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-15 12:52:28,487 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,487 - INFO - It is a port-derived net
+2024-03-15 12:52:28,488 - INFO - p1 Pin D connected to port-derived Net D[1]
+2024-03-15 12:52:28,488 - INFO - New port-derived Net D[1] created
+2024-03-15 12:52:28,489 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-15 12:52:28,489 - INFO - Net D[1] added to port_obj
+2024-03-15 12:52:28,490 - INFO - pin found : Pin
+2024-03-15 12:52:28,491 - INFO - net found : n2
+2024-03-15 12:52:28,491 - INFO - pin found : Pout
+2024-03-15 12:52:28,492 - INFO - net found : n3
+2024-03-15 12:52:28,493 - INFO - Instance found : mux1
+2024-03-15 12:52:28,494 - INFO - Inside instance: mux1
+2024-03-15 12:52:28,495 - INFO - pin found : I0
+2024-03-15 12:52:28,495 - INFO - net found : n2
+2024-03-15 12:52:28,495 - INFO - pin found : I1
+2024-03-15 12:52:28,498 - INFO - net found : n3
+2024-03-15 12:52:28,499 - INFO - pin found : S
+2024-03-15 12:52:28,501 - INFO - net found : EN[1]
+2024-03-15 12:52:28,503 - INFO - Extracted net name, start_index, end_index: EN, 1, None
+2024-03-15 12:52:28,504 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,504 - INFO - It is a port-derived net
+2024-03-15 12:52:28,504 - INFO - mux1 Pin S connected to port-derived Net EN[1]
+2024-03-15 12:52:28,505 - INFO - New port-derived Net EN[1] created
+2024-03-15 12:52:28,506 - INFO - Port-derived Net EN[1] added to current module.nets
+2024-03-15 12:52:28,506 - INFO - Net EN[1] added to port_obj
+2024-03-15 12:52:28,506 - INFO - pin found : Z
+2024-03-15 12:52:28,507 - INFO - net found : n4
+2024-03-15 12:52:28,507 - INFO - Instance found : p2
+2024-03-15 12:52:28,508 - INFO - Inside instance: p2
+2024-03-15 12:52:28,509 - INFO - pin found : D
+2024-03-15 12:52:28,509 - INFO - net found : D[2]
+2024-03-15 12:52:28,510 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-15 12:52:28,510 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,511 - INFO - It is a port-derived net
+2024-03-15 12:52:28,511 - INFO - p2 Pin D connected to port-derived Net D[2]
+2024-03-15 12:52:28,512 - INFO - New port-derived Net D[2] created
+2024-03-15 12:52:28,512 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-15 12:52:28,516 - INFO - Net D[2] added to port_obj
+2024-03-15 12:52:28,517 - INFO - pin found : Pin
+2024-03-15 12:52:28,519 - INFO - net found : n4
+2024-03-15 12:52:28,520 - INFO - pin found : Pout
+2024-03-15 12:52:28,520 - INFO - net found : n5
+2024-03-15 12:52:28,521 - INFO - Instance found : mux2
+2024-03-15 12:52:28,521 - INFO - Inside instance: mux2
+2024-03-15 12:52:28,522 - INFO - pin found : I0
+2024-03-15 12:52:28,522 - INFO - net found : n4
+2024-03-15 12:52:28,523 - INFO - pin found : I1
+2024-03-15 12:52:28,523 - INFO - net found : n5
+2024-03-15 12:52:28,523 - INFO - pin found : S
+2024-03-15 12:52:28,524 - INFO - net found : EN[2]
+2024-03-15 12:52:28,524 - INFO - Extracted net name, start_index, end_index: EN, 2, None
+2024-03-15 12:52:28,525 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,526 - INFO - It is a port-derived net
+2024-03-15 12:52:28,527 - INFO - mux2 Pin S connected to port-derived Net EN[2]
+2024-03-15 12:52:28,527 - INFO - New port-derived Net EN[2] created
+2024-03-15 12:52:28,528 - INFO - Port-derived Net EN[2] added to current module.nets
+2024-03-15 12:52:28,528 - INFO - Net EN[2] added to port_obj
+2024-03-15 12:52:28,529 - INFO - pin found : Z
+2024-03-15 12:52:28,529 - INFO - net found : n6
+2024-03-15 12:52:28,533 - INFO - Instance found : p3
+2024-03-15 12:52:28,534 - INFO - Inside instance: p3
+2024-03-15 12:52:28,535 - INFO - pin found : D
+2024-03-15 12:52:28,536 - INFO - net found : D[3]
+2024-03-15 12:52:28,537 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-15 12:52:28,537 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,538 - INFO - It is a port-derived net
+2024-03-15 12:52:28,538 - INFO - p3 Pin D connected to port-derived Net D[3]
+2024-03-15 12:52:28,538 - INFO - New port-derived Net D[3] created
+2024-03-15 12:52:28,539 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-15 12:52:28,539 - INFO - Net D[3] added to port_obj
+2024-03-15 12:52:28,540 - INFO - pin found : Pin
+2024-03-15 12:52:28,540 - INFO - net found : n6
+2024-03-15 12:52:28,541 - INFO - pin found : Pout
+2024-03-15 12:52:28,542 - INFO - net found : n7
+2024-03-15 12:52:28,543 - INFO - Instance found : mux3
+2024-03-15 12:52:28,543 - INFO - Inside instance: mux3
+2024-03-15 12:52:28,544 - INFO - pin found : I0
+2024-03-15 12:52:28,544 - INFO - net found : n6
+2024-03-15 12:52:28,545 - INFO - pin found : I1
+2024-03-15 12:52:28,545 - INFO - net found : n7
+2024-03-15 12:52:28,545 - INFO - pin found : S
+2024-03-15 12:52:28,546 - INFO - net found : EN[3]
+2024-03-15 12:52:28,550 - INFO - Extracted net name, start_index, end_index: EN, 3, None
+2024-03-15 12:52:28,551 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,552 - INFO - It is a port-derived net
+2024-03-15 12:52:28,553 - INFO - mux3 Pin S connected to port-derived Net EN[3]
+2024-03-15 12:52:28,553 - INFO - New port-derived Net EN[3] created
+2024-03-15 12:52:28,554 - INFO - Port-derived Net EN[3] added to current module.nets
+2024-03-15 12:52:28,554 - INFO - Net EN[3] added to port_obj
+2024-03-15 12:52:28,555 - INFO - pin found : Z
+2024-03-15 12:52:28,555 - INFO - net found : DP[4]
+2024-03-15 12:52:28,556 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-15 12:52:28,556 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,556 - INFO - It is a port-derived net
+2024-03-15 12:52:28,557 - INFO - mux3 Pin Z connected to port-derived Net DP[4]
+2024-03-15 12:52:28,558 - INFO - New port-derived Net DP[4] created
+2024-03-15 12:52:28,559 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-15 12:52:28,559 - INFO - Net DP[4] added to port_obj
+2024-03-15 12:52:28,560 - INFO - Instance found : buf0
+2024-03-15 12:52:28,560 - INFO - Inside instance: buf0
+2024-03-15 12:52:28,561 - INFO - pin found : I
+2024-03-15 12:52:28,561 - INFO - net found : D[0]
+2024-03-15 12:52:28,562 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-15 12:52:28,562 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,562 - INFO - It is a port-derived net
+2024-03-15 12:52:28,566 - INFO - buf0 Pin I connected to port-derived Net D[0]
+2024-03-15 12:52:28,569 - INFO - New port-derived Net D[0] created
+2024-03-15 12:52:28,569 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-15 12:52:28,570 - INFO - Net D[0] added to port_obj
+2024-03-15 12:52:28,571 - INFO - pin found : Z
+2024-03-15 12:52:28,571 - INFO - net found : DP[0]
+2024-03-15 12:52:28,572 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-15 12:52:28,572 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,573 - INFO - It is a port-derived net
+2024-03-15 12:52:28,573 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-15 12:52:28,573 - INFO - New port-derived Net DP[0] created
+2024-03-15 12:52:28,574 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-15 12:52:28,574 - INFO - Net DP[0] added to port_obj
+2024-03-15 12:52:28,575 - INFO - Instance found : buf1
+2024-03-15 12:52:28,575 - INFO - Inside instance: buf1
+2024-03-15 12:52:28,577 - INFO - pin found : I
+2024-03-15 12:52:28,577 - INFO - net found : D[1]
+2024-03-15 12:52:28,578 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-15 12:52:28,578 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,579 - INFO - It is a port-derived net
+2024-03-15 12:52:28,579 - INFO - buf1 Pin I connected to port-derived Net D[1]
+2024-03-15 12:52:28,583 - INFO - New port-derived Net D[1] created
+2024-03-15 12:52:28,584 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-15 12:52:28,584 - INFO - Net D[1] added to port_obj
+2024-03-15 12:52:28,586 - INFO - pin found : Z
+2024-03-15 12:52:28,586 - INFO - net found : DP[1]
+2024-03-15 12:52:28,587 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-15 12:52:28,587 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,588 - INFO - It is a port-derived net
+2024-03-15 12:52:28,588 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-15 12:52:28,589 - INFO - New port-derived Net DP[1] created
+2024-03-15 12:52:28,589 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-15 12:52:28,590 - INFO - Net DP[1] added to port_obj
+2024-03-15 12:52:28,590 - INFO - Instance found : buf2
+2024-03-15 12:52:28,592 - INFO - Inside instance: buf2
+2024-03-15 12:52:28,593 - INFO - pin found : I
+2024-03-15 12:52:28,593 - INFO - net found : D[2]
+2024-03-15 12:52:28,594 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-15 12:52:28,594 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,595 - INFO - It is a port-derived net
+2024-03-15 12:52:28,595 - INFO - buf2 Pin I connected to port-derived Net D[2]
+2024-03-15 12:52:28,595 - INFO - New port-derived Net D[2] created
+2024-03-15 12:52:28,596 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-15 12:52:28,599 - INFO - Net D[2] added to port_obj
+2024-03-15 12:52:28,600 - INFO - pin found : Z
+2024-03-15 12:52:28,601 - INFO - net found : DP[2]
+2024-03-15 12:52:28,603 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-15 12:52:28,603 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,604 - INFO - It is a port-derived net
+2024-03-15 12:52:28,604 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-15 12:52:28,605 - INFO - New port-derived Net DP[2] created
+2024-03-15 12:52:28,605 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-15 12:52:28,606 - INFO - Net DP[2] added to port_obj
+2024-03-15 12:52:28,606 - INFO - Instance found : buf3
+2024-03-15 12:52:28,606 - INFO - Inside instance: buf3
+2024-03-15 12:52:28,607 - INFO - pin found : I
+2024-03-15 12:52:28,607 - INFO - net found : D[3]
+2024-03-15 12:52:28,608 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-15 12:52:28,609 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,610 - INFO - It is a port-derived net
+2024-03-15 12:52:28,611 - INFO - buf3 Pin I connected to port-derived Net D[3]
+2024-03-15 12:52:28,612 - INFO - New port-derived Net D[3] created
+2024-03-15 12:52:28,612 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-15 12:52:28,616 - INFO - Net D[3] added to port_obj
+2024-03-15 12:52:28,617 - INFO - pin found : Z
+2024-03-15 12:52:28,619 - INFO - net found : DP[3]
+2024-03-15 12:52:28,619 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-15 12:52:28,620 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,621 - INFO - It is a port-derived net
+2024-03-15 12:52:28,621 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-15 12:52:28,622 - INFO - New port-derived Net DP[3] created
+2024-03-15 12:52:28,622 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-15 12:52:28,623 - INFO - Net DP[3] added to port_obj
+2024-03-15 12:52:28,623 - INFO - End of module: nibble_parity
+2024-03-15 12:52:28,623 - INFO - Module found : byte_parity
+2024-03-15 12:52:28,624 - INFO - input Port found : D width 7:0.
+2024-03-15 12:52:28,624 - INFO - input Port found : EN width 7:0.
+2024-03-15 12:52:28,625 - INFO - output Port found : DP width 8:0.
+2024-03-15 12:52:28,627 - INFO - New net created: n1 with width [4:0]
+2024-03-15 12:52:28,628 - INFO - New net created: n2 with width [4:0]
+2024-03-15 12:52:28,628 - INFO - New net created: n3 with width None
+2024-03-15 12:52:28,628 - INFO - Instance found : m0
+2024-03-15 12:52:28,629 - INFO - Inside instance: m0
+2024-03-15 12:52:28,629 - INFO - pin found : D
+2024-03-15 12:52:28,636 - INFO - net found : D[3:0]
+2024-03-15 12:52:28,637 - INFO - Extracted net name, start_index, end_index: D, 3, 0
+2024-03-15 12:52:28,637 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,638 - INFO - It is a port-derived net
+2024-03-15 12:52:28,638 - INFO - m0 Pin D connected to port-derived Net D[3:0]
+2024-03-15 12:52:28,639 - INFO - New port-derived Net D[3:0] created
+2024-03-15 12:52:28,640 - INFO - Port-derived Net D[3:0] added to current module.nets
+2024-03-15 12:52:28,640 - INFO - Net D[3:0] added to port_obj
+2024-03-15 12:52:28,644 - INFO - pin found : EN
+2024-03-15 12:52:28,644 - INFO - net found : EN[3:0]
+2024-03-15 12:52:28,645 - INFO - Extracted net name, start_index, end_index: EN, 3, 0
+2024-03-15 12:52:28,645 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,645 - INFO - It is a port-derived net
+2024-03-15 12:52:28,646 - INFO - m0 Pin EN connected to port-derived Net EN[3:0]
+2024-03-15 12:52:28,649 - INFO - New port-derived Net EN[3:0] created
+2024-03-15 12:52:28,651 - INFO - Port-derived Net EN[3:0] added to current module.nets
+2024-03-15 12:52:28,653 - INFO - Net EN[3:0] added to port_obj
+2024-03-15 12:52:28,653 - INFO - pin found : DP
+2024-03-15 12:52:28,654 - INFO - net found : n1
+2024-03-15 12:52:28,654 - INFO - Instance found : m1
+2024-03-15 12:52:28,655 - INFO - Inside instance: m1
+2024-03-15 12:52:28,655 - INFO - pin found : D
+2024-03-15 12:52:28,656 - INFO - net found : D[7:4]
+2024-03-15 12:52:28,657 - INFO - Extracted net name, start_index, end_index: D, 7, 4
+2024-03-15 12:52:28,657 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,658 - INFO - It is a port-derived net
+2024-03-15 12:52:28,659 - INFO - m1 Pin D connected to port-derived Net D[7:4]
+2024-03-15 12:52:28,660 - INFO - New port-derived Net D[7:4] created
+2024-03-15 12:52:28,661 - INFO - Port-derived Net D[7:4] added to current module.nets
+2024-03-15 12:52:28,661 - INFO - Net D[7:4] added to port_obj
+2024-03-15 12:52:28,662 - INFO - pin found : EN
+2024-03-15 12:52:28,662 - INFO - net found : EN[7:4]
+2024-03-15 12:52:28,665 - INFO - Extracted net name, start_index, end_index: EN, 7, 4
+2024-03-15 12:52:28,667 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,668 - INFO - It is a port-derived net
+2024-03-15 12:52:28,669 - INFO - m1 Pin EN connected to port-derived Net EN[7:4]
+2024-03-15 12:52:28,670 - INFO - New port-derived Net EN[7:4] created
+2024-03-15 12:52:28,670 - INFO - Port-derived Net EN[7:4] added to current module.nets
+2024-03-15 12:52:28,671 - INFO - Net EN[7:4] added to port_obj
+2024-03-15 12:52:28,671 - INFO - pin found : DP
+2024-03-15 12:52:28,672 - INFO - net found : n2
+2024-03-15 12:52:28,673 - INFO - Instance found : G1
+2024-03-15 12:52:28,673 - INFO - Inside instance: G1
+2024-03-15 12:52:28,674 - INFO - pin found : A1
+2024-03-15 12:52:28,674 - INFO - net found : n1[4]
+2024-03-15 12:52:28,675 - INFO - Extracted net name, start_index, end_index: n1, 4, None
+2024-03-15 12:52:28,676 - INFO - Already declared and parsed net : n1
+2024-03-15 12:52:28,677 - INFO - No matching port found for declared net n1[4] 
+Continue creating pin A1
+2024-03-15 12:52:28,678 - INFO - Created a VerilogNet object for n1[4]
+2024-03-15 12:52:28,678 - INFO - pin found : A2
+2024-03-15 12:52:28,678 - INFO - net found : n2[4]
+2024-03-15 12:52:28,679 - INFO - Extracted net name, start_index, end_index: n2, 4, None
+2024-03-15 12:52:28,679 - INFO - Already declared and parsed net : n2
+2024-03-15 12:52:28,683 - INFO - No matching port found for declared net n2[4] 
+Continue creating pin A2
+2024-03-15 12:52:28,684 - INFO - Created a VerilogNet object for n2[4]
+2024-03-15 12:52:28,684 - INFO - pin found : Z
+2024-03-15 12:52:28,686 - INFO - net found : DP[8]
+2024-03-15 12:52:28,687 - INFO - Extracted net name, start_index, end_index: DP, 8, None
+2024-03-15 12:52:28,687 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,687 - INFO - It is a port-derived net
+2024-03-15 12:52:28,688 - INFO - G1 Pin Z connected to port-derived Net DP[8]
+2024-03-15 12:52:28,689 - INFO - New port-derived Net DP[8] created
+2024-03-15 12:52:28,690 - INFO - Port-derived Net DP[8] added to current module.nets
+2024-03-15 12:52:28,691 - INFO - Net DP[8] added to port_obj
+2024-03-15 12:52:28,691 - INFO - Instance found : buf0
+2024-03-15 12:52:28,693 - INFO - Inside instance: buf0
+2024-03-15 12:52:28,694 - INFO - pin found : I
+2024-03-15 12:52:28,694 - INFO - net found : n1[0]
+2024-03-15 12:52:28,695 - INFO - Extracted net name, start_index, end_index: n1, 0, None
+2024-03-15 12:52:28,695 - INFO - Already declared and parsed net : n1
+2024-03-15 12:52:28,696 - INFO - No matching port found for declared net n1[0] 
+Continue creating pin I
+2024-03-15 12:52:28,700 - INFO - Created a VerilogNet object for n1[0]
+2024-03-15 12:52:28,701 - INFO - pin found : Z
+2024-03-15 12:52:28,702 - INFO - net found : DP[0]
+2024-03-15 12:52:28,703 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-15 12:52:28,703 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,721 - INFO - It is a port-derived net
+2024-03-15 12:52:28,722 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-15 12:52:28,722 - INFO - New port-derived Net DP[0] created
+2024-03-15 12:52:28,723 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-15 12:52:28,723 - INFO - Net DP[0] added to port_obj
+2024-03-15 12:52:28,723 - INFO - Instance found : buf1
+2024-03-15 12:52:28,724 - INFO - Inside instance: buf1
+2024-03-15 12:52:28,724 - INFO - pin found : I
+2024-03-15 12:52:28,725 - INFO - net found : n1[1]
+2024-03-15 12:52:28,725 - INFO - Extracted net name, start_index, end_index: n1, 1, None
+2024-03-15 12:52:28,725 - INFO - Already declared and parsed net : n1
+2024-03-15 12:52:28,726 - INFO - No matching port found for declared net n1[1] 
+Continue creating pin I
+2024-03-15 12:52:28,728 - INFO - Created a VerilogNet object for n1[1]
+2024-03-15 12:52:28,728 - INFO - pin found : Z
+2024-03-15 12:52:28,729 - INFO - net found : DP[1]
+2024-03-15 12:52:28,733 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-15 12:52:28,733 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,734 - INFO - It is a port-derived net
+2024-03-15 12:52:28,736 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-15 12:52:28,737 - INFO - New port-derived Net DP[1] created
+2024-03-15 12:52:28,737 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-15 12:52:28,737 - INFO - Net DP[1] added to port_obj
+2024-03-15 12:52:28,738 - INFO - Instance found : buf2
+2024-03-15 12:52:28,738 - INFO - Inside instance: buf2
+2024-03-15 12:52:28,739 - INFO - pin found : I
+2024-03-15 12:52:28,739 - INFO - net found : n1[2]
+2024-03-15 12:52:28,740 - INFO - Extracted net name, start_index, end_index: n1, 2, None
+2024-03-15 12:52:28,740 - INFO - Already declared and parsed net : n1
+2024-03-15 12:52:28,741 - INFO - No matching port found for declared net n1[2] 
+Continue creating pin I
+2024-03-15 12:52:28,742 - INFO - Created a VerilogNet object for n1[2]
+2024-03-15 12:52:28,743 - INFO - pin found : Z
+2024-03-15 12:52:28,743 - INFO - net found : DP[2]
+2024-03-15 12:52:28,744 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-15 12:52:28,744 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,745 - INFO - It is a port-derived net
+2024-03-15 12:52:28,745 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-15 12:52:28,745 - INFO - New port-derived Net DP[2] created
+2024-03-15 12:52:28,746 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-15 12:52:28,749 - INFO - Net DP[2] added to port_obj
+2024-03-15 12:52:28,750 - INFO - Instance found : buf3
+2024-03-15 12:52:28,753 - INFO - Inside instance: buf3
+2024-03-15 12:52:28,753 - INFO - pin found : I
+2024-03-15 12:52:28,754 - INFO - net found : n1[3]
+2024-03-15 12:52:28,754 - INFO - Extracted net name, start_index, end_index: n1, 3, None
+2024-03-15 12:52:28,755 - INFO - Already declared and parsed net : n1
+2024-03-15 12:52:28,755 - INFO - No matching port found for declared net n1[3] 
+Continue creating pin I
+2024-03-15 12:52:28,756 - INFO - Created a VerilogNet object for n1[3]
+2024-03-15 12:52:28,756 - INFO - pin found : Z
+2024-03-15 12:52:28,757 - INFO - net found : DP[3]
+2024-03-15 12:52:28,757 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-15 12:52:28,758 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,759 - INFO - It is a port-derived net
+2024-03-15 12:52:28,760 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-15 12:52:28,760 - INFO - New port-derived Net DP[3] created
+2024-03-15 12:52:28,761 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-15 12:52:28,761 - INFO - Net DP[3] added to port_obj
+2024-03-15 12:52:28,762 - INFO - Instance found : buf4
+2024-03-15 12:52:28,762 - INFO - Inside instance: buf4
+2024-03-15 12:52:28,762 - INFO - pin found : I
+2024-03-15 12:52:28,766 - INFO - net found : n2[0]
+2024-03-15 12:52:28,767 - INFO - Extracted net name, start_index, end_index: n2, 0, None
+2024-03-15 12:52:28,769 - INFO - Already declared and parsed net : n2
+2024-03-15 12:52:28,770 - INFO - No matching port found for declared net n2[0] 
+Continue creating pin I
+2024-03-15 12:52:28,770 - INFO - Created a VerilogNet object for n2[0]
+2024-03-15 12:52:28,771 - INFO - pin found : Z
+2024-03-15 12:52:28,771 - INFO - net found : DP[4]
+2024-03-15 12:52:28,772 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-15 12:52:28,772 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,773 - INFO - It is a port-derived net
+2024-03-15 12:52:28,773 - INFO - buf4 Pin Z connected to port-derived Net DP[4]
+2024-03-15 12:52:28,774 - INFO - New port-derived Net DP[4] created
+2024-03-15 12:52:28,775 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-15 12:52:28,775 - INFO - Net DP[4] added to port_obj
+2024-03-15 12:52:28,776 - INFO - Instance found : buf5
+2024-03-15 12:52:28,776 - INFO - Inside instance: buf5
+2024-03-15 12:52:28,777 - INFO - pin found : I
+2024-03-15 12:52:28,777 - INFO - net found : n2[1]
+2024-03-15 12:52:28,778 - INFO - Extracted net name, start_index, end_index: n2, 1, None
+2024-03-15 12:52:28,778 - INFO - Already declared and parsed net : n2
+2024-03-15 12:52:28,779 - INFO - No matching port found for declared net n2[1] 
+Continue creating pin I
+2024-03-15 12:52:28,779 - INFO - Created a VerilogNet object for n2[1]
+2024-03-15 12:52:28,783 - INFO - pin found : Z
+2024-03-15 12:52:28,784 - INFO - net found : DP[5]
+2024-03-15 12:52:28,785 - INFO - Extracted net name, start_index, end_index: DP, 5, None
+2024-03-15 12:52:28,786 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,787 - INFO - It is a port-derived net
+2024-03-15 12:52:28,787 - INFO - buf5 Pin Z connected to port-derived Net DP[5]
+2024-03-15 12:52:28,788 - INFO - New port-derived Net DP[5] created
+2024-03-15 12:52:28,788 - INFO - Port-derived Net DP[5] added to current module.nets
+2024-03-15 12:52:28,789 - INFO - Net DP[5] added to port_obj
+2024-03-15 12:52:28,789 - INFO - Instance found : buf6
+2024-03-15 12:52:28,790 - INFO - Inside instance: buf6
+2024-03-15 12:52:28,790 - INFO - pin found : I
+2024-03-15 12:52:28,791 - INFO - net found : n2[2]
+2024-03-15 12:52:28,791 - INFO - Extracted net name, start_index, end_index: n2, 2, None
+2024-03-15 12:52:28,793 - INFO - Already declared and parsed net : n2
+2024-03-15 12:52:28,794 - INFO - No matching port found for declared net n2[2] 
+Continue creating pin I
+2024-03-15 12:52:28,794 - INFO - Created a VerilogNet object for n2[2]
+2024-03-15 12:52:28,795 - INFO - pin found : Z
+2024-03-15 12:52:28,795 - INFO - net found : DP[6]
+2024-03-15 12:52:28,795 - INFO - Extracted net name, start_index, end_index: DP, 6, None
+2024-03-15 12:52:28,796 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,800 - INFO - It is a port-derived net
+2024-03-15 12:52:28,802 - INFO - buf6 Pin Z connected to port-derived Net DP[6]
+2024-03-15 12:52:28,803 - INFO - New port-derived Net DP[6] created
+2024-03-15 12:52:28,803 - INFO - Port-derived Net DP[6] added to current module.nets
+2024-03-15 12:52:28,804 - INFO - Net DP[6] added to port_obj
+2024-03-15 12:52:28,804 - INFO - Instance found : buf7
+2024-03-15 12:52:28,804 - INFO - Inside instance: buf7
+2024-03-15 12:52:28,805 - INFO - pin found : I
+2024-03-15 12:52:28,805 - INFO - net found : n2[3]
+2024-03-15 12:52:28,806 - INFO - Extracted net name, start_index, end_index: n2, 3, None
+2024-03-15 12:52:28,806 - INFO - Already declared and parsed net : n2
+2024-03-15 12:52:28,807 - INFO - No matching port found for declared net n2[3] 
+Continue creating pin I
+2024-03-15 12:52:28,807 - INFO - Created a VerilogNet object for n2[3]
+2024-03-15 12:52:28,808 - INFO - pin found : Z
+2024-03-15 12:52:28,809 - INFO - net found : DP[7]
+2024-03-15 12:52:28,809 - INFO - Extracted net name, start_index, end_index: DP, 7, None
+2024-03-15 12:52:28,811 - INFO - Not a declared or parsed net
+2024-03-15 12:52:28,811 - INFO - It is a port-derived net
+2024-03-15 12:52:28,811 - INFO - buf7 Pin Z connected to port-derived Net DP[7]
+2024-03-15 12:52:28,812 - INFO - New port-derived Net DP[7] created
+2024-03-15 12:52:28,812 - INFO - Port-derived Net DP[7] added to current module.nets
+2024-03-15 12:52:28,812 - INFO - Net DP[7] added to port_obj
+2024-03-15 12:52:28,816 - INFO - End of module: byte_parity
+2024-03-15 12:53:17,254 - INFO - Main function completed successfully.
+2024-03-18 11:52:43,269 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-03-18 11:52:43,275 - INFO - Parsing module templates from the netlist.
+2024-03-18 11:52:43,276 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-18 11:52:43,276 - INFO - Module found: FourBitAdder
+2024-03-18 11:52:43,276 - INFO - Port Found : COUT)
+2024-03-18 11:52:43,277 - INFO - Module found: FullAdder
+2024-03-18 11:52:43,278 - INFO - Port Found : COUT)
+2024-03-18 11:52:44,729 - INFO - def parse_netlist function called.
+2024-03-18 11:52:44,730 - INFO - Module found : FourBitAdder
+2024-03-18 11:52:44,731 - INFO - output Port found : COUT) width .
+2024-03-18 11:52:44,733 - INFO - New net created: carry with width [3:0]
+2024-03-18 11:52:44,734 - INFO - New net created: sum with width [3:0]
+2024-03-18 11:52:44,735 - INFO - Instance found : fa0
+2024-03-18 11:52:44,736 - INFO - Inside instance: fa0
+2024-03-18 11:52:44,737 - INFO - pin found : A
+2024-03-18 11:52:44,738 - INFO - net found : A[0]
+2024-03-18 11:52:44,740 - INFO - Extracted net name, start_index, end_index: A, 0, None
+2024-03-18 11:52:44,741 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,742 - INFO - No net found for fa0 Pin A connected to A[0]
+2024-03-18 11:52:44,743 - INFO - pin found : B
+2024-03-18 11:52:44,744 - INFO - net found : B[0]
+2024-03-18 11:52:44,745 - INFO - Extracted net name, start_index, end_index: B, 0, None
+2024-03-18 11:52:44,746 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,747 - INFO - No net found for fa0 Pin B connected to B[0]
+2024-03-18 11:52:44,750 - INFO - pin found : CIN
+2024-03-18 11:52:44,754 - INFO - net found : 1'b0
+2024-03-18 11:52:44,756 - INFO - Net name with a constant found 1'b0
+2024-03-18 11:52:44,757 - INFO - Pin CIN connected to a constant 1'b0
+2024-03-18 11:52:44,758 - INFO - Created a VerilogNet object for 1'b0
+2024-03-18 11:52:44,758 - INFO - pin found : SUM
+2024-03-18 11:52:44,759 - INFO - net found : sum[0]
+2024-03-18 11:52:44,761 - INFO - Extracted net name, start_index, end_index: sum, 0, None
+2024-03-18 11:52:44,762 - INFO - Already declared and parsed net : sum
+2024-03-18 11:52:44,762 - INFO - No matching port found for declared net sum[0] 
+Continue creating pin SUM
+2024-03-18 11:52:44,763 - INFO - Created a VerilogNet object for sum[0]
+2024-03-18 11:52:44,763 - INFO - pin found : COUT
+2024-03-18 11:52:44,764 - INFO - net found : carry[0]
+2024-03-18 11:52:44,764 - INFO - Extracted net name, start_index, end_index: carry, 0, None
+2024-03-18 11:52:44,765 - INFO - Already declared and parsed net : carry
+2024-03-18 11:52:44,766 - INFO - No matching port found for declared net carry[0] 
+Continue creating pin COUT
+2024-03-18 11:52:44,767 - INFO - Created a VerilogNet object for carry[0]
+2024-03-18 11:52:44,768 - INFO - Instance found : fa1
+2024-03-18 11:52:44,769 - INFO - Inside instance: fa1
+2024-03-18 11:52:44,771 - INFO - pin found : A
+2024-03-18 11:52:44,772 - INFO - net found : A[1]
+2024-03-18 11:52:44,774 - INFO - Extracted net name, start_index, end_index: A, 1, None
+2024-03-18 11:52:44,774 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,777 - INFO - No net found for fa1 Pin A connected to A[1]
+2024-03-18 11:52:44,777 - INFO - pin found : B
+2024-03-18 11:52:44,778 - INFO - net found : B[1]
+2024-03-18 11:52:44,778 - INFO - Extracted net name, start_index, end_index: B, 1, None
+2024-03-18 11:52:44,779 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,779 - INFO - No net found for fa1 Pin B connected to B[1]
+2024-03-18 11:52:44,780 - INFO - pin found : CIN
+2024-03-18 11:52:44,780 - INFO - net found : carry[0]
+2024-03-18 11:52:44,781 - INFO - Extracted net name, start_index, end_index: carry, 0, None
+2024-03-18 11:52:44,781 - INFO - Already declared and parsed net : carry
+2024-03-18 11:52:44,782 - INFO - No matching port found for declared net carry[0] 
+Continue creating pin CIN
+2024-03-18 11:52:44,782 - INFO - Created a VerilogNet object for carry[0]
+2024-03-18 11:52:44,786 - INFO - pin found : SUM
+2024-03-18 11:52:44,788 - INFO - net found : sum[1]
+2024-03-18 11:52:44,789 - INFO - Extracted net name, start_index, end_index: sum, 1, None
+2024-03-18 11:52:44,790 - INFO - Already declared and parsed net : sum
+2024-03-18 11:52:44,791 - INFO - No matching port found for declared net sum[1] 
+Continue creating pin SUM
+2024-03-18 11:52:44,792 - INFO - Created a VerilogNet object for sum[1]
+2024-03-18 11:52:44,792 - INFO - pin found : COUT
+2024-03-18 11:52:44,793 - INFO - net found : carry[1]
+2024-03-18 11:52:44,793 - INFO - Extracted net name, start_index, end_index: carry, 1, None
+2024-03-18 11:52:44,794 - INFO - Already declared and parsed net : carry
+2024-03-18 11:52:44,795 - INFO - No matching port found for declared net carry[1] 
+Continue creating pin COUT
+2024-03-18 11:52:44,795 - INFO - Created a VerilogNet object for carry[1]
+2024-03-18 11:52:44,796 - INFO - Instance found : fa2
+2024-03-18 11:52:44,796 - INFO - Inside instance: fa2
+2024-03-18 11:52:44,797 - INFO - pin found : A
+2024-03-18 11:52:44,799 - INFO - net found : A[2]
+2024-03-18 11:52:44,799 - INFO - Extracted net name, start_index, end_index: A, 2, None
+2024-03-18 11:52:44,800 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,803 - INFO - No net found for fa2 Pin A connected to A[2]
+2024-03-18 11:52:44,804 - INFO - pin found : B
+2024-03-18 11:52:44,804 - INFO - net found : B[2]
+2024-03-18 11:52:44,806 - INFO - Extracted net name, start_index, end_index: B, 2, None
+2024-03-18 11:52:44,806 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,807 - INFO - No net found for fa2 Pin B connected to B[2]
+2024-03-18 11:52:44,807 - INFO - pin found : CIN
+2024-03-18 11:52:44,807 - INFO - net found : carry[1]
+2024-03-18 11:52:44,809 - INFO - Extracted net name, start_index, end_index: carry, 1, None
+2024-03-18 11:52:44,809 - INFO - Already declared and parsed net : carry
+2024-03-18 11:52:44,810 - INFO - No matching port found for declared net carry[1] 
+Continue creating pin CIN
+2024-03-18 11:52:44,811 - INFO - Created a VerilogNet object for carry[1]
+2024-03-18 11:52:44,811 - INFO - pin found : SUM
+2024-03-18 11:52:44,812 - INFO - net found : sum[2]
+2024-03-18 11:52:44,812 - INFO - Extracted net name, start_index, end_index: sum, 2, None
+2024-03-18 11:52:44,812 - INFO - Already declared and parsed net : sum
+2024-03-18 11:52:44,813 - INFO - No matching port found for declared net sum[2] 
+Continue creating pin SUM
+2024-03-18 11:52:44,814 - INFO - Created a VerilogNet object for sum[2]
+2024-03-18 11:52:44,815 - INFO - pin found : COUT
+2024-03-18 11:52:44,815 - INFO - net found : carry[2]
+2024-03-18 11:52:44,815 - INFO - Extracted net name, start_index, end_index: carry, 2, None
+2024-03-18 11:52:44,815 - INFO - Already declared and parsed net : carry
+2024-03-18 11:52:44,817 - INFO - No matching port found for declared net carry[2] 
+Continue creating pin COUT
+2024-03-18 11:52:44,817 - INFO - Created a VerilogNet object for carry[2]
+2024-03-18 11:52:44,818 - INFO - Instance found : fa3
+2024-03-18 11:52:44,819 - INFO - Inside instance: fa3
+2024-03-18 11:52:44,819 - INFO - pin found : A
+2024-03-18 11:52:44,820 - INFO - net found : A[3]
+2024-03-18 11:52:44,821 - INFO - Extracted net name, start_index, end_index: A, 3, None
+2024-03-18 11:52:44,821 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,823 - INFO - No net found for fa3 Pin A connected to A[3]
+2024-03-18 11:52:44,823 - INFO - pin found : B
+2024-03-18 11:52:44,824 - INFO - net found : B[3]
+2024-03-18 11:52:44,824 - INFO - Extracted net name, start_index, end_index: B, 3, None
+2024-03-18 11:52:44,825 - INFO - Not a declared or parsed net
+2024-03-18 11:52:44,825 - INFO - No net found for fa3 Pin B connected to B[3]
+2024-03-18 11:52:44,826 - INFO - pin found : CIN
+2024-03-18 11:52:44,826 - INFO - net found : carry[2]
+2024-03-18 11:52:44,827 - INFO - Extracted net name, start_index, end_index: carry, 2, None
+2024-03-18 11:52:44,827 - INFO - Already declared and parsed net : carry
+2024-03-18 11:52:44,828 - INFO - No matching port found for declared net carry[2] 
+Continue creating pin CIN
+2024-03-18 11:52:44,828 - INFO - Created a VerilogNet object for carry[2]
+2024-03-18 11:52:44,829 - INFO - pin found : SUM
+2024-03-18 11:52:44,829 - INFO - net found : sum[3]
+2024-03-18 11:52:44,830 - INFO - Extracted net name, start_index, end_index: sum, 3, None
+2024-03-18 11:52:44,830 - INFO - Already declared and parsed net : sum
+2024-03-18 11:52:44,831 - INFO - No matching port found for declared net sum[3] 
+Continue creating pin SUM
+2024-03-18 11:52:44,831 - INFO - Created a VerilogNet object for sum[3]
+2024-03-18 11:52:44,832 - INFO - pin found : COUT
+2024-03-18 11:52:44,832 - INFO - net found : COUT
+2024-03-18 11:52:44,833 - INFO - No net found for fa3 Pin COUT connected to COUT
+2024-03-18 11:52:44,833 - INFO - End of module: FourBitAdder
+2024-03-18 11:52:44,834 - INFO - Module found : FullAdder
+2024-03-18 11:52:44,835 - INFO - output Port found : COUT) width .
+2024-03-18 11:52:44,835 - INFO - New net created: n1 with width None
+2024-03-18 11:52:44,836 - INFO - New net created: n2 with width None
+2024-03-18 11:52:44,836 - INFO - New net created: n8 with width None
+2024-03-18 11:52:44,837 - INFO - Instance found : CLK_B1
+2024-03-18 11:52:44,837 - INFO - Inside instance: CLK_B1
+2024-03-18 11:52:44,838 - INFO - pin found : I
+2024-03-18 11:52:44,838 - INFO - net found : B
+2024-03-18 11:52:44,839 - INFO - No net found for CLK_B1 Pin I connected to B
+2024-03-18 11:52:44,840 - INFO - pin found : Z
+2024-03-18 11:52:44,840 - INFO - net found : n1
+2024-03-18 11:52:44,841 - INFO - Instance found : G1
+2024-03-18 11:52:44,841 - INFO - Inside instance: G1
+2024-03-18 11:52:44,842 - INFO - pin found : A1
+2024-03-18 11:52:44,843 - INFO - net found : A
+2024-03-18 11:52:44,844 - INFO - No net found for G1 Pin A1 connected to A
+2024-03-18 11:52:44,844 - INFO - pin found : A2
+2024-03-18 11:52:44,846 - INFO - net found : n1
+2024-03-18 11:52:44,846 - INFO - pin found : Z
+2024-03-18 11:52:44,847 - INFO - net found : n2
+2024-03-18 11:52:44,848 - INFO - Instance found : G2
+2024-03-18 11:52:44,848 - INFO - Inside instance: G2
+2024-03-18 11:52:44,849 - INFO - pin found : A1
+2024-03-18 11:52:44,851 - INFO - net found : CIN
+2024-03-18 11:52:44,852 - INFO - No net found for G2 Pin A1 connected to CIN
+2024-03-18 11:52:44,852 - INFO - pin found : A2
+2024-03-18 11:52:44,853 - INFO - net found : n2
+2024-03-18 11:52:44,854 - INFO - pin found : Z
+2024-03-18 11:52:44,855 - INFO - net found : n8
+2024-03-18 11:52:44,863 - INFO - Instance found : CLK_B2
+2024-03-18 11:52:44,864 - INFO - Inside instance: CLK_B2
+2024-03-18 11:52:44,864 - INFO - pin found : I
+2024-03-18 11:52:44,865 - INFO - net found : n8
+2024-03-18 11:52:44,866 - INFO - pin found : Z
+2024-03-18 11:52:44,866 - INFO - net found : SUM
+2024-03-18 11:52:44,867 - INFO - No net found for CLK_B2 Pin Z connected to SUM
+2024-03-18 11:52:44,868 - INFO - Instance found : CLK_B3
+2024-03-18 11:52:44,869 - INFO - Inside instance: CLK_B3
+2024-03-18 11:52:44,870 - INFO - pin found : I
+2024-03-18 11:52:44,871 - INFO - net found : CIN
+2024-03-18 11:52:44,872 - INFO - No net found for CLK_B3 Pin I connected to CIN
+2024-03-18 11:52:44,874 - INFO - pin found : Z
+2024-03-18 11:52:44,875 - INFO - net found : COUT
+2024-03-18 11:52:44,877 - INFO - No net found for CLK_B3 Pin Z connected to COUT
+2024-03-18 11:52:44,878 - INFO - End of module: FullAdder
+2024-03-18 12:11:42,699 - INFO - Main function completed successfully.
+2024-03-18 12:11:49,426 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v
+2024-03-18 12:11:49,427 - INFO - Parsing module templates from the netlist.
+2024-03-18 12:11:49,428 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-18 12:11:49,436 - INFO - Module found: bit_parity
+2024-03-18 12:11:49,436 - INFO - Port Found : D
+2024-03-18 12:11:49,437 - INFO - Port Found : Pin
+2024-03-18 12:11:49,437 - INFO - Port Found : Pout
+2024-03-18 12:11:49,437 - INFO - Module found: nibble_parity
+2024-03-18 12:11:49,437 - INFO - Port Found : D
+2024-03-18 12:11:49,437 - INFO - Port Found : EN
+2024-03-18 12:11:49,438 - INFO - Port Found : DP
+2024-03-18 12:11:49,438 - INFO - Module found: byte_parity
+2024-03-18 12:11:49,438 - INFO - Port Found : D
+2024-03-18 12:11:49,438 - INFO - Port Found : EN
+2024-03-18 12:11:49,438 - INFO - Port Found : DP
+2024-03-18 12:11:50,698 - INFO - def parse_netlist function called.
+2024-03-18 12:11:50,699 - INFO - Module found : bit_parity
+2024-03-18 12:11:50,699 - INFO - input Port found : D width .
+2024-03-18 12:11:50,700 - INFO - input Port found : Pin width .
+2024-03-18 12:11:50,701 - INFO - output Port found : Pout width .
+2024-03-18 12:11:50,702 - INFO - New net created: Pout with width None
+2024-03-18 12:11:50,703 - INFO - Instance found : G1
+2024-03-18 12:11:50,703 - INFO - Inside instance: G1
+2024-03-18 12:11:50,704 - INFO - pin found : A1
+2024-03-18 12:11:50,704 - INFO - net found : D
+2024-03-18 12:11:50,705 - INFO - It is a port-derived net
+2024-03-18 12:11:50,705 - INFO - Created a VerilogNet object : D
+2024-03-18 12:11:50,706 - INFO - Added the net object to the module.nets
+2024-03-18 12:11:50,708 - INFO - Added the net object to the module ports
+2024-03-18 12:11:50,708 - INFO - pin found : A2
+2024-03-18 12:11:50,709 - INFO - net found : Pin
+2024-03-18 12:11:50,710 - INFO - It is a port-derived net
+2024-03-18 12:11:50,711 - INFO - Created a VerilogNet object : Pin
+2024-03-18 12:11:50,711 - INFO - Added the net object to the module.nets
+2024-03-18 12:11:50,712 - INFO - Added the net object to the module ports
+2024-03-18 12:11:50,713 - INFO - pin found : Z
+2024-03-18 12:11:50,713 - INFO - net found : Pout
+2024-03-18 12:11:50,714 - INFO - It is a port-derived net
+2024-03-18 12:11:50,714 - INFO - Created a VerilogNet object : Pout
+2024-03-18 12:11:50,715 - INFO - Added the net object to the module.nets
+2024-03-18 12:11:50,716 - INFO - Added the net object to the module ports
+2024-03-18 12:11:50,716 - INFO - End of module: bit_parity
+2024-03-18 12:11:50,717 - INFO - Module found : nibble_parity
+2024-03-18 12:11:50,717 - INFO - input Port found : D width 3:0.
+2024-03-18 12:11:50,718 - INFO - input Port found : EN width 3:0.
+2024-03-18 12:11:50,721 - INFO - output Port found : DP width 4:0.
+2024-03-18 12:11:50,722 - INFO - New net created: n1 with width None
+2024-03-18 12:11:50,725 - INFO - New net created: n2 with width None
+2024-03-18 12:11:50,726 - INFO - New net created: n3 with width None
+2024-03-18 12:11:50,727 - INFO - New net created: n4 with width None
+2024-03-18 12:11:50,727 - INFO - New net created: n5 with width None
+2024-03-18 12:11:50,728 - INFO - New net created: n6 with width None
+2024-03-18 12:11:50,729 - INFO - New net created: n7 with width None
+2024-03-18 12:11:50,729 - INFO - New net created: n8 with width None
+2024-03-18 12:11:50,730 - INFO - Instance found : p0
+2024-03-18 12:11:50,731 - INFO - Inside instance: p0
+2024-03-18 12:11:50,732 - INFO - pin found : D
+2024-03-18 12:11:50,732 - INFO - net found : D[0]
+2024-03-18 12:11:50,734 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-18 12:11:50,734 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,735 - INFO - It is a port-derived net
+2024-03-18 12:11:50,736 - INFO - p0 Pin D connected to port-derived Net D[0]
+2024-03-18 12:11:50,738 - INFO - New port-derived Net D[0] created
+2024-03-18 12:11:50,738 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-18 12:11:50,739 - INFO - Net D[0] added to port_obj
+2024-03-18 12:11:50,740 - INFO - pin found : Pin
+2024-03-18 12:11:50,745 - INFO - net found : 1'b0
+2024-03-18 12:11:50,746 - INFO - Net name with a constant found 1'b0
+2024-03-18 12:11:50,747 - INFO - Pin Pin connected to a constant 1'b0
+2024-03-18 12:11:50,747 - INFO - Created a VerilogNet object for 1'b0
+2024-03-18 12:11:50,748 - INFO - pin found : Pout
+2024-03-18 12:11:50,748 - INFO - net found : n1
+2024-03-18 12:11:50,749 - INFO - Instance found : mux0
+2024-03-18 12:11:50,749 - INFO - Inside instance: mux0
+2024-03-18 12:11:50,750 - INFO - pin found : I0
+2024-03-18 12:11:50,751 - INFO - net found : 1'b0
+2024-03-18 12:11:50,752 - INFO - Net name with a constant found 1'b0
+2024-03-18 12:11:50,753 - INFO - Pin I0 connected to a constant 1'b0
+2024-03-18 12:11:50,753 - INFO - Created a VerilogNet object for 1'b0
+2024-03-18 12:11:50,756 - INFO - pin found : I1
+2024-03-18 12:11:50,761 - INFO - net found : n1
+2024-03-18 12:11:50,764 - INFO - pin found : S
+2024-03-18 12:11:50,764 - INFO - net found : EN[0]
+2024-03-18 12:11:50,764 - INFO - Extracted net name, start_index, end_index: EN, 0, None
+2024-03-18 12:11:50,765 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,766 - INFO - It is a port-derived net
+2024-03-18 12:11:50,766 - INFO - mux0 Pin S connected to port-derived Net EN[0]
+2024-03-18 12:11:50,767 - INFO - New port-derived Net EN[0] created
+2024-03-18 12:11:50,767 - INFO - Port-derived Net EN[0] added to current module.nets
+2024-03-18 12:11:50,768 - INFO - Net EN[0] added to port_obj
+2024-03-18 12:11:50,768 - INFO - pin found : Z
+2024-03-18 12:11:50,769 - INFO - net found : n2
+2024-03-18 12:11:50,770 - INFO - Instance found : p1
+2024-03-18 12:11:50,770 - INFO - Inside instance: p1
+2024-03-18 12:11:50,775 - INFO - pin found : D
+2024-03-18 12:11:50,779 - INFO - net found : D[1]
+2024-03-18 12:11:50,780 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-18 12:11:50,780 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,781 - INFO - It is a port-derived net
+2024-03-18 12:11:50,782 - INFO - p1 Pin D connected to port-derived Net D[1]
+2024-03-18 12:11:50,783 - INFO - New port-derived Net D[1] created
+2024-03-18 12:11:50,783 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-18 12:11:50,783 - INFO - Net D[1] added to port_obj
+2024-03-18 12:11:50,784 - INFO - pin found : Pin
+2024-03-18 12:11:50,784 - INFO - net found : n2
+2024-03-18 12:11:50,786 - INFO - pin found : Pout
+2024-03-18 12:11:50,787 - INFO - net found : n3
+2024-03-18 12:11:50,788 - INFO - Instance found : mux1
+2024-03-18 12:11:50,789 - INFO - Inside instance: mux1
+2024-03-18 12:11:50,797 - INFO - pin found : I0
+2024-03-18 12:11:50,798 - INFO - net found : n2
+2024-03-18 12:11:50,798 - INFO - pin found : I1
+2024-03-18 12:11:50,799 - INFO - net found : n3
+2024-03-18 12:11:50,803 - INFO - pin found : S
+2024-03-18 12:11:50,803 - INFO - net found : EN[1]
+2024-03-18 12:11:50,803 - INFO - Extracted net name, start_index, end_index: EN, 1, None
+2024-03-18 12:11:50,804 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,804 - INFO - It is a port-derived net
+2024-03-18 12:11:50,805 - INFO - mux1 Pin S connected to port-derived Net EN[1]
+2024-03-18 12:11:50,805 - INFO - New port-derived Net EN[1] created
+2024-03-18 12:11:50,807 - INFO - Port-derived Net EN[1] added to current module.nets
+2024-03-18 12:11:50,810 - INFO - Net EN[1] added to port_obj
+2024-03-18 12:11:50,813 - INFO - pin found : Z
+2024-03-18 12:11:50,814 - INFO - net found : n4
+2024-03-18 12:11:50,815 - INFO - Instance found : p2
+2024-03-18 12:11:50,815 - INFO - Inside instance: p2
+2024-03-18 12:11:50,816 - INFO - pin found : D
+2024-03-18 12:11:50,816 - INFO - net found : D[2]
+2024-03-18 12:11:50,817 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-18 12:11:50,817 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,818 - INFO - It is a port-derived net
+2024-03-18 12:11:50,818 - INFO - p2 Pin D connected to port-derived Net D[2]
+2024-03-18 12:11:50,820 - INFO - New port-derived Net D[2] created
+2024-03-18 12:11:50,820 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-18 12:11:50,821 - INFO - Net D[2] added to port_obj
+2024-03-18 12:11:50,822 - INFO - pin found : Pin
+2024-03-18 12:11:50,822 - INFO - net found : n4
+2024-03-18 12:11:50,830 - INFO - pin found : Pout
+2024-03-18 12:11:50,830 - INFO - net found : n5
+2024-03-18 12:11:50,831 - INFO - Instance found : mux2
+2024-03-18 12:11:50,832 - INFO - Inside instance: mux2
+2024-03-18 12:11:50,832 - INFO - pin found : I0
+2024-03-18 12:11:50,832 - INFO - net found : n4
+2024-03-18 12:11:50,833 - INFO - pin found : I1
+2024-03-18 12:11:50,833 - INFO - net found : n5
+2024-03-18 12:11:50,834 - INFO - pin found : S
+2024-03-18 12:11:50,836 - INFO - net found : EN[2]
+2024-03-18 12:11:50,836 - INFO - Extracted net name, start_index, end_index: EN, 2, None
+2024-03-18 12:11:50,836 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,837 - INFO - It is a port-derived net
+2024-03-18 12:11:50,838 - INFO - mux2 Pin S connected to port-derived Net EN[2]
+2024-03-18 12:11:50,838 - INFO - New port-derived Net EN[2] created
+2024-03-18 12:11:50,845 - INFO - Port-derived Net EN[2] added to current module.nets
+2024-03-18 12:11:50,848 - INFO - Net EN[2] added to port_obj
+2024-03-18 12:11:50,849 - INFO - pin found : Z
+2024-03-18 12:11:50,850 - INFO - net found : n6
+2024-03-18 12:11:50,851 - INFO - Instance found : p3
+2024-03-18 12:11:50,852 - INFO - Inside instance: p3
+2024-03-18 12:11:50,852 - INFO - pin found : D
+2024-03-18 12:11:50,853 - INFO - net found : D[3]
+2024-03-18 12:11:50,854 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-18 12:11:50,855 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,855 - INFO - It is a port-derived net
+2024-03-18 12:11:50,858 - INFO - p3 Pin D connected to port-derived Net D[3]
+2024-03-18 12:11:50,860 - INFO - New port-derived Net D[3] created
+2024-03-18 12:11:50,865 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-18 12:11:50,866 - INFO - Net D[3] added to port_obj
+2024-03-18 12:11:50,866 - INFO - pin found : Pin
+2024-03-18 12:11:50,867 - INFO - net found : n6
+2024-03-18 12:11:50,867 - INFO - pin found : Pout
+2024-03-18 12:11:50,868 - INFO - net found : n7
+2024-03-18 12:11:50,869 - INFO - Instance found : mux3
+2024-03-18 12:11:50,869 - INFO - Inside instance: mux3
+2024-03-18 12:11:50,870 - INFO - pin found : I0
+2024-03-18 12:11:50,870 - INFO - net found : n6
+2024-03-18 12:11:50,871 - INFO - pin found : I1
+2024-03-18 12:11:50,872 - INFO - net found : n7
+2024-03-18 12:11:50,872 - INFO - pin found : S
+2024-03-18 12:11:50,874 - INFO - net found : EN[3]
+2024-03-18 12:11:50,876 - INFO - Extracted net name, start_index, end_index: EN, 3, None
+2024-03-18 12:11:50,876 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,879 - INFO - It is a port-derived net
+2024-03-18 12:11:50,883 - INFO - mux3 Pin S connected to port-derived Net EN[3]
+2024-03-18 12:11:50,883 - INFO - New port-derived Net EN[3] created
+2024-03-18 12:11:50,884 - INFO - Port-derived Net EN[3] added to current module.nets
+2024-03-18 12:11:50,884 - INFO - Net EN[3] added to port_obj
+2024-03-18 12:11:50,885 - INFO - pin found : Z
+2024-03-18 12:11:50,885 - INFO - net found : DP[4]
+2024-03-18 12:11:50,886 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-18 12:11:50,886 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,887 - INFO - It is a port-derived net
+2024-03-18 12:11:50,887 - INFO - mux3 Pin Z connected to port-derived Net DP[4]
+2024-03-18 12:11:50,888 - INFO - New port-derived Net DP[4] created
+2024-03-18 12:11:50,888 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-18 12:11:50,889 - INFO - Net DP[4] added to port_obj
+2024-03-18 12:11:50,891 - INFO - Instance found : buf0
+2024-03-18 12:11:50,892 - INFO - Inside instance: buf0
+2024-03-18 12:11:50,896 - INFO - pin found : I
+2024-03-18 12:11:50,898 - INFO - net found : D[0]
+2024-03-18 12:11:50,898 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-18 12:11:50,898 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,899 - INFO - It is a port-derived net
+2024-03-18 12:11:50,899 - INFO - buf0 Pin I connected to port-derived Net D[0]
+2024-03-18 12:11:50,900 - INFO - New port-derived Net D[0] created
+2024-03-18 12:11:50,901 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-18 12:11:50,901 - INFO - Net D[0] added to port_obj
+2024-03-18 12:11:50,902 - INFO - pin found : Z
+2024-03-18 12:11:50,903 - INFO - net found : DP[0]
+2024-03-18 12:11:50,903 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-18 12:11:50,904 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,904 - INFO - It is a port-derived net
+2024-03-18 12:11:50,904 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-18 12:11:50,905 - INFO - New port-derived Net DP[0] created
+2024-03-18 12:11:50,906 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-18 12:11:50,906 - INFO - Net DP[0] added to port_obj
+2024-03-18 12:11:50,908 - INFO - Instance found : buf1
+2024-03-18 12:11:50,913 - INFO - Inside instance: buf1
+2024-03-18 12:11:50,914 - INFO - pin found : I
+2024-03-18 12:11:50,914 - INFO - net found : D[1]
+2024-03-18 12:11:50,915 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-18 12:11:50,915 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,916 - INFO - It is a port-derived net
+2024-03-18 12:11:50,916 - INFO - buf1 Pin I connected to port-derived Net D[1]
+2024-03-18 12:11:50,917 - INFO - New port-derived Net D[1] created
+2024-03-18 12:11:50,917 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-18 12:11:50,918 - INFO - Net D[1] added to port_obj
+2024-03-18 12:11:50,919 - INFO - pin found : Z
+2024-03-18 12:11:50,919 - INFO - net found : DP[1]
+2024-03-18 12:11:50,920 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-18 12:11:50,920 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,921 - INFO - It is a port-derived net
+2024-03-18 12:11:50,921 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-18 12:11:50,922 - INFO - New port-derived Net DP[1] created
+2024-03-18 12:11:50,924 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-18 12:11:50,929 - INFO - Net DP[1] added to port_obj
+2024-03-18 12:11:50,930 - INFO - Instance found : buf2
+2024-03-18 12:11:50,932 - INFO - Inside instance: buf2
+2024-03-18 12:11:50,932 - INFO - pin found : I
+2024-03-18 12:11:50,933 - INFO - net found : D[2]
+2024-03-18 12:11:50,934 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-18 12:11:50,934 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,935 - INFO - It is a port-derived net
+2024-03-18 12:11:50,935 - INFO - buf2 Pin I connected to port-derived Net D[2]
+2024-03-18 12:11:50,935 - INFO - New port-derived Net D[2] created
+2024-03-18 12:11:50,936 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-18 12:11:50,936 - INFO - Net D[2] added to port_obj
+2024-03-18 12:11:50,937 - INFO - pin found : Z
+2024-03-18 12:11:50,937 - INFO - net found : DP[2]
+2024-03-18 12:11:50,938 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-18 12:11:50,938 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,938 - INFO - It is a port-derived net
+2024-03-18 12:11:50,939 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-18 12:11:50,943 - INFO - New port-derived Net DP[2] created
+2024-03-18 12:11:50,945 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-18 12:11:50,945 - INFO - Net DP[2] added to port_obj
+2024-03-18 12:11:50,946 - INFO - Instance found : buf3
+2024-03-18 12:11:50,946 - INFO - Inside instance: buf3
+2024-03-18 12:11:50,947 - INFO - pin found : I
+2024-03-18 12:11:50,947 - INFO - net found : D[3]
+2024-03-18 12:11:50,948 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-18 12:11:50,948 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,949 - INFO - It is a port-derived net
+2024-03-18 12:11:50,949 - INFO - buf3 Pin I connected to port-derived Net D[3]
+2024-03-18 12:11:50,950 - INFO - New port-derived Net D[3] created
+2024-03-18 12:11:50,951 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-18 12:11:50,951 - INFO - Net D[3] added to port_obj
+2024-03-18 12:11:50,951 - INFO - pin found : Z
+2024-03-18 12:11:50,953 - INFO - net found : DP[3]
+2024-03-18 12:11:50,955 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-18 12:11:50,955 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,956 - INFO - It is a port-derived net
+2024-03-18 12:11:50,962 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-18 12:11:50,962 - INFO - New port-derived Net DP[3] created
+2024-03-18 12:11:50,963 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-18 12:11:50,964 - INFO - Net DP[3] added to port_obj
+2024-03-18 12:11:50,964 - INFO - End of module: nibble_parity
+2024-03-18 12:11:50,965 - INFO - Module found : byte_parity
+2024-03-18 12:11:50,965 - INFO - input Port found : D width 7:0.
+2024-03-18 12:11:50,965 - INFO - input Port found : EN width 7:0.
+2024-03-18 12:11:50,966 - INFO - output Port found : DP width 8:0.
+2024-03-18 12:11:50,968 - INFO - New net created: n1 with width [4:0]
+2024-03-18 12:11:50,968 - INFO - New net created: n2 with width [4:0]
+2024-03-18 12:11:50,968 - INFO - New net created: n3 with width None
+2024-03-18 12:11:50,968 - INFO - Instance found : m0
+2024-03-18 12:11:50,969 - INFO - Inside instance: m0
+2024-03-18 12:11:50,970 - INFO - pin found : D
+2024-03-18 12:11:50,971 - INFO - net found : D[3:0]
+2024-03-18 12:11:50,972 - INFO - Extracted net name, start_index, end_index: D, 3, 0
+2024-03-18 12:11:50,976 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,976 - INFO - It is a port-derived net
+2024-03-18 12:11:50,979 - INFO - m0 Pin D connected to port-derived Net D[3:0]
+2024-03-18 12:11:50,979 - INFO - New port-derived Net D[3:0] created
+2024-03-18 12:11:50,979 - INFO - Port-derived Net D[3:0] added to current module.nets
+2024-03-18 12:11:50,980 - INFO - Net D[3:0] added to port_obj
+2024-03-18 12:11:50,980 - INFO - pin found : EN
+2024-03-18 12:11:50,982 - INFO - net found : EN[3:0]
+2024-03-18 12:11:50,982 - INFO - Extracted net name, start_index, end_index: EN, 3, 0
+2024-03-18 12:11:50,983 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,983 - INFO - It is a port-derived net
+2024-03-18 12:11:50,984 - INFO - m0 Pin EN connected to port-derived Net EN[3:0]
+2024-03-18 12:11:50,984 - INFO - New port-derived Net EN[3:0] created
+2024-03-18 12:11:50,985 - INFO - Port-derived Net EN[3:0] added to current module.nets
+2024-03-18 12:11:50,985 - INFO - Net EN[3:0] added to port_obj
+2024-03-18 12:11:50,986 - INFO - pin found : DP
+2024-03-18 12:11:50,986 - INFO - net found : n1
+2024-03-18 12:11:50,987 - INFO - Instance found : m1
+2024-03-18 12:11:50,988 - INFO - Inside instance: m1
+2024-03-18 12:11:50,991 - INFO - pin found : D
+2024-03-18 12:11:50,993 - INFO - net found : D[7:4]
+2024-03-18 12:11:50,995 - INFO - Extracted net name, start_index, end_index: D, 7, 4
+2024-03-18 12:11:50,996 - INFO - Not a declared or parsed net
+2024-03-18 12:11:50,997 - INFO - It is a port-derived net
+2024-03-18 12:11:50,997 - INFO - m1 Pin D connected to port-derived Net D[7:4]
+2024-03-18 12:11:50,998 - INFO - New port-derived Net D[7:4] created
+2024-03-18 12:11:50,998 - INFO - Port-derived Net D[7:4] added to current module.nets
+2024-03-18 12:11:50,999 - INFO - Net D[7:4] added to port_obj
+2024-03-18 12:11:50,999 - INFO - pin found : EN
+2024-03-18 12:11:51,000 - INFO - net found : EN[7:4]
+2024-03-18 12:11:51,000 - INFO - Extracted net name, start_index, end_index: EN, 7, 4
+2024-03-18 12:11:51,001 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,002 - INFO - It is a port-derived net
+2024-03-18 12:11:51,003 - INFO - m1 Pin EN connected to port-derived Net EN[7:4]
+2024-03-18 12:11:51,004 - INFO - New port-derived Net EN[7:4] created
+2024-03-18 12:11:51,006 - INFO - Port-derived Net EN[7:4] added to current module.nets
+2024-03-18 12:11:51,010 - INFO - Net EN[7:4] added to port_obj
+2024-03-18 12:11:51,012 - INFO - pin found : DP
+2024-03-18 12:11:51,012 - INFO - net found : n2
+2024-03-18 12:11:51,012 - INFO - Instance found : G1
+2024-03-18 12:11:51,013 - INFO - Inside instance: G1
+2024-03-18 12:11:51,014 - INFO - pin found : A1
+2024-03-18 12:11:51,014 - INFO - net found : n1[4]
+2024-03-18 12:11:51,015 - INFO - Extracted net name, start_index, end_index: n1, 4, None
+2024-03-18 12:11:51,015 - INFO - Already declared and parsed net : n1
+2024-03-18 12:11:51,016 - INFO - No matching port found for declared net n1[4] 
+Continue creating pin A1
+2024-03-18 12:11:51,017 - INFO - Created a VerilogNet object for n1[4]
+2024-03-18 12:11:51,017 - INFO - pin found : A2
+2024-03-18 12:11:51,018 - INFO - net found : n2[4]
+2024-03-18 12:11:51,018 - INFO - Extracted net name, start_index, end_index: n2, 4, None
+2024-03-18 12:11:51,019 - INFO - Already declared and parsed net : n2
+2024-03-18 12:11:51,021 - INFO - No matching port found for declared net n2[4] 
+Continue creating pin A2
+2024-03-18 12:11:51,023 - INFO - Created a VerilogNet object for n2[4]
+2024-03-18 12:11:51,027 - INFO - pin found : Z
+2024-03-18 12:11:51,028 - INFO - net found : DP[8]
+2024-03-18 12:11:51,029 - INFO - Extracted net name, start_index, end_index: DP, 8, None
+2024-03-18 12:11:51,029 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,030 - INFO - It is a port-derived net
+2024-03-18 12:11:51,030 - INFO - G1 Pin Z connected to port-derived Net DP[8]
+2024-03-18 12:11:51,030 - INFO - New port-derived Net DP[8] created
+2024-03-18 12:11:51,032 - INFO - Port-derived Net DP[8] added to current module.nets
+2024-03-18 12:11:51,033 - INFO - Net DP[8] added to port_obj
+2024-03-18 12:11:51,033 - INFO - Instance found : buf0
+2024-03-18 12:11:51,033 - INFO - Inside instance: buf0
+2024-03-18 12:11:51,035 - INFO - pin found : I
+2024-03-18 12:11:51,035 - INFO - net found : n1[0]
+2024-03-18 12:11:51,035 - INFO - Extracted net name, start_index, end_index: n1, 0, None
+2024-03-18 12:11:51,036 - INFO - Already declared and parsed net : n1
+2024-03-18 12:11:51,037 - INFO - No matching port found for declared net n1[0] 
+Continue creating pin I
+2024-03-18 12:11:51,037 - INFO - Created a VerilogNet object for n1[0]
+2024-03-18 12:11:51,038 - INFO - pin found : Z
+2024-03-18 12:11:51,039 - INFO - net found : DP[0]
+2024-03-18 12:11:51,043 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-18 12:11:51,044 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,046 - INFO - It is a port-derived net
+2024-03-18 12:11:51,046 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-18 12:11:51,047 - INFO - New port-derived Net DP[0] created
+2024-03-18 12:11:51,047 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-18 12:11:51,048 - INFO - Net DP[0] added to port_obj
+2024-03-18 12:11:51,048 - INFO - Instance found : buf1
+2024-03-18 12:11:51,049 - INFO - Inside instance: buf1
+2024-03-18 12:11:51,049 - INFO - pin found : I
+2024-03-18 12:11:51,050 - INFO - net found : n1[1]
+2024-03-18 12:11:51,053 - INFO - Extracted net name, start_index, end_index: n1, 1, None
+2024-03-18 12:11:51,053 - INFO - Already declared and parsed net : n1
+2024-03-18 12:11:51,054 - INFO - No matching port found for declared net n1[1] 
+Continue creating pin I
+2024-03-18 12:11:51,056 - INFO - Created a VerilogNet object for n1[1]
+2024-03-18 12:11:51,058 - INFO - pin found : Z
+2024-03-18 12:11:51,060 - INFO - net found : DP[1]
+2024-03-18 12:11:51,063 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-18 12:11:51,063 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,064 - INFO - It is a port-derived net
+2024-03-18 12:11:51,064 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-18 12:11:51,065 - INFO - New port-derived Net DP[1] created
+2024-03-18 12:11:51,065 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-18 12:11:51,066 - INFO - Net DP[1] added to port_obj
+2024-03-18 12:11:51,066 - INFO - Instance found : buf2
+2024-03-18 12:11:51,067 - INFO - Inside instance: buf2
+2024-03-18 12:11:51,068 - INFO - pin found : I
+2024-03-18 12:11:51,068 - INFO - net found : n1[2]
+2024-03-18 12:11:51,069 - INFO - Extracted net name, start_index, end_index: n1, 2, None
+2024-03-18 12:11:51,069 - INFO - Already declared and parsed net : n1
+2024-03-18 12:11:51,070 - INFO - No matching port found for declared net n1[2] 
+Continue creating pin I
+2024-03-18 12:11:51,072 - INFO - Created a VerilogNet object for n1[2]
+2024-03-18 12:11:51,075 - INFO - pin found : Z
+2024-03-18 12:11:51,077 - INFO - net found : DP[2]
+2024-03-18 12:11:51,079 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-18 12:11:51,079 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,080 - INFO - It is a port-derived net
+2024-03-18 12:11:51,080 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-18 12:11:51,081 - INFO - New port-derived Net DP[2] created
+2024-03-18 12:11:51,082 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-18 12:11:51,082 - INFO - Net DP[2] added to port_obj
+2024-03-18 12:11:51,083 - INFO - Instance found : buf3
+2024-03-18 12:11:51,084 - INFO - Inside instance: buf3
+2024-03-18 12:11:51,084 - INFO - pin found : I
+2024-03-18 12:11:51,084 - INFO - net found : n1[3]
+2024-03-18 12:11:51,085 - INFO - Extracted net name, start_index, end_index: n1, 3, None
+2024-03-18 12:11:51,085 - INFO - Already declared and parsed net : n1
+2024-03-18 12:11:51,087 - INFO - No matching port found for declared net n1[3] 
+Continue creating pin I
+2024-03-18 12:11:51,088 - INFO - Created a VerilogNet object for n1[3]
+2024-03-18 12:11:51,089 - INFO - pin found : Z
+2024-03-18 12:11:51,089 - INFO - net found : DP[3]
+2024-03-18 12:11:51,093 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-18 12:11:51,094 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,096 - INFO - It is a port-derived net
+2024-03-18 12:11:51,096 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-18 12:11:51,097 - INFO - New port-derived Net DP[3] created
+2024-03-18 12:11:51,097 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-18 12:11:51,098 - INFO - Net DP[3] added to port_obj
+2024-03-18 12:11:51,099 - INFO - Instance found : buf4
+2024-03-18 12:11:51,099 - INFO - Inside instance: buf4
+2024-03-18 12:11:51,100 - INFO - pin found : I
+2024-03-18 12:11:51,100 - INFO - net found : n2[0]
+2024-03-18 12:11:51,101 - INFO - Extracted net name, start_index, end_index: n2, 0, None
+2024-03-18 12:11:51,101 - INFO - Already declared and parsed net : n2
+2024-03-18 12:11:51,102 - INFO - No matching port found for declared net n2[0] 
+Continue creating pin I
+2024-03-18 12:11:51,103 - INFO - Created a VerilogNet object for n2[0]
+2024-03-18 12:11:51,104 - INFO - pin found : Z
+2024-03-18 12:11:51,104 - INFO - net found : DP[4]
+2024-03-18 12:11:51,105 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-18 12:11:51,105 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,108 - INFO - It is a port-derived net
+2024-03-18 12:11:51,109 - INFO - buf4 Pin Z connected to port-derived Net DP[4]
+2024-03-18 12:11:51,111 - INFO - New port-derived Net DP[4] created
+2024-03-18 12:11:51,113 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-18 12:11:51,113 - INFO - Net DP[4] added to port_obj
+2024-03-18 12:11:51,114 - INFO - Instance found : buf5
+2024-03-18 12:11:51,115 - INFO - Inside instance: buf5
+2024-03-18 12:11:51,115 - INFO - pin found : I
+2024-03-18 12:11:51,116 - INFO - net found : n2[1]
+2024-03-18 12:11:51,116 - INFO - Extracted net name, start_index, end_index: n2, 1, None
+2024-03-18 12:11:51,117 - INFO - Already declared and parsed net : n2
+2024-03-18 12:11:51,118 - INFO - No matching port found for declared net n2[1] 
+Continue creating pin I
+2024-03-18 12:11:51,118 - INFO - Created a VerilogNet object for n2[1]
+2024-03-18 12:11:51,119 - INFO - pin found : Z
+2024-03-18 12:11:51,120 - INFO - net found : DP[5]
+2024-03-18 12:11:51,120 - INFO - Extracted net name, start_index, end_index: DP, 5, None
+2024-03-18 12:11:51,122 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,125 - INFO - It is a port-derived net
+2024-03-18 12:11:51,127 - INFO - buf5 Pin Z connected to port-derived Net DP[5]
+2024-03-18 12:11:51,128 - INFO - New port-derived Net DP[5] created
+2024-03-18 12:11:51,130 - INFO - Port-derived Net DP[5] added to current module.nets
+2024-03-18 12:11:51,130 - INFO - Net DP[5] added to port_obj
+2024-03-18 12:11:51,130 - INFO - Instance found : buf6
+2024-03-18 12:11:51,131 - INFO - Inside instance: buf6
+2024-03-18 12:11:51,132 - INFO - pin found : I
+2024-03-18 12:11:51,133 - INFO - net found : n2[2]
+2024-03-18 12:11:51,133 - INFO - Extracted net name, start_index, end_index: n2, 2, None
+2024-03-18 12:11:51,134 - INFO - Already declared and parsed net : n2
+2024-03-18 12:11:51,134 - INFO - No matching port found for declared net n2[2] 
+Continue creating pin I
+2024-03-18 12:11:51,135 - INFO - Created a VerilogNet object for n2[2]
+2024-03-18 12:11:51,135 - INFO - pin found : Z
+2024-03-18 12:11:51,136 - INFO - net found : DP[6]
+2024-03-18 12:11:51,137 - INFO - Extracted net name, start_index, end_index: DP, 6, None
+2024-03-18 12:11:51,138 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,139 - INFO - It is a port-derived net
+2024-03-18 12:11:51,142 - INFO - buf6 Pin Z connected to port-derived Net DP[6]
+2024-03-18 12:11:51,143 - INFO - New port-derived Net DP[6] created
+2024-03-18 12:11:51,146 - INFO - Port-derived Net DP[6] added to current module.nets
+2024-03-18 12:11:51,147 - INFO - Net DP[6] added to port_obj
+2024-03-18 12:11:51,147 - INFO - Instance found : buf7
+2024-03-18 12:11:51,148 - INFO - Inside instance: buf7
+2024-03-18 12:11:51,148 - INFO - pin found : I
+2024-03-18 12:11:51,149 - INFO - net found : n2[3]
+2024-03-18 12:11:51,149 - INFO - Extracted net name, start_index, end_index: n2, 3, None
+2024-03-18 12:11:51,150 - INFO - Already declared and parsed net : n2
+2024-03-18 12:11:51,151 - INFO - No matching port found for declared net n2[3] 
+Continue creating pin I
+2024-03-18 12:11:51,151 - INFO - Created a VerilogNet object for n2[3]
+2024-03-18 12:11:51,152 - INFO - pin found : Z
+2024-03-18 12:11:51,153 - INFO - net found : DP[7]
+2024-03-18 12:11:51,154 - INFO - Extracted net name, start_index, end_index: DP, 7, None
+2024-03-18 12:11:51,155 - INFO - Not a declared or parsed net
+2024-03-18 12:11:51,156 - INFO - It is a port-derived net
+2024-03-18 12:11:51,158 - INFO - buf7 Pin Z connected to port-derived Net DP[7]
+2024-03-18 12:11:51,159 - INFO - New port-derived Net DP[7] created
+2024-03-18 12:11:51,163 - INFO - Port-derived Net DP[7] added to current module.nets
+2024-03-18 12:11:51,163 - INFO - Net DP[7] added to port_obj
+2024-03-18 12:11:51,164 - INFO - End of module: byte_parity
+2024-03-18 12:11:52,572 - INFO - Main function completed successfully.
+2024-03-19 09:53:21,997 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/netlist_fourbitadder.v
+2024-03-19 09:53:21,999 - INFO - Parsing module templates from the netlist.
+2024-03-19 09:53:22,000 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-19 09:53:22,000 - INFO - Module found: FourBitAdder
+2024-03-19 09:53:22,000 - INFO - Port Found : COUT)
+2024-03-19 09:53:22,001 - INFO - Module found: FullAdder
+2024-03-19 09:53:22,001 - INFO - Port Found : COUT)
+2024-03-19 09:53:24,218 - INFO - def parse_netlist function called.
+2024-03-19 09:53:24,219 - INFO - Module found : FourBitAdder
+2024-03-19 09:53:24,220 - INFO - output Port found : COUT) width .
+2024-03-19 09:53:24,222 - INFO - New net created: carry with width [3:0]
+2024-03-19 09:53:24,223 - INFO - New net created: sum with width [3:0]
+2024-03-19 09:53:24,225 - INFO - Instance found : fa0
+2024-03-19 09:53:24,226 - INFO - Inside instance: fa0
+2024-03-19 09:53:24,227 - INFO - pin found : A
+2024-03-19 09:53:24,228 - INFO - net found : A[0]
+2024-03-19 09:53:24,229 - INFO - Extracted net name, start_index, end_index: A, 0, None
+2024-03-19 09:53:24,231 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,237 - INFO - No net found for fa0 Pin A connected to A[0]
+2024-03-19 09:53:24,240 - INFO - pin found : B
+2024-03-19 09:53:24,242 - INFO - net found : B[0]
+2024-03-19 09:53:24,244 - INFO - Extracted net name, start_index, end_index: B, 0, None
+2024-03-19 09:53:24,245 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,246 - INFO - No net found for fa0 Pin B connected to B[0]
+2024-03-19 09:53:24,247 - INFO - pin found : CIN
+2024-03-19 09:53:24,247 - INFO - net found : 1'b0
+2024-03-19 09:53:24,248 - INFO - Net name with a constant found 1'b0
+2024-03-19 09:53:24,249 - INFO - Pin CIN connected to a constant 1'b0
+2024-03-19 09:53:24,252 - INFO - Created a VerilogNet object for 1'b0
+2024-03-19 09:53:24,253 - INFO - pin found : SUM
+2024-03-19 09:53:24,258 - INFO - net found : sum[0]
+2024-03-19 09:53:24,259 - INFO - Extracted net name, start_index, end_index: sum, 0, None
+2024-03-19 09:53:24,261 - INFO - Already declared and parsed net : sum
+2024-03-19 09:53:24,262 - INFO - No matching port found for declared net sum[0] 
+Continue creating pin SUM
+2024-03-19 09:53:24,263 - INFO - Created a VerilogNet object for sum[0]
+2024-03-19 09:53:24,264 - INFO - pin found : COUT
+2024-03-19 09:53:24,265 - INFO - net found : carry[0]
+2024-03-19 09:53:24,267 - INFO - Extracted net name, start_index, end_index: carry, 0, None
+2024-03-19 09:53:24,269 - INFO - Already declared and parsed net : carry
+2024-03-19 09:53:24,270 - INFO - No matching port found for declared net carry[0] 
+Continue creating pin COUT
+2024-03-19 09:53:24,274 - INFO - Created a VerilogNet object for carry[0]
+2024-03-19 09:53:24,277 - INFO - Instance found : fa1
+2024-03-19 09:53:24,278 - INFO - Inside instance: fa1
+2024-03-19 09:53:24,279 - INFO - pin found : A
+2024-03-19 09:53:24,281 - INFO - net found : A[1]
+2024-03-19 09:53:24,282 - INFO - Extracted net name, start_index, end_index: A, 1, None
+2024-03-19 09:53:24,283 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,285 - INFO - No net found for fa1 Pin A connected to A[1]
+2024-03-19 09:53:24,287 - INFO - pin found : B
+2024-03-19 09:53:24,293 - INFO - net found : B[1]
+2024-03-19 09:53:24,295 - INFO - Extracted net name, start_index, end_index: B, 1, None
+2024-03-19 09:53:24,297 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,299 - INFO - No net found for fa1 Pin B connected to B[1]
+2024-03-19 09:53:24,301 - INFO - pin found : CIN
+2024-03-19 09:53:24,302 - INFO - net found : carry[0]
+2024-03-19 09:53:24,302 - INFO - Extracted net name, start_index, end_index: carry, 0, None
+2024-03-19 09:53:24,303 - INFO - Already declared and parsed net : carry
+2024-03-19 09:53:24,309 - INFO - No matching port found for declared net carry[0] 
+Continue creating pin CIN
+2024-03-19 09:53:24,312 - INFO - Created a VerilogNet object for carry[0]
+2024-03-19 09:53:24,313 - INFO - pin found : SUM
+2024-03-19 09:53:24,314 - INFO - net found : sum[1]
+2024-03-19 09:53:24,314 - INFO - Extracted net name, start_index, end_index: sum, 1, None
+2024-03-19 09:53:24,317 - INFO - Already declared and parsed net : sum
+2024-03-19 09:53:24,318 - INFO - No matching port found for declared net sum[1] 
+Continue creating pin SUM
+2024-03-19 09:53:24,319 - INFO - Created a VerilogNet object for sum[1]
+2024-03-19 09:53:24,319 - INFO - pin found : COUT
+2024-03-19 09:53:24,320 - INFO - net found : carry[1]
+2024-03-19 09:53:24,325 - INFO - Extracted net name, start_index, end_index: carry, 1, None
+2024-03-19 09:53:24,326 - INFO - Already declared and parsed net : carry
+2024-03-19 09:53:24,329 - INFO - No matching port found for declared net carry[1] 
+Continue creating pin COUT
+2024-03-19 09:53:24,330 - INFO - Created a VerilogNet object for carry[1]
+2024-03-19 09:53:24,331 - INFO - Instance found : fa2
+2024-03-19 09:53:24,332 - INFO - Inside instance: fa2
+2024-03-19 09:53:24,334 - INFO - pin found : A
+2024-03-19 09:53:24,335 - INFO - net found : A[2]
+2024-03-19 09:53:24,337 - INFO - Extracted net name, start_index, end_index: A, 2, None
+2024-03-19 09:53:24,342 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,343 - INFO - No net found for fa2 Pin A connected to A[2]
+2024-03-19 09:53:24,345 - INFO - pin found : B
+2024-03-19 09:53:24,346 - INFO - net found : B[2]
+2024-03-19 09:53:24,348 - INFO - Extracted net name, start_index, end_index: B, 2, None
+2024-03-19 09:53:24,349 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,350 - INFO - No net found for fa2 Pin B connected to B[2]
+2024-03-19 09:53:24,352 - INFO - pin found : CIN
+2024-03-19 09:53:24,354 - INFO - net found : carry[1]
+2024-03-19 09:53:24,359 - INFO - Extracted net name, start_index, end_index: carry, 1, None
+2024-03-19 09:53:24,361 - INFO - Already declared and parsed net : carry
+2024-03-19 09:53:24,363 - INFO - No matching port found for declared net carry[1] 
+Continue creating pin CIN
+2024-03-19 09:53:24,364 - INFO - Created a VerilogNet object for carry[1]
+2024-03-19 09:53:24,366 - INFO - pin found : SUM
+2024-03-19 09:53:24,367 - INFO - net found : sum[2]
+2024-03-19 09:53:24,369 - INFO - Extracted net name, start_index, end_index: sum, 2, None
+2024-03-19 09:53:24,369 - INFO - Already declared and parsed net : sum
+2024-03-19 09:53:24,374 - INFO - No matching port found for declared net sum[2] 
+Continue creating pin SUM
+2024-03-19 09:53:24,376 - INFO - Created a VerilogNet object for sum[2]
+2024-03-19 09:53:24,379 - INFO - pin found : COUT
+2024-03-19 09:53:24,380 - INFO - net found : carry[2]
+2024-03-19 09:53:24,381 - INFO - Extracted net name, start_index, end_index: carry, 2, None
+2024-03-19 09:53:24,382 - INFO - Already declared and parsed net : carry
+2024-03-19 09:53:24,386 - INFO - No matching port found for declared net carry[2] 
+Continue creating pin COUT
+2024-03-19 09:53:24,387 - INFO - Created a VerilogNet object for carry[2]
+2024-03-19 09:53:24,391 - INFO - Instance found : fa3
+2024-03-19 09:53:24,393 - INFO - Inside instance: fa3
+2024-03-19 09:53:24,394 - INFO - pin found : A
+2024-03-19 09:53:24,395 - INFO - net found : A[3]
+2024-03-19 09:53:24,396 - INFO - Extracted net name, start_index, end_index: A, 3, None
+2024-03-19 09:53:24,401 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,403 - INFO - No net found for fa3 Pin A connected to A[3]
+2024-03-19 09:53:24,415 - INFO - pin found : B
+2024-03-19 09:53:24,417 - INFO - net found : B[3]
+2024-03-19 09:53:24,418 - INFO - Extracted net name, start_index, end_index: B, 3, None
+2024-03-19 09:53:24,419 - INFO - Not a declared or parsed net
+2024-03-19 09:53:24,425 - INFO - No net found for fa3 Pin B connected to B[3]
+2024-03-19 09:53:24,426 - INFO - pin found : CIN
+2024-03-19 09:53:24,427 - INFO - net found : carry[2]
+2024-03-19 09:53:24,428 - INFO - Extracted net name, start_index, end_index: carry, 2, None
+2024-03-19 09:53:24,429 - INFO - Already declared and parsed net : carry
+2024-03-19 09:53:24,430 - INFO - No matching port found for declared net carry[2] 
+Continue creating pin CIN
+2024-03-19 09:53:24,431 - INFO - Created a VerilogNet object for carry[2]
+2024-03-19 09:53:24,432 - INFO - pin found : SUM
+2024-03-19 09:53:24,434 - INFO - net found : sum[3]
+2024-03-19 09:53:24,436 - INFO - Extracted net name, start_index, end_index: sum, 3, None
+2024-03-19 09:53:24,437 - INFO - Already declared and parsed net : sum
+2024-03-19 09:53:24,443 - INFO - No matching port found for declared net sum[3] 
+Continue creating pin SUM
+2024-03-19 09:53:24,445 - INFO - Created a VerilogNet object for sum[3]
+2024-03-19 09:53:24,447 - INFO - pin found : COUT
+2024-03-19 09:53:24,449 - INFO - net found : COUT
+2024-03-19 09:53:24,463 - INFO - No net found for fa3 Pin COUT connected to COUT
+2024-03-19 09:53:24,463 - INFO - End of module: FourBitAdder
+2024-03-19 09:53:24,469 - INFO - Module found : FullAdder
+2024-03-19 09:53:24,474 - INFO - output Port found : COUT) width .
+2024-03-19 09:53:24,477 - INFO - New net created: n1 with width None
+2024-03-19 09:53:24,478 - INFO - New net created: n2 with width None
+2024-03-19 09:53:24,480 - INFO - New net created: n8 with width None
+2024-03-19 09:53:24,483 - INFO - Instance found : CLK_B1
+2024-03-19 09:53:24,486 - INFO - Inside instance: CLK_B1
+2024-03-19 09:53:24,493 - INFO - pin found : I
+2024-03-19 09:53:24,501 - INFO - net found : B
+2024-03-19 09:53:24,503 - INFO - No net found for CLK_B1 Pin I connected to B
+2024-03-19 09:53:24,507 - INFO - pin found : Z
+2024-03-19 09:53:24,509 - INFO - net found : n1
+2024-03-19 09:53:24,511 - INFO - Instance found : G1
+2024-03-19 09:53:24,512 - INFO - Inside instance: G1
+2024-03-19 09:53:24,514 - INFO - pin found : A1
+2024-03-19 09:53:24,516 - INFO - net found : A
+2024-03-19 09:53:24,518 - INFO - No net found for G1 Pin A1 connected to A
+2024-03-19 09:53:24,519 - INFO - pin found : A2
+2024-03-19 09:53:24,526 - INFO - net found : n1
+2024-03-19 09:53:24,526 - INFO - pin found : Z
+2024-03-19 09:53:24,528 - INFO - net found : n2
+2024-03-19 09:53:24,529 - INFO - Instance found : G2
+2024-03-19 09:53:24,531 - INFO - Inside instance: G2
+2024-03-19 09:53:24,532 - INFO - pin found : A1
+2024-03-19 09:53:24,534 - INFO - net found : CIN
+2024-03-19 09:53:24,535 - INFO - No net found for G2 Pin A1 connected to CIN
+2024-03-19 09:53:24,542 - INFO - pin found : A2
+2024-03-19 09:53:24,545 - INFO - net found : n2
+2024-03-19 09:53:24,546 - INFO - pin found : Z
+2024-03-19 09:53:24,546 - INFO - net found : n8
+2024-03-19 09:53:24,547 - INFO - Instance found : CLK_B2
+2024-03-19 09:53:24,548 - INFO - Inside instance: CLK_B2
+2024-03-19 09:53:24,550 - INFO - pin found : I
+2024-03-19 09:53:24,552 - INFO - net found : n8
+2024-03-19 09:53:24,553 - INFO - pin found : Z
+2024-03-19 09:53:24,558 - INFO - net found : SUM
+2024-03-19 09:53:24,560 - INFO - No net found for CLK_B2 Pin Z connected to SUM
+2024-03-19 09:53:24,562 - INFO - Instance found : CLK_B3
+2024-03-19 09:53:24,563 - INFO - Inside instance: CLK_B3
+2024-03-19 09:53:24,564 - INFO - pin found : I
+2024-03-19 09:53:24,565 - INFO - net found : CIN
+2024-03-19 09:53:24,566 - INFO - No net found for CLK_B3 Pin I connected to CIN
+2024-03-19 09:53:24,568 - INFO - pin found : Z
+2024-03-19 09:53:24,569 - INFO - net found : COUT
+2024-03-19 09:53:24,575 - INFO - No net found for CLK_B3 Pin Z connected to COUT
+2024-03-19 09:53:24,575 - INFO - End of module: FullAdder
+2024-03-19 09:53:25,963 - INFO - Main function completed successfully.
+2024-03-19 10:45:21,310 - INFO - Main function called with file path: C:/Users/MicroApt/Documents/eda-poc/netlist/input/byte_parity_generator.v
+2024-03-19 10:45:21,311 - INFO - Parsing module templates from the netlist.
+2024-03-19 10:45:21,311 - INFO - def parse_netlist_hierarchy_module_template is called.
+2024-03-19 10:45:21,319 - INFO - Module found: bit_parity
+2024-03-19 10:45:21,319 - INFO - Port Found : D
+2024-03-19 10:45:21,319 - INFO - Port Found : Pin
+2024-03-19 10:45:21,319 - INFO - Port Found : Pout
+2024-03-19 10:45:21,320 - INFO - Module found: nibble_parity
+2024-03-19 10:45:21,320 - INFO - Port Found : D
+2024-03-19 10:45:21,320 - INFO - Port Found : EN
+2024-03-19 10:45:21,320 - INFO - Port Found : DP
+2024-03-19 10:45:21,320 - INFO - Module found: byte_parity
+2024-03-19 10:45:21,320 - INFO - Port Found : D
+2024-03-19 10:45:21,320 - INFO - Port Found : EN
+2024-03-19 10:45:21,320 - INFO - Port Found : DP
+2024-03-19 10:45:22,728 - INFO - def parse_netlist function called.
+2024-03-19 10:45:22,728 - INFO - Module found : bit_parity
+2024-03-19 10:45:22,729 - INFO - input Port found : D width .
+2024-03-19 10:45:22,730 - INFO - input Port found : Pin width .
+2024-03-19 10:45:22,731 - INFO - output Port found : Pout width .
+2024-03-19 10:45:22,732 - INFO - New net created: Pout with width None
+2024-03-19 10:45:22,732 - INFO - Instance found : G1
+2024-03-19 10:45:22,733 - INFO - Inside instance: G1
+2024-03-19 10:45:22,734 - INFO - pin found : A1
+2024-03-19 10:45:22,734 - INFO - net found : D
+2024-03-19 10:45:22,735 - INFO - It is a port-derived net
+2024-03-19 10:45:22,736 - INFO - Created a VerilogNet object : D
+2024-03-19 10:45:22,736 - INFO - Added the net object to the module.nets
+2024-03-19 10:45:22,737 - INFO - Added the net object to the module ports
+2024-03-19 10:45:22,737 - INFO - pin found : A2
+2024-03-19 10:45:22,738 - INFO - net found : Pin
+2024-03-19 10:45:22,739 - INFO - It is a port-derived net
+2024-03-19 10:45:22,739 - INFO - Created a VerilogNet object : Pin
+2024-03-19 10:45:22,740 - INFO - Added the net object to the module.nets
+2024-03-19 10:45:22,740 - INFO - Added the net object to the module ports
+2024-03-19 10:45:22,741 - INFO - pin found : Z
+2024-03-19 10:45:22,743 - INFO - net found : Pout
+2024-03-19 10:45:22,744 - INFO - It is a port-derived net
+2024-03-19 10:45:22,745 - INFO - Created a VerilogNet object : Pout
+2024-03-19 10:45:22,746 - INFO - Added the net object to the module.nets
+2024-03-19 10:45:22,746 - INFO - Added the net object to the module ports
+2024-03-19 10:45:22,746 - INFO - End of module: bit_parity
+2024-03-19 10:45:22,748 - INFO - Module found : nibble_parity
+2024-03-19 10:45:22,750 - INFO - input Port found : D width 3:0.
+2024-03-19 10:45:22,750 - INFO - input Port found : EN width 3:0.
+2024-03-19 10:45:22,750 - INFO - output Port found : DP width 4:0.
+2024-03-19 10:45:22,751 - INFO - New net created: n1 with width None
+2024-03-19 10:45:22,752 - INFO - New net created: n2 with width None
+2024-03-19 10:45:22,752 - INFO - New net created: n3 with width None
+2024-03-19 10:45:22,753 - INFO - New net created: n4 with width None
+2024-03-19 10:45:22,754 - INFO - New net created: n5 with width None
+2024-03-19 10:45:22,755 - INFO - New net created: n6 with width None
+2024-03-19 10:45:22,757 - INFO - New net created: n7 with width None
+2024-03-19 10:45:22,759 - INFO - New net created: n8 with width None
+2024-03-19 10:45:22,762 - INFO - Instance found : p0
+2024-03-19 10:45:22,762 - INFO - Inside instance: p0
+2024-03-19 10:45:22,763 - INFO - pin found : D
+2024-03-19 10:45:22,764 - INFO - net found : D[0]
+2024-03-19 10:45:22,765 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-19 10:45:22,765 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,766 - INFO - It is a port-derived net
+2024-03-19 10:45:22,767 - INFO - p0 Pin D connected to port-derived Net D[0]
+2024-03-19 10:45:22,768 - INFO - New port-derived Net D[0] created
+2024-03-19 10:45:22,768 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-19 10:45:22,768 - INFO - Net D[0] added to port_obj
+2024-03-19 10:45:22,769 - INFO - pin found : Pin
+2024-03-19 10:45:22,769 - INFO - net found : 1'b0
+2024-03-19 10:45:22,770 - INFO - Net name with a constant found 1'b0
+2024-03-19 10:45:22,770 - INFO - Pin Pin connected to a constant 1'b0
+2024-03-19 10:45:22,771 - INFO - Created a VerilogNet object for 1'b0
+2024-03-19 10:45:22,773 - INFO - pin found : Pout
+2024-03-19 10:45:22,774 - INFO - net found : n1
+2024-03-19 10:45:22,777 - INFO - Instance found : mux0
+2024-03-19 10:45:22,781 - INFO - Inside instance: mux0
+2024-03-19 10:45:22,782 - INFO - pin found : I0
+2024-03-19 10:45:22,782 - INFO - net found : 1'b0
+2024-03-19 10:45:22,783 - INFO - Net name with a constant found 1'b0
+2024-03-19 10:45:22,784 - INFO - Pin I0 connected to a constant 1'b0
+2024-03-19 10:45:22,784 - INFO - Created a VerilogNet object for 1'b0
+2024-03-19 10:45:22,785 - INFO - pin found : I1
+2024-03-19 10:45:22,785 - INFO - net found : n1
+2024-03-19 10:45:22,786 - INFO - pin found : S
+2024-03-19 10:45:22,786 - INFO - net found : EN[0]
+2024-03-19 10:45:22,787 - INFO - Extracted net name, start_index, end_index: EN, 0, None
+2024-03-19 10:45:22,788 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,789 - INFO - It is a port-derived net
+2024-03-19 10:45:22,791 - INFO - mux0 Pin S connected to port-derived Net EN[0]
+2024-03-19 10:45:22,795 - INFO - New port-derived Net EN[0] created
+2024-03-19 10:45:22,796 - INFO - Port-derived Net EN[0] added to current module.nets
+2024-03-19 10:45:22,798 - INFO - Net EN[0] added to port_obj
+2024-03-19 10:45:22,798 - INFO - pin found : Z
+2024-03-19 10:45:22,799 - INFO - net found : n2
+2024-03-19 10:45:22,799 - INFO - Instance found : p1
+2024-03-19 10:45:22,800 - INFO - Inside instance: p1
+2024-03-19 10:45:22,801 - INFO - pin found : D
+2024-03-19 10:45:22,801 - INFO - net found : D[1]
+2024-03-19 10:45:22,802 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-19 10:45:22,802 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,803 - INFO - It is a port-derived net
+2024-03-19 10:45:22,804 - INFO - p1 Pin D connected to port-derived Net D[1]
+2024-03-19 10:45:22,804 - INFO - New port-derived Net D[1] created
+2024-03-19 10:45:22,804 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-19 10:45:22,805 - INFO - Net D[1] added to port_obj
+2024-03-19 10:45:22,806 - INFO - pin found : Pin
+2024-03-19 10:45:22,808 - INFO - net found : n2
+2024-03-19 10:45:22,811 - INFO - pin found : Pout
+2024-03-19 10:45:22,813 - INFO - net found : n3
+2024-03-19 10:45:22,814 - INFO - Instance found : mux1
+2024-03-19 10:45:22,815 - INFO - Inside instance: mux1
+2024-03-19 10:45:22,816 - INFO - pin found : I0
+2024-03-19 10:45:22,816 - INFO - net found : n2
+2024-03-19 10:45:22,817 - INFO - pin found : I1
+2024-03-19 10:45:22,817 - INFO - net found : n3
+2024-03-19 10:45:22,818 - INFO - pin found : S
+2024-03-19 10:45:22,819 - INFO - net found : EN[1]
+2024-03-19 10:45:22,819 - INFO - Extracted net name, start_index, end_index: EN, 1, None
+2024-03-19 10:45:22,820 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,820 - INFO - It is a port-derived net
+2024-03-19 10:45:22,821 - INFO - mux1 Pin S connected to port-derived Net EN[1]
+2024-03-19 10:45:22,821 - INFO - New port-derived Net EN[1] created
+2024-03-19 10:45:22,823 - INFO - Port-derived Net EN[1] added to current module.nets
+2024-03-19 10:45:22,823 - INFO - Net EN[1] added to port_obj
+2024-03-19 10:45:22,824 - INFO - pin found : Z
+2024-03-19 10:45:22,824 - INFO - net found : n4
+2024-03-19 10:45:22,828 - INFO - Instance found : p2
+2024-03-19 10:45:22,830 - INFO - Inside instance: p2
+2024-03-19 10:45:22,831 - INFO - pin found : D
+2024-03-19 10:45:22,831 - INFO - net found : D[2]
+2024-03-19 10:45:22,832 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-19 10:45:22,832 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,833 - INFO - It is a port-derived net
+2024-03-19 10:45:22,833 - INFO - p2 Pin D connected to port-derived Net D[2]
+2024-03-19 10:45:22,834 - INFO - New port-derived Net D[2] created
+2024-03-19 10:45:22,834 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-19 10:45:22,835 - INFO - Net D[2] added to port_obj
+2024-03-19 10:45:22,835 - INFO - pin found : Pin
+2024-03-19 10:45:22,836 - INFO - net found : n4
+2024-03-19 10:45:22,837 - INFO - pin found : Pout
+2024-03-19 10:45:22,837 - INFO - net found : n5
+2024-03-19 10:45:22,838 - INFO - Instance found : mux2
+2024-03-19 10:45:22,840 - INFO - Inside instance: mux2
+2024-03-19 10:45:22,841 - INFO - pin found : I0
+2024-03-19 10:45:22,845 - INFO - net found : n4
+2024-03-19 10:45:22,846 - INFO - pin found : I1
+2024-03-19 10:45:22,848 - INFO - net found : n5
+2024-03-19 10:45:22,848 - INFO - pin found : S
+2024-03-19 10:45:22,848 - INFO - net found : EN[2]
+2024-03-19 10:45:22,849 - INFO - Extracted net name, start_index, end_index: EN, 2, None
+2024-03-19 10:45:22,849 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,850 - INFO - It is a port-derived net
+2024-03-19 10:45:22,850 - INFO - mux2 Pin S connected to port-derived Net EN[2]
+2024-03-19 10:45:22,851 - INFO - New port-derived Net EN[2] created
+2024-03-19 10:45:22,851 - INFO - Port-derived Net EN[2] added to current module.nets
+2024-03-19 10:45:22,852 - INFO - Net EN[2] added to port_obj
+2024-03-19 10:45:22,852 - INFO - pin found : Z
+2024-03-19 10:45:22,855 - INFO - net found : n6
+2024-03-19 10:45:22,856 - INFO - Instance found : p3
+2024-03-19 10:45:22,861 - INFO - Inside instance: p3
+2024-03-19 10:45:22,863 - INFO - pin found : D
+2024-03-19 10:45:22,864 - INFO - net found : D[3]
+2024-03-19 10:45:22,866 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-19 10:45:22,866 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,868 - INFO - It is a port-derived net
+2024-03-19 10:45:22,869 - INFO - p3 Pin D connected to port-derived Net D[3]
+2024-03-19 10:45:22,870 - INFO - New port-derived Net D[3] created
+2024-03-19 10:45:22,874 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-19 10:45:22,880 - INFO - Net D[3] added to port_obj
+2024-03-19 10:45:22,887 - INFO - pin found : Pin
+2024-03-19 10:45:22,899 - INFO - net found : n6
+2024-03-19 10:45:22,904 - INFO - pin found : Pout
+2024-03-19 10:45:22,913 - INFO - net found : n7
+2024-03-19 10:45:22,922 - INFO - Instance found : mux3
+2024-03-19 10:45:22,934 - INFO - Inside instance: mux3
+2024-03-19 10:45:22,936 - INFO - pin found : I0
+2024-03-19 10:45:22,936 - INFO - net found : n6
+2024-03-19 10:45:22,937 - INFO - pin found : I1
+2024-03-19 10:45:22,940 - INFO - net found : n7
+2024-03-19 10:45:22,949 - INFO - pin found : S
+2024-03-19 10:45:22,952 - INFO - net found : EN[3]
+2024-03-19 10:45:22,957 - INFO - Extracted net name, start_index, end_index: EN, 3, None
+2024-03-19 10:45:22,963 - INFO - Not a declared or parsed net
+2024-03-19 10:45:22,965 - INFO - It is a port-derived net
+2024-03-19 10:45:22,968 - INFO - mux3 Pin S connected to port-derived Net EN[3]
+2024-03-19 10:45:22,970 - INFO - New port-derived Net EN[3] created
+2024-03-19 10:45:22,973 - INFO - Port-derived Net EN[3] added to current module.nets
+2024-03-19 10:45:22,980 - INFO - Net EN[3] added to port_obj
+2024-03-19 10:45:22,984 - INFO - pin found : Z
+2024-03-19 10:45:22,990 - INFO - net found : DP[4]
+2024-03-19 10:45:23,001 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-19 10:45:23,016 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,020 - INFO - It is a port-derived net
+2024-03-19 10:45:23,033 - INFO - mux3 Pin Z connected to port-derived Net DP[4]
+2024-03-19 10:45:23,040 - INFO - New port-derived Net DP[4] created
+2024-03-19 10:45:23,048 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-19 10:45:23,055 - INFO - Net DP[4] added to port_obj
+2024-03-19 10:45:23,068 - INFO - Instance found : buf0
+2024-03-19 10:45:23,074 - INFO - Inside instance: buf0
+2024-03-19 10:45:23,083 - INFO - pin found : I
+2024-03-19 10:45:23,086 - INFO - net found : D[0]
+2024-03-19 10:45:23,090 - INFO - Extracted net name, start_index, end_index: D, 0, None
+2024-03-19 10:45:23,095 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,099 - INFO - It is a port-derived net
+2024-03-19 10:45:23,101 - INFO - buf0 Pin I connected to port-derived Net D[0]
+2024-03-19 10:45:23,107 - INFO - New port-derived Net D[0] created
+2024-03-19 10:45:23,113 - INFO - Port-derived Net D[0] added to current module.nets
+2024-03-19 10:45:23,115 - INFO - Net D[0] added to port_obj
+2024-03-19 10:45:23,128 - INFO - pin found : Z
+2024-03-19 10:45:23,133 - INFO - net found : DP[0]
+2024-03-19 10:45:23,135 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-19 10:45:23,137 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,150 - INFO - It is a port-derived net
+2024-03-19 10:45:23,155 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-19 10:45:23,164 - INFO - New port-derived Net DP[0] created
+2024-03-19 10:45:23,168 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-19 10:45:23,173 - INFO - Net DP[0] added to port_obj
+2024-03-19 10:45:23,180 - INFO - Instance found : buf1
+2024-03-19 10:45:23,181 - INFO - Inside instance: buf1
+2024-03-19 10:45:23,185 - INFO - pin found : I
+2024-03-19 10:45:23,190 - INFO - net found : D[1]
+2024-03-19 10:45:23,191 - INFO - Extracted net name, start_index, end_index: D, 1, None
+2024-03-19 10:45:23,197 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,199 - INFO - It is a port-derived net
+2024-03-19 10:45:23,202 - INFO - buf1 Pin I connected to port-derived Net D[1]
+2024-03-19 10:45:23,217 - INFO - New port-derived Net D[1] created
+2024-03-19 10:45:23,221 - INFO - Port-derived Net D[1] added to current module.nets
+2024-03-19 10:45:23,224 - INFO - Net D[1] added to port_obj
+2024-03-19 10:45:23,231 - INFO - pin found : Z
+2024-03-19 10:45:23,233 - INFO - net found : DP[1]
+2024-03-19 10:45:23,237 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-19 10:45:23,241 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,248 - INFO - It is a port-derived net
+2024-03-19 10:45:23,250 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-19 10:45:23,252 - INFO - New port-derived Net DP[1] created
+2024-03-19 10:45:23,254 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-19 10:45:23,265 - INFO - Net DP[1] added to port_obj
+2024-03-19 10:45:23,268 - INFO - Instance found : buf2
+2024-03-19 10:45:23,270 - INFO - Inside instance: buf2
+2024-03-19 10:45:23,271 - INFO - pin found : I
+2024-03-19 10:45:23,274 - INFO - net found : D[2]
+2024-03-19 10:45:23,278 - INFO - Extracted net name, start_index, end_index: D, 2, None
+2024-03-19 10:45:23,282 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,284 - INFO - It is a port-derived net
+2024-03-19 10:45:23,285 - INFO - buf2 Pin I connected to port-derived Net D[2]
+2024-03-19 10:45:23,287 - INFO - New port-derived Net D[2] created
+2024-03-19 10:45:23,290 - INFO - Port-derived Net D[2] added to current module.nets
+2024-03-19 10:45:23,291 - INFO - Net D[2] added to port_obj
+2024-03-19 10:45:23,298 - INFO - pin found : Z
+2024-03-19 10:45:23,300 - INFO - net found : DP[2]
+2024-03-19 10:45:23,302 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-19 10:45:23,305 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,305 - INFO - It is a port-derived net
+2024-03-19 10:45:23,315 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-19 10:45:23,322 - INFO - New port-derived Net DP[2] created
+2024-03-19 10:45:23,333 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-19 10:45:23,335 - INFO - Net DP[2] added to port_obj
+2024-03-19 10:45:23,336 - INFO - Instance found : buf3
+2024-03-19 10:45:23,338 - INFO - Inside instance: buf3
+2024-03-19 10:45:23,342 - INFO - pin found : I
+2024-03-19 10:45:23,352 - INFO - net found : D[3]
+2024-03-19 10:45:23,354 - INFO - Extracted net name, start_index, end_index: D, 3, None
+2024-03-19 10:45:23,453 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,488 - INFO - It is a port-derived net
+2024-03-19 10:45:23,558 - INFO - buf3 Pin I connected to port-derived Net D[3]
+2024-03-19 10:45:23,564 - INFO - New port-derived Net D[3] created
+2024-03-19 10:45:23,568 - INFO - Port-derived Net D[3] added to current module.nets
+2024-03-19 10:45:23,571 - INFO - Net D[3] added to port_obj
+2024-03-19 10:45:23,601 - INFO - pin found : Z
+2024-03-19 10:45:23,607 - INFO - net found : DP[3]
+2024-03-19 10:45:23,612 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-19 10:45:23,616 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,618 - INFO - It is a port-derived net
+2024-03-19 10:45:23,623 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-19 10:45:23,625 - INFO - New port-derived Net DP[3] created
+2024-03-19 10:45:23,628 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-19 10:45:23,630 - INFO - Net DP[3] added to port_obj
+2024-03-19 10:45:23,630 - INFO - End of module: nibble_parity
+2024-03-19 10:45:23,634 - INFO - Module found : byte_parity
+2024-03-19 10:45:23,643 - INFO - input Port found : D width 7:0.
+2024-03-19 10:45:23,646 - INFO - input Port found : EN width 7:0.
+2024-03-19 10:45:23,649 - INFO - output Port found : DP width 8:0.
+2024-03-19 10:45:23,651 - INFO - New net created: n1 with width [4:0]
+2024-03-19 10:45:23,653 - INFO - New net created: n2 with width [4:0]
+2024-03-19 10:45:23,658 - INFO - New net created: n3 with width None
+2024-03-19 10:45:23,663 - INFO - Instance found : m0
+2024-03-19 10:45:23,666 - INFO - Inside instance: m0
+2024-03-19 10:45:23,669 - INFO - pin found : D
+2024-03-19 10:45:23,674 - INFO - net found : D[3:0]
+2024-03-19 10:45:23,678 - INFO - Extracted net name, start_index, end_index: D, 3, 0
+2024-03-19 10:45:23,683 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,686 - INFO - It is a port-derived net
+2024-03-19 10:45:23,689 - INFO - m0 Pin D connected to port-derived Net D[3:0]
+2024-03-19 10:45:23,690 - INFO - New port-derived Net D[3:0] created
+2024-03-19 10:45:23,696 - INFO - Port-derived Net D[3:0] added to current module.nets
+2024-03-19 10:45:23,698 - INFO - Net D[3:0] added to port_obj
+2024-03-19 10:45:23,700 - INFO - pin found : EN
+2024-03-19 10:45:23,707 - INFO - net found : EN[3:0]
+2024-03-19 10:45:23,711 - INFO - Extracted net name, start_index, end_index: EN, 3, 0
+2024-03-19 10:45:23,713 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,717 - INFO - It is a port-derived net
+2024-03-19 10:45:23,722 - INFO - m0 Pin EN connected to port-derived Net EN[3:0]
+2024-03-19 10:45:23,724 - INFO - New port-derived Net EN[3:0] created
+2024-03-19 10:45:23,740 - INFO - Port-derived Net EN[3:0] added to current module.nets
+2024-03-19 10:45:23,747 - INFO - Net EN[3:0] added to port_obj
+2024-03-19 10:45:23,750 - INFO - pin found : DP
+2024-03-19 10:45:23,751 - INFO - net found : n1
+2024-03-19 10:45:23,767 - INFO - Instance found : m1
+2024-03-19 10:45:23,782 - INFO - Inside instance: m1
+2024-03-19 10:45:23,794 - INFO - pin found : D
+2024-03-19 10:45:23,801 - INFO - net found : D[7:4]
+2024-03-19 10:45:23,804 - INFO - Extracted net name, start_index, end_index: D, 7, 4
+2024-03-19 10:45:23,805 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,807 - INFO - It is a port-derived net
+2024-03-19 10:45:23,811 - INFO - m1 Pin D connected to port-derived Net D[7:4]
+2024-03-19 10:45:23,814 - INFO - New port-derived Net D[7:4] created
+2024-03-19 10:45:23,815 - INFO - Port-derived Net D[7:4] added to current module.nets
+2024-03-19 10:45:23,817 - INFO - Net D[7:4] added to port_obj
+2024-03-19 10:45:23,821 - INFO - pin found : EN
+2024-03-19 10:45:23,828 - INFO - net found : EN[7:4]
+2024-03-19 10:45:23,838 - INFO - Extracted net name, start_index, end_index: EN, 7, 4
+2024-03-19 10:45:23,845 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,847 - INFO - It is a port-derived net
+2024-03-19 10:45:23,850 - INFO - m1 Pin EN connected to port-derived Net EN[7:4]
+2024-03-19 10:45:23,861 - INFO - New port-derived Net EN[7:4] created
+2024-03-19 10:45:23,864 - INFO - Port-derived Net EN[7:4] added to current module.nets
+2024-03-19 10:45:23,872 - INFO - Net EN[7:4] added to port_obj
+2024-03-19 10:45:23,877 - INFO - pin found : DP
+2024-03-19 10:45:23,880 - INFO - net found : n2
+2024-03-19 10:45:23,882 - INFO - Instance found : G1
+2024-03-19 10:45:23,885 - INFO - Inside instance: G1
+2024-03-19 10:45:23,888 - INFO - pin found : A1
+2024-03-19 10:45:23,890 - INFO - net found : n1[4]
+2024-03-19 10:45:23,906 - INFO - Extracted net name, start_index, end_index: n1, 4, None
+2024-03-19 10:45:23,912 - INFO - Already declared and parsed net : n1
+2024-03-19 10:45:23,925 - INFO - No matching port found for declared net n1[4] 
+Continue creating pin A1
+2024-03-19 10:45:23,929 - INFO - Created a VerilogNet object for n1[4]
+2024-03-19 10:45:23,940 - INFO - pin found : A2
+2024-03-19 10:45:23,946 - INFO - net found : n2[4]
+2024-03-19 10:45:23,947 - INFO - Extracted net name, start_index, end_index: n2, 4, None
+2024-03-19 10:45:23,949 - INFO - Already declared and parsed net : n2
+2024-03-19 10:45:23,951 - INFO - No matching port found for declared net n2[4] 
+Continue creating pin A2
+2024-03-19 10:45:23,956 - INFO - Created a VerilogNet object for n2[4]
+2024-03-19 10:45:23,961 - INFO - pin found : Z
+2024-03-19 10:45:23,964 - INFO - net found : DP[8]
+2024-03-19 10:45:23,968 - INFO - Extracted net name, start_index, end_index: DP, 8, None
+2024-03-19 10:45:23,971 - INFO - Not a declared or parsed net
+2024-03-19 10:45:23,981 - INFO - It is a port-derived net
+2024-03-19 10:45:23,987 - INFO - G1 Pin Z connected to port-derived Net DP[8]
+2024-03-19 10:45:23,989 - INFO - New port-derived Net DP[8] created
+2024-03-19 10:45:23,992 - INFO - Port-derived Net DP[8] added to current module.nets
+2024-03-19 10:45:23,995 - INFO - Net DP[8] added to port_obj
+2024-03-19 10:45:23,997 - INFO - Instance found : buf0
+2024-03-19 10:45:23,998 - INFO - Inside instance: buf0
+2024-03-19 10:45:23,999 - INFO - pin found : I
+2024-03-19 10:45:24,001 - INFO - net found : n1[0]
+2024-03-19 10:45:24,006 - INFO - Extracted net name, start_index, end_index: n1, 0, None
+2024-03-19 10:45:24,014 - INFO - Already declared and parsed net : n1
+2024-03-19 10:45:24,017 - INFO - No matching port found for declared net n1[0] 
+Continue creating pin I
+2024-03-19 10:45:24,022 - INFO - Created a VerilogNet object for n1[0]
+2024-03-19 10:45:24,024 - INFO - pin found : Z
+2024-03-19 10:45:24,029 - INFO - net found : DP[0]
+2024-03-19 10:45:24,030 - INFO - Extracted net name, start_index, end_index: DP, 0, None
+2024-03-19 10:45:24,031 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,032 - INFO - It is a port-derived net
+2024-03-19 10:45:24,033 - INFO - buf0 Pin Z connected to port-derived Net DP[0]
+2024-03-19 10:45:24,034 - INFO - New port-derived Net DP[0] created
+2024-03-19 10:45:24,036 - INFO - Port-derived Net DP[0] added to current module.nets
+2024-03-19 10:45:24,039 - INFO - Net DP[0] added to port_obj
+2024-03-19 10:45:24,040 - INFO - Instance found : buf1
+2024-03-19 10:45:24,043 - INFO - Inside instance: buf1
+2024-03-19 10:45:24,045 - INFO - pin found : I
+2024-03-19 10:45:24,046 - INFO - net found : n1[1]
+2024-03-19 10:45:24,047 - INFO - Extracted net name, start_index, end_index: n1, 1, None
+2024-03-19 10:45:24,048 - INFO - Already declared and parsed net : n1
+2024-03-19 10:45:24,051 - INFO - No matching port found for declared net n1[1] 
+Continue creating pin I
+2024-03-19 10:45:24,051 - INFO - Created a VerilogNet object for n1[1]
+2024-03-19 10:45:24,058 - INFO - pin found : Z
+2024-03-19 10:45:24,061 - INFO - net found : DP[1]
+2024-03-19 10:45:24,062 - INFO - Extracted net name, start_index, end_index: DP, 1, None
+2024-03-19 10:45:24,064 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,074 - INFO - It is a port-derived net
+2024-03-19 10:45:24,077 - INFO - buf1 Pin Z connected to port-derived Net DP[1]
+2024-03-19 10:45:24,079 - INFO - New port-derived Net DP[1] created
+2024-03-19 10:45:24,080 - INFO - Port-derived Net DP[1] added to current module.nets
+2024-03-19 10:45:24,082 - INFO - Net DP[1] added to port_obj
+2024-03-19 10:45:24,087 - INFO - Instance found : buf2
+2024-03-19 10:45:24,129 - INFO - Inside instance: buf2
+2024-03-19 10:45:24,173 - INFO - pin found : I
+2024-03-19 10:45:24,185 - INFO - net found : n1[2]
+2024-03-19 10:45:24,187 - INFO - Extracted net name, start_index, end_index: n1, 2, None
+2024-03-19 10:45:24,189 - INFO - Already declared and parsed net : n1
+2024-03-19 10:45:24,191 - INFO - No matching port found for declared net n1[2] 
+Continue creating pin I
+2024-03-19 10:45:24,191 - INFO - Created a VerilogNet object for n1[2]
+2024-03-19 10:45:24,193 - INFO - pin found : Z
+2024-03-19 10:45:24,194 - INFO - net found : DP[2]
+2024-03-19 10:45:24,194 - INFO - Extracted net name, start_index, end_index: DP, 2, None
+2024-03-19 10:45:24,196 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,196 - INFO - It is a port-derived net
+2024-03-19 10:45:24,197 - INFO - buf2 Pin Z connected to port-derived Net DP[2]
+2024-03-19 10:45:24,199 - INFO - New port-derived Net DP[2] created
+2024-03-19 10:45:24,206 - INFO - Port-derived Net DP[2] added to current module.nets
+2024-03-19 10:45:24,208 - INFO - Net DP[2] added to port_obj
+2024-03-19 10:45:24,217 - INFO - Instance found : buf3
+2024-03-19 10:45:24,223 - INFO - Inside instance: buf3
+2024-03-19 10:45:24,225 - INFO - pin found : I
+2024-03-19 10:45:24,236 - INFO - net found : n1[3]
+2024-03-19 10:45:24,243 - INFO - Extracted net name, start_index, end_index: n1, 3, None
+2024-03-19 10:45:24,250 - INFO - Already declared and parsed net : n1
+2024-03-19 10:45:24,269 - INFO - No matching port found for declared net n1[3] 
+Continue creating pin I
+2024-03-19 10:45:24,269 - INFO - Created a VerilogNet object for n1[3]
+2024-03-19 10:45:24,271 - INFO - pin found : Z
+2024-03-19 10:45:24,271 - INFO - net found : DP[3]
+2024-03-19 10:45:24,274 - INFO - Extracted net name, start_index, end_index: DP, 3, None
+2024-03-19 10:45:24,276 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,277 - INFO - It is a port-derived net
+2024-03-19 10:45:24,279 - INFO - buf3 Pin Z connected to port-derived Net DP[3]
+2024-03-19 10:45:24,280 - INFO - New port-derived Net DP[3] created
+2024-03-19 10:45:24,281 - INFO - Port-derived Net DP[3] added to current module.nets
+2024-03-19 10:45:24,282 - INFO - Net DP[3] added to port_obj
+2024-03-19 10:45:24,283 - INFO - Instance found : buf4
+2024-03-19 10:45:24,284 - INFO - Inside instance: buf4
+2024-03-19 10:45:24,285 - INFO - pin found : I
+2024-03-19 10:45:24,285 - INFO - net found : n2[0]
+2024-03-19 10:45:24,286 - INFO - Extracted net name, start_index, end_index: n2, 0, None
+2024-03-19 10:45:24,287 - INFO - Already declared and parsed net : n2
+2024-03-19 10:45:24,289 - INFO - No matching port found for declared net n2[0] 
+Continue creating pin I
+2024-03-19 10:45:24,291 - INFO - Created a VerilogNet object for n2[0]
+2024-03-19 10:45:24,294 - INFO - pin found : Z
+2024-03-19 10:45:24,295 - INFO - net found : DP[4]
+2024-03-19 10:45:24,295 - INFO - Extracted net name, start_index, end_index: DP, 4, None
+2024-03-19 10:45:24,297 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,298 - INFO - It is a port-derived net
+2024-03-19 10:45:24,299 - INFO - buf4 Pin Z connected to port-derived Net DP[4]
+2024-03-19 10:45:24,299 - INFO - New port-derived Net DP[4] created
+2024-03-19 10:45:24,300 - INFO - Port-derived Net DP[4] added to current module.nets
+2024-03-19 10:45:24,301 - INFO - Net DP[4] added to port_obj
+2024-03-19 10:45:24,301 - INFO - Instance found : buf5
+2024-03-19 10:45:24,302 - INFO - Inside instance: buf5
+2024-03-19 10:45:24,303 - INFO - pin found : I
+2024-03-19 10:45:24,303 - INFO - net found : n2[1]
+2024-03-19 10:45:24,304 - INFO - Extracted net name, start_index, end_index: n2, 1, None
+2024-03-19 10:45:24,305 - INFO - Already declared and parsed net : n2
+2024-03-19 10:45:24,310 - INFO - No matching port found for declared net n2[1] 
+Continue creating pin I
+2024-03-19 10:45:24,311 - INFO - Created a VerilogNet object for n2[1]
+2024-03-19 10:45:24,313 - INFO - pin found : Z
+2024-03-19 10:45:24,313 - INFO - net found : DP[5]
+2024-03-19 10:45:24,314 - INFO - Extracted net name, start_index, end_index: DP, 5, None
+2024-03-19 10:45:24,315 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,316 - INFO - It is a port-derived net
+2024-03-19 10:45:24,317 - INFO - buf5 Pin Z connected to port-derived Net DP[5]
+2024-03-19 10:45:24,317 - INFO - New port-derived Net DP[5] created
+2024-03-19 10:45:24,318 - INFO - Port-derived Net DP[5] added to current module.nets
+2024-03-19 10:45:24,319 - INFO - Net DP[5] added to port_obj
+2024-03-19 10:45:24,319 - INFO - Instance found : buf6
+2024-03-19 10:45:24,320 - INFO - Inside instance: buf6
+2024-03-19 10:45:24,321 - INFO - pin found : I
+2024-03-19 10:45:24,322 - INFO - net found : n2[2]
+2024-03-19 10:45:24,324 - INFO - Extracted net name, start_index, end_index: n2, 2, None
+2024-03-19 10:45:24,327 - INFO - Already declared and parsed net : n2
+2024-03-19 10:45:24,329 - INFO - No matching port found for declared net n2[2] 
+Continue creating pin I
+2024-03-19 10:45:24,330 - INFO - Created a VerilogNet object for n2[2]
+2024-03-19 10:45:24,331 - INFO - pin found : Z
+2024-03-19 10:45:24,332 - INFO - net found : DP[6]
+2024-03-19 10:45:24,333 - INFO - Extracted net name, start_index, end_index: DP, 6, None
+2024-03-19 10:45:24,333 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,334 - INFO - It is a port-derived net
+2024-03-19 10:45:24,336 - INFO - buf6 Pin Z connected to port-derived Net DP[6]
+2024-03-19 10:45:24,336 - INFO - New port-derived Net DP[6] created
+2024-03-19 10:45:24,337 - INFO - Port-derived Net DP[6] added to current module.nets
+2024-03-19 10:45:24,339 - INFO - Net DP[6] added to port_obj
+2024-03-19 10:45:24,340 - INFO - Instance found : buf7
+2024-03-19 10:45:24,343 - INFO - Inside instance: buf7
+2024-03-19 10:45:24,345 - INFO - pin found : I
+2024-03-19 10:45:24,346 - INFO - net found : n2[3]
+2024-03-19 10:45:24,346 - INFO - Extracted net name, start_index, end_index: n2, 3, None
+2024-03-19 10:45:24,347 - INFO - Already declared and parsed net : n2
+2024-03-19 10:45:24,348 - INFO - No matching port found for declared net n2[3] 
+Continue creating pin I
+2024-03-19 10:45:24,350 - INFO - Created a VerilogNet object for n2[3]
+2024-03-19 10:45:24,350 - INFO - pin found : Z
+2024-03-19 10:45:24,351 - INFO - net found : DP[7]
+2024-03-19 10:45:24,352 - INFO - Extracted net name, start_index, end_index: DP, 7, None
+2024-03-19 10:45:24,353 - INFO - Not a declared or parsed net
+2024-03-19 10:45:24,354 - INFO - It is a port-derived net
+2024-03-19 10:45:24,357 - INFO - buf7 Pin Z connected to port-derived Net DP[7]
+2024-03-19 10:45:24,358 - INFO - New port-derived Net DP[7] created
+2024-03-19 10:45:24,362 - INFO - Port-derived Net DP[7] added to current module.nets
+2024-03-19 10:45:24,363 - INFO - Net DP[7] added to port_obj
+2024-03-19 10:45:24,363 - INFO - End of module: byte_parity
+2024-03-19 10:45:25,673 - INFO - Main function completed successfully.

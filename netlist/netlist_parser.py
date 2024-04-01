@@ -61,7 +61,7 @@ def parse_netlist_test(file_path, modules_templates):
 
         for line in lines:
 
-            if line.strip().startswith('//') or not line:
+            if line.strip().startswith('//') or line.startswith('==') or not line:
                 continue
             
             # Check for module declaration
@@ -1049,4 +1049,4 @@ if __name__ == "__main__":
 
     # Summary report and logging functionality to be added
     # Action items regarding multiple sub designs.
-    # 
+
